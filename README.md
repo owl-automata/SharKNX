@@ -43,24 +43,29 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
   
 </div>
 
-##  Getting Started
-
 ## Documentation
 
-- **[Getting Started Guide](docs/getting-started.md)** - Set up and first steps
-- **[FAQ](docs/faq.md)** - Frequently asked questions
-- **[Troubleshooting](docs/troubleshooting.md)** - Common issues and solutions
-- **[Privacy & Data](docs/privacy-and-data.md)** - Your data is safe with us
-- **[Roadmap](docs/roadmap.md)** - What's coming next
+### Getting Started
+- **[Quick Start Guide](docs/getting-started.md)**
+
+### Feature Guides
+- **[Connection & Gateway Discovery](docs/connection-and-discovery.md)**
+- **[ETS Project Viewer](docs/ets-project-viewer.md)**
+- **[Bus Monitor & Send Telegrams](docs/monitor-and-send.md)**
+- **[Shark Hunt Pages](docs/shark-hunt.md)**
+- **[Utilities](docs/utilities-page.md)**
+
+### Help & Support
+- **[FAQ](docs/faq.md)**
+- **[Changelog](docs/changelog.md)**
+- **[Privacy & Data](docs/privacy-and-data.md)**
 
 ##  Issues & Feature Requests
 
-We value your feedback! Here's how you can help:
+Please see guided on how to report a bug/issue or request additional functionality that might be missing.
 
 - **Found a bug?** - Please read our **[How to Report an Issue Guide](guides/how-to-report-an-issue.md)** for detailed instructions
 - **Have a feature idea?** - Check out our **[How to Request a Feature Guide](guides/how-to-request-a-feature.md)**
-
-Before opening a GitHub issue, please review the relevant guide to help us assist you better.
 
 ##  Roadmap
 
