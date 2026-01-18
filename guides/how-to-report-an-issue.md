@@ -93,6 +93,8 @@ App crashes immediately with error message "someErrorMessage"
 
 ## Best Practices
 
+Please follow the guidelines below to help us assist you better.
+
 **DO:**
 - Be specific and detailed
 - Include your exact app version and device info

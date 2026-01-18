@@ -10,54 +10,40 @@
   
 </div>
 
----
+## About
+
+SharKNX is a mobile app for KNX installers and System Integrators. Carry your ETS projects in your pocket, discover and connect to KNX IP gateways/routers and monitor your KNX installation. 
 
 ##  Platforms
 
 **SharKNX is available for:**
 
-- **Android** - Available on Google Play
+- **Android** - Available on [Google Play](https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en)
 - **iOS** - Coming Soon
-
-<div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
-  <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
-    <img src="assets/logos/google_play_store_icon.png" height="50" alt="Get it on Google Play">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/App%20Store-Coming%20Soon-lightgrey?logo=apple" height="25" alt="Coming Soon on App Store">
-  </a>
-</div>
 
 ## Features
 
 - **Bus Traffic Monitor** - Real-time group value telegram capture with automatic DPT decoding for 30+ data types
-- **ETS Project Viewer** - Import and browse .knxproj files on mobile, navigate topology and group addresses
+- **ETS Project Viewer** - Import and browse `.knxproj` files on mobile. View Group Addresses, Topology, Buildings, Devices and their connected Communication Objects
 - **Send Group Telegrams** - GroupValueWrite/Read commands with full DPT support (switching, dimming, temperature, RGB, scenes)
-- **Gateway Discovery** - Automatic KNX IP gateway detection with tunneling, routing, and secure connection support
-- **Professional Diagnostics** - Programming mode scanner, device location, and advanced commissioning tools
-- **Security** - KNX IP Secure support with .knxkeys credentials and secure tunneling
+- **Gateway Discovery** - Discover and connect to KNX IP Gateways/Routers on your network
+- **Diagnostic Funtionality** - Scan for devices in programming mode
+- **KNX IP Secure support** - Load credentials from `.knxkeys` file or `.knxproj` file directly
+- **Shark Hunt Pages** - Allows creation of pages with quick send actions for KNX commnads and complex Monitor Filters for diagnostics
 
 ##  Screenshots
 
 <div align="center">
   
-  | Home | Feature | Details |
-  |------|---------|---------|
-  | ![Home](assets/screenshots/home.png) | ![Feature](assets/screenshots/feature.png) | ![Details](assets/screenshots/details.png) |
+  | Connection | Project Viewer |
+  |---|---|
+  | ![Connection](assets/screenshots/connection.png) | ![Project Viewer](assets/screenshots/project-viewer.png) |
+  | **Bus Monitor** | **Device Scanner** |
+  | ![Monitor](assets/screenshots/monitor.png) | ![Device Scanner](assets/screenshots/scanning.png) |
   
 </div>
 
 ##  Getting Started
-
-### Installation
-
-See the [Platforms](#-platforms) section above to download SharKNX for your device.
-
-### Requirements
-
-- iOS 12.0+
-- Android 6.0 (API level 23)+
-- Flutter 3.x
 
 ## Documentation
 
