@@ -55,8 +55,7 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 - **[Shark Hunt Pages](docs/shark-hunt.md)**
 - **[Utilities](docs/utilities-page.md)**
 
-### Help & Support
-- **[FAQ](docs/faq.md)**
+### Misc
 - **[Changelog](docs/changelog.md)**
 - **[Privacy & Data](docs/privacy-and-data.md)**
 
