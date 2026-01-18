@@ -37,9 +37,9 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
   
   | Connection | Project Viewer |
   |---|---|
-  | ![Connection](assets/screenshots/connection.png) | ![Project Viewer](assets/screenshots/project-viewer.png) |
+  | <img src="assets/screenshots/discover_page.png" width="280" /> | <img src="assets/screenshots/project_view_gas.png" width="280" /> |
   | **Bus Monitor** | **Device Scanner** |
-  | ![Monitor](assets/screenshots/monitor.png) | ![Device Scanner](assets/screenshots/scanning.png) |
+  | <img src="assets/screenshots/monitor.png" width="280" /> | <img src="assets/screenshots/scanning.png" width="280" /> |
   
 </div>
 
