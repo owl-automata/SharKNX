@@ -52,15 +52,34 @@ The second page of the app (from the left) is the **ETS Project Explorer**. This
 - Topology
 - Buildings
 
+<div align="center">
+  
+  | Addresses | Devices |
+  |---|---|
+  | <img src="../assets/screenshots/getting-started-guide/ga_view.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/device_view.png" width="280" /> |
+  | **Topology** | **Buildings** |
+  | <img src="../assets/screenshots/getting-started-guide/topology_view.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/buildings_view.png" width="280" /> |
+  
+</div>
+
 If selected in the **Settings** menu (**gear icon on the top right**), the **Communication Objects** that are connected with Group Address(es) of each device, can also be available under: 
 
 - Topology -> Device X (press the device to open page).
 
--- image
+<p align="center">
+  <img src="../assets/screenshots/getting-started-guide/com_objects_view.png" alt="Communication Objects" width="400" />
+  <br>
+  <em>SharKNX ETS Project Page - Com. Objects</em>
+</p>
 
 **Group Addresses** are clickable under the **Addresses** Tab, in **Devices** Tab and inside the **Communication Objects** page, if you opted to load them. Clicking a Group Address opens a bottom drawer that shows additional information, as well as allowing you to directly **send a Read or Write command**.
 
--- image
+<p align="center">
+  <img src="../assets/screenshots/getting-started-guide/ga_bottom_sheet.png" alt="GA Bottom Sheet" width="400" />
+  <br>
+  <em>SharKNX ETS Project Page - GA Bottom Sheet</em>
+</p>
+
 
 *To be able to send a command, you have to have a Gateway selected from previous step.*
 ## Monitor & Send Commands
