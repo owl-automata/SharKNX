@@ -56,7 +56,7 @@ The second page of the app (from the left) is the **ETS Project Explorer**. This
   
   | Addresses | Devices |
   |---|---|
-  | <img src="../assets/screenshots/getting-started-guide/ga_view.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/device_view.png" width="280" /> |
+  | <img src="../assets/screenshots/getting-started-guide/gas_view.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/device_view.png" width="280" /> |
   | **Topology** | **Buildings** |
   | <img src="../assets/screenshots/getting-started-guide/topology_view.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/buildings_view.png" width="280" /> |
   
