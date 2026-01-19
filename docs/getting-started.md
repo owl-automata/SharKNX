@@ -13,7 +13,12 @@ A quick guide for helping you get started with SharKNX app!
 
 Opening the app directs you at **Connection Page**. This is where you can discover, configure and select **KNX IP Gateways**, so that you can later connect, monitor and send commands to KNX bus. Press the **Scan** button on the bottom right to start scanning your network.
 
-<img src="../assets/screenshots/discover_page.png" alt="Discover Page" width="400" />
+<div style="text-align:center; padding: 20px 0;">
+	<figure style="display:inline-block; margin:0;">
+		<img src="../assets/screenshots/discover_page.png" alt="Discover Page" width="400" style="display:block; margin:0 auto;" />
+		<figcaption style="margin-top:8px; color:#666; font-size:0.95em;">SharKNX Gateway Discovery Page</figcaption>
+	</figure>
+</div>
 
 After Scan finishes, the discovered gateways will be shown on screen. If KNX IP devices with Router capabilities are discovered, the option to select **Multicast Routing** (either plain or secure) will appear.
 
