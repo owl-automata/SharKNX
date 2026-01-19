@@ -99,11 +99,23 @@ Press the **Play** button on the bottom right or in the row above the filter inp
 
 The input on the top row allows you to filter telegrams based on text. The **Magnifying Glass** icon allows you to quickly search your loaded project for **Group Addresses** or **Devices** you would like to filter for. Of course, if no ETS project is loaded, this list will be empty.
 
--- image
+<p align="center">
+  <img src="../assets/screenshots/getting-started-guide/monitor_filter_sheet.png" alt="Monitor Filter Sheet" width="400" />
+  <br>
+  <em>SharKNX Monitor Page - Filter Search</em>
+</p>
 
 When **monitoring** is active, the button on the bottom right will have a **Send** icon. Clicking on it allows you to create a new command to send to KNX bus. The **"+ New Command"** button navigates you to **Command Composer** page.
 
---image
+<div align="center">
+  
+  | Send Temperature | Send Dimming |
+  |---|---|
+  | <img src="../assets/screenshots/getting-started-guide/dpt_9001_command.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/dpt_3007_command.png" width="280" /> |
+  | **Send RGB** | **Send Read** |
+  | <img src="../assets/screenshots/getting-started-guide/dpt_232_command.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/read_command.png" width="280" /> |
+  
+</div>
 
 The flow for creating a new command is simple:
 
@@ -113,9 +125,8 @@ The flow for creating a new command is simple:
 4. Use the dedicated forms to select **value**
 5. Press **Send**
 
---image
-
 That's it! Your command is sent to KNX bus!
+
 ## Summary
 
 This guide covered the most basic and common functionality of SharKNX app. To discover more or or find more details, please look at the dedicated guides:
