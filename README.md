@@ -4,7 +4,7 @@
   # SharKNX
   
   [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen)](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen)
-  [![Version](https://img.shields.io/badge/version-1.2.0+15-blue)](https://github.com/your-company/your-app-name/releases)
+  [![Version](https://img.shields.io/badge/version-1.2.0+15-blue)]
   
   Bring professional KNX monitoring and diagnostics to your phone or tablet. SharKNX gives installers and integrators ETS-like capabilities on mobile - monitor bus traffic, send telegrams, and view project data anywhere on-site.
   
