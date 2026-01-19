@@ -6,7 +6,7 @@ A quick guide for helping you get started with SharKNX app!
 > [!warning] 
 > SharKNX requires network and file access permissions. This is solely for the purpose of communicating with KNX IP devices in your network, as well as allowing you to import ETS project and `.knxkeys` files for viewing and secure credentials loading.
 
-> [!info] 
+> [!note] 
 > SharKNX does not collect and share user data. Any data saved is solely for the purposes of app functionality and stays on your phone.
 
 ## Discover and Select Gateway
@@ -28,7 +28,7 @@ You can save a discovered gateway by clicking on the **blue bookmark icon** (so 
 > [!important]
 > Selecting a gateway **will not automatically connect to it**, until you actually need to connect for some operation. This helps preserve mobile battery.
 
-> [!info]
+> [!note]
 > If no gateways are discovered, please make sure your phone is connected to **the network that your KNX IP devices are**. The **Hamburger** menu on the top left can show your current network your mobile phone is connected to.
 
 #### Secure Credentials
@@ -42,7 +42,7 @@ You can load either a `.knxkeys` file or a `.knxproj` file that you have exporte
 
 ## ETS Project Load & Viewing
 
-> [!info]
+> [!note]
 > This step is optional and is not actually needed to monitor KNX bus or send commands. Feel free to skip and jump to Monitor & Send Commands section. However, loading an ETS project will enable some extra search, filter and autofill functionalities of the monitor page.
 
 The second page of the app (from the left) is the **ETS Project Explorer**. This is where you can load a `.knxproj` file and view:
