@@ -69,9 +69,13 @@ After Selecting a Gateway, you can simply navigate to **Monitor page** and start
 
 Press the **Play** button on the bottom right or in the row above the filter input and the app will connect to the selected gateway and start monitoring.
 
---image
+<p align="center">
+  <img src="../assets/screenshots/monitor.png" alt="Monitor Page" width="400" />
+  <br>
+  <em>SharKNX Monitor Page</em>
+</p>
 
-> [!warning]
+> [!note]
 > If you have an **ETS Project** loaded, **SharKNX** will automatically decode telegram values and additional telegram information, based on your project data, like ETS does. If no project is loaded, only raw data will be available.
 
 The input on the top row allows you to filter telegrams based on text. The **Magnifying Glass** icon allows you to quickly search your loaded project for **Group Addresses** or **Devices** you would like to filter for. Of course, if no ETS project is loaded, this list will be empty.
