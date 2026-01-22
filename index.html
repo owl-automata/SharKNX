@@ -11,6 +11,7 @@
       margin: 0;
       padding: 0;
       color: #222;
+      text-align: center;
     }
     .container {
       max-width: 720px;
@@ -27,9 +28,22 @@
     }
     ul {
       padding-left: 20px;
+      text-align: left;
+      display: inline-block;
+      margin-top: 12px;
     }
     li {
       margin-bottom: 8px;
+    }
+    .app-icon {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 20px;
+    }
+    .play-icon {
+      width: 200px;
+      cursor: pointer;
+      margin-top: 16px;
     }
     .card {
       background: #fff;
@@ -37,6 +51,7 @@
       padding: 20px;
       margin-top: 24px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
     }
     .button {
       display: inline-block;
@@ -48,9 +63,6 @@
       border-radius: 6px;
       font-weight: 600;
     }
-    .button.secondary {
-      background: #555;
-    }
     .footer {
       margin-top: 32px;
       font-size: 0.9rem;
@@ -60,6 +72,9 @@
 </head>
 <body>
   <div class="container">
+    <!-- App Icon -->
+    <img class="app-icon" src="assets/logos/sharknx2.png" alt="SharKNX App Icon" />
+
     <h1>SharKNX</h1>
     <p><strong>Mobile KNX monitoring & diagnostics</strong></p>
     <p>
@@ -76,18 +91,20 @@
       <li>Quick on-site troubleshooting during commissioning and support</li>
     </ul>
 
+    <!-- Android -->
     <div class="card">
       <h2>Android</h2>
       <p>Available now with a 3-day free trial.</p>
-      <a class="button" href="https://play.google.com/store/apps/details?id=YOUR_PACKAGE_ID">
-        Get it on Google Play
+      <a href="https://play.google.com/store/apps/details?id=YOUR_PACKAGE_ID">
+        <img class="play-icon" src="assets/logos/google_play_store_icon.png" alt="Get it on Google Play" />
       </a>
     </div>
 
+    <!-- iOS -->
     <div class="card">
       <h2>iOS</h2>
       <p>Currently in testing via TestFlight.</p>
-      <a class="button secondary" href="https://m.me/61559954940303" target="_blank">
+      <a class="button" href="https://m.me/YOUR_PAGE_USERNAME">
         Request TestFlight access
       </a>
     </div>
