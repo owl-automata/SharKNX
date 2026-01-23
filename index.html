@@ -47,6 +47,52 @@
       width: 200px;
       cursor: pointer;
       margin-top: 12px;
+      transition: transform 0.2s, opacity 0.2s;
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+    }
+    .play-icon:hover {
+      transform: scale(1.08);
+      opacity: 0.85;
+    }
+    .app-versions {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+    .version-box {
+      flex: 1;
+      min-width: 200px;
+      max-width: 280px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      border: 2px solid #81c784;
+    }
+    .version-box h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+    .app-version-icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      margin: 12px 0;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    }
+    .app-version-icon:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.16);
+    }
+    .version-label {
+      margin: 8px 0;
+      font-size: 0.9rem;
+      color: #666;
+      font-weight: 500;
     }
     .card {
       background: #fff;
@@ -142,18 +188,35 @@
         Connect to your KNX/IP Gateway and start monitoring, sending commands and more!
       </p>
       <p>
-        SharKNX is designed as a practical on-site tool for commissioning,
-        diagnostics, and maintenance of KNX installations.
+        SharKNX is designed as a practical on-site tool for
+        diagnostics and maintenance of KNX installations.
       </p>
     </div>
 
     <!-- Android -->
     <div class="card">
       <h2>Android</h2>
-      <p>Available now with a 3-day free trial.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
-        <img class="play-icon" src="assets/logos/google_play_store_icon.png" alt="Get it on Google Play" />
-      </a>
+      <p>Choose your version:</p>
+      <div class="app-versions">
+        <div class="version-box">
+          <h3>Full Version</h3>
+          <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
+            <img class="app-version-icon" src="assets/logos/sharknx2.png" alt="SharKNX Full Version" />
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
+            <img class="play-icon" src="assets/logos/google_play_store_icon.png" alt="Get on Google Play" />
+          </a>
+        </div>
+        <div class="version-box">
+          <h3>3-day Free Trial</h3>
+          <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx.demo">
+            <img class="app-version-icon" src="assets/logos/sharknxdemo.png" alt="SharKNX Demo Version" />
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx.demo">
+            <img class="play-icon" src="assets/logos/google_play_store_icon.png" alt="Get on Google Play" />
+          </a>
+        </div>
+      </div>
     </div>
 
     <!-- iOS -->
