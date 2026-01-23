@@ -14,13 +14,16 @@
       text-align: center;
     }
     .container {
-      max-width: 720px;
+      max-width: 900px;
       margin: 0 auto;
       padding: 32px 20px;
     }
     h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
+      font-size: 2.2rem;
+      margin-bottom: 0.4rem;
+    }
+    h2 {
+      margin-top: 0;
     }
     p {
       font-size: 1.05rem;
@@ -38,20 +41,19 @@
     .app-icon {
       width: 120px;
       height: 120px;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
     .play-icon {
       width: 200px;
       cursor: pointer;
-      margin-top: 16px;
+      margin-top: 12px;
     }
     .card {
       background: #fff;
       border-radius: 10px;
-      padding: 20px;
-      margin-top: 24px;
+      padding: 22px;
+      margin-top: 28px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      text-align: center;
     }
     .button {
       display: inline-block;
@@ -63,35 +65,88 @@
       border-radius: 6px;
       font-weight: 600;
     }
+    .screenshots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+      margin-top: 16px;
+    }
+    .screenshots img {
+      width: 240px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
     .footer {
-      margin-top: 32px;
+      margin-top: 40px;
       font-size: 0.9rem;
       color: #666;
+      line-height: 1.5;
+    }
+    a {
+      color: #0066cc;
     }
   </style>
 </head>
+
 <body>
   <div class="container">
+
     <!-- App Icon -->
     <img class="app-icon" src="assets/logos/sharknx2.png" alt="SharKNX App Icon" />
 
     <h1>SharKNX</h1>
     <p><strong>Mobile KNX monitoring & diagnostics</strong></p>
+
     <p>
-      SharKNX is a mobile tool for KNX installers, system integrators,
-      and technical maintenance teams.  
-      It allows fast diagnostics and live bus monitoring directly on site - 
-      without opening ETS or a laptop.  
-      <strong>Note:</strong> SharKNX is not meant to replace ETS; it does not provide all ETS functions, but offers a quick, convenient alternative on your phone or tablet.
+      SharKNX is a professional mobile tool for KNX installers, system integrators,
+      and technical maintenance teams.
+      Perform fast diagnostics and live bus monitoring directly on site —
+      without opening ETS or carrying a laptop.
+    </p>
+
+    <p>
+      <strong>Note:</strong> SharKNX is not intended to replace ETS.
+      It does not provide all ETS functions, but serves as a fast, practical
+      mobile companion for commissioning, troubleshooting, and support.
     </p>
 
     <ul>
       <li>Live monitoring of KNX group telegrams</li>
-      <li>View ETS (.knxproj) project data on your phone or tablet</li>
+      <li>View ETS (.knxproj) project data on phone or tablet</li>
       <li>Discover and connect to KNX/IP gateways and routers</li>
       <li>Quick on-site troubleshooting during commissioning and support</li>
-      <li><strong>Shark Hunts:</strong> Create custom monitoring pages with send actions or sequences, advanced filters (by device, space, time, etc.), and share them with customers for fast checks to run immediately - Identify issues remotely before visiting the site!</li>
+      <li>
+        <strong>Shark Hunts:</strong> Create custom diagnostic pages with send actions
+        (fixed values or sequences) and advanced monitor filters
+        (by device, space, time, etc.).
+        Share them with customers so checks can be performed remotely —
+        identify issues before visiting the site.
+      </li>
     </ul>
+
+    <!-- Screenshots -->
+    <h2>App Screenshots</h2>
+    <p>Actual screenshots from the SharKNX Android app</p>
+
+    <div class="screenshots">
+      <img src="assets/screenshots/monitor.png" alt="KNX Bus Monitor">
+      <img src="assets/screenshots/project_view_gas.png" alt="ETS Project Viewer">
+      <img src="assets/screenshots/discover_page.png" alt="Gateway Discovery">
+    </div>
+
+    <!-- Trust / Reassurance -->
+    <div class="card">
+      <h2>Designed for Professionals</h2>
+      <p>
+        SharKNX connects <strong>locally</strong> to your KNX/IP interface.
+        No cloud services, no accounts, and no remote access.
+      </p>
+      <p>
+        Built by engineers for real-world KNX installations,
+        with focus on reliability, transparency, and on-site efficiency.
+      </p>
+    </div>
 
     <!-- Android -->
     <div class="card">
@@ -111,10 +166,13 @@
       </a>
     </div>
 
+    <!-- Footer -->
     <div class="footer">
-      Technical documentation and usage guides available on
-      <a href="https://github.com/owl-automata/SharKNX">GitHub</a>.
+      © 2026 <strong>OWL AUTOMATA</strong> · Professional KNX Tools<br/>
+      <a href="https://www.owl-automata.com">www.owl-automata.com</a> ·
+      <a href="https://github.com/owl-automata/SharKNX">GitHub Documentation</a>
     </div>
+
   </div>
 </body>
 </html>
