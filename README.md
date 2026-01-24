@@ -18,8 +18,14 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 
 **SharKNX is available for:**
 
-- **Android** - Available on [Google Play](https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en)
-- **iOS** - Coming Soon
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
+    <img src="assets/logos/google_play_store_icon.png" alt="Get it on Google Play" width="200" />
+  </a>
+  <a href="https://apps.apple.com/us/app/sharknx/id6758055077">
+    <img src="assets/logos/ios_app_Store_icon.svg" alt="Download on the App Store" width="200" />
+  </a>
+</div>
 
 ## Features
 
