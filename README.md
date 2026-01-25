@@ -23,7 +23,7 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
     <img src="assets/logos/google_play_store_icon.png" alt="Get it on Google Play" width="200" />
   </a>
   <a href="https://apps.apple.com/us/app/sharknx/id6758055077">
-    <img src="assets/logos/ios_app_Store_icon.svg" alt="Download on the App Store" width="200" />
+    <img src="assets/logos/ios_app_store_icon.svg" alt="Download on the App Store" width="200" />
   </a>
 </div>
 
