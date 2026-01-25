@@ -4,238 +4,303 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SharKNX - Mobile KNX Diagnostics</title>
-  <style>
-    body {
-      font-family: system-ui, -apple-system, sans-serif;
-      background: #f7f7f7;
-      margin: 0;
-      padding: 0;
-      color: #222;
-      text-align: center;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 32px 20px;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.4rem;
-    }
-    h2 {
-      margin-top: 0;
-    }
-    p {
-      font-size: 1.05rem;
-      line-height: 1.5;
-    }
-    ul {
-      padding-left: 20px;
-      text-align: left;
-      display: inline-block;
-      margin-top: 12px;
-    }
-    li {
-      margin-bottom: 8px;
-    }
-    .app-icon {
-      width: 120px;
-      height: 120px;
-      margin-bottom: 16px;
-    }
-    .play-icon {
-      width: 200px;
-      cursor: pointer;
-      margin-top: 12px;
-      transition: transform 0.2s, opacity 0.2s;
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
-    }
-    .play-icon:hover {
-      transform: scale(1.08);
-      opacity: 0.85;
-    }
-    .app-versions {
-      display: flex;
-      gap: 24px;
-      justify-content: center;
-      margin-top: 24px;
-      flex-wrap: wrap;
-    }
-    .version-box {
-      flex: 1;
-      min-width: 200px;
-      max-width: 280px;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      border: 2px solid #81c784;
-    }
-    .version-box h3 {
-      margin-top: 0;
-      margin-bottom: 12px;
-      font-size: 1.1rem;
-    }
-    .app-version-icon {
-      width: 100px;
-      height: 100px;
-      border-radius: 20px;
-      cursor: pointer;
-      transition: transform 0.2s, box-shadow 0.2s;
-      margin: 12px 0;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-    }
-    .app-version-icon:hover {
-      transform: scale(1.05);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.16);
-    }
-    .version-label {
-      margin: 8px 0;
-      font-size: 0.9rem;
-      color: #666;
-      font-weight: 500;
-    }
-    .card {
-      background: #fff;
-      border-radius: 10px;
-      padding: 22px;
-      margin-top: 28px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-    .button {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 12px 18px;
-      background: #0066cc;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: 600;
-    }
-    .screenshots {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      justify-content: center;
-      margin-top: 16px;
-    }
-    .screenshots img {
-      width: 240px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    }
-    .footer {
-      margin-top: 40px;
-      font-size: 0.9rem;
-      color: #666;
-      line-height: 1.5;
-    }
-    a {
-      color: #0066cc;
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+	<style>
+		:root {
+		  --knx-green: #4caf50;
+		  --knx-green-light: #81c784;
+		  --text-main: #1e293b;
+		  --text-muted: #475569;
+		  --card-bg: #ffffff;
+		  --bg-gray: #f1f5f9;
+		}
+
+		body {
+		  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+		  background: var(--bg-gray);
+		  margin: 0;
+		  padding: 0;
+		  color: var(--text-main);
+		  text-align: center;
+		  line-height: 1.6;
+		}
+
+		.container {
+		  max-width: 900px;
+		  margin: 0 auto;
+		  padding: 48px 20px;
+		}
+
+		h1 {
+		  font-size: 2.5rem;
+		  margin-bottom: 0.5rem;
+		  color: #0f172a;
+		  letter-spacing: -0.03em;
+		}
+
+		h2 {
+		  margin-top: 0;
+		  font-size: 1.5rem;
+		  color: #0f172a;
+		  letter-spacing: -0.02em;
+		}
+
+		/* Modern Card Style */
+		.card {
+		  background: var(--card-bg);
+		  border-radius: 20px;
+		  padding: 32px;
+		  margin-top: 28px;
+		  position: relative;
+		  overflow: hidden;
+		  box-shadow: 
+			0 4px 6px -1px rgba(0, 0, 0, 0.05), 
+			0 10px 15px -3px rgba(0, 0, 0, 0.03);
+		  border: 1px solid rgba(0,0,0,0.05);
+		  transition: transform 0.3s ease, box-shadow 0.3s ease;
+		}
+
+		.card:hover {
+		  transform: translateY(-4px);
+		  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+		}
+
+		/* Green Top Accent Line */
+		.card::before {
+		  content: "";
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 5px;
+		  background: linear-gradient(90deg, var(--knx-green-light), var(--knx-green));
+		}
+
+		/* List Styling */
+		ul {
+		  list-style: none;
+		  padding: 0;
+		  text-align: left;
+		  display: inline-block;
+		  margin-top: 16px;
+		  max-width: 100%;
+		}
+
+		li {
+		  margin-bottom: 14px;
+		  position: relative;
+		  padding-left: 32px;
+		  font-size: 1.05rem;
+		}
+
+		li::before {
+		  content: "✓";
+		  position: absolute;
+		  left: 0;
+		  color: var(--knx-green);
+		  font-weight: bold;
+		}
+
+		/* Media Styling */
+		.app-icon {
+		  width: 110px;
+		  height: 110px;
+		  margin-bottom: 16px;
+		  filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+		}
+
+		.screenshots {
+		  display: flex;
+		  flex-wrap: wrap;
+		  gap: 16px;
+		  justify-content: center;
+		  margin-top: 24px;
+		}
+
+		.screenshots img {
+		  width: 240px;
+		  border-radius: 12px;
+		  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+		  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+		}
+
+		.screenshots img:hover {
+		  transform: translateY(-10px) scale(1.03);
+		  box-shadow: 0 25px 35px rgba(0,0,0,0.15);
+		}
+
+		.video-container {
+		  position: relative;
+		  padding-bottom: 56.25%;
+		  height: 0;
+		  overflow: hidden;
+		  background: #000;
+		  border-radius: 12px;
+		  margin-top: 16px;
+		}
+
+		.video-container iframe {
+		  position: absolute;
+		  top: 0; left: 0; width: 100%; height: 100%; border: 0;
+		}
+
+		/* App Version Boxes */
+		.app-versions {
+		  display: flex;
+		  gap: 20px;
+		  justify-content: center;
+		  margin-top: 24px;
+		  flex-wrap: wrap;
+		}
+
+		.version-box {
+		  flex: 1;
+		  min-width: 240px;
+		  max-width: 320px;
+		  padding: 24px;
+		  background: #f8fafc;
+		  border-radius: 16px;
+		  border: 1px solid #e2e8f0;
+		  transition: border-color 0.2s;
+		}
+
+		.version-box:hover {
+		  border-color: var(--knx-green-light);
+		}
+
+		.app-version-icon {
+		  width: 80px; height: 80px;
+		  border-radius: 18px;
+		  margin-bottom: 12px;
+		  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+		}
+
+		.play-icon {
+		  width: 170px;
+		  cursor: pointer;
+		  margin-top: 8px;
+		  transition: transform 0.2s ease;
+		}
+
+		.play-icon:hover { transform: scale(1.06); }
+
+		.footer {
+		  margin-top: 60px;
+		  padding-bottom: 40px;
+		  font-size: 0.9rem;
+		  color: var(--text-muted);
+		}
+
+		a { color: #0066cc; text-decoration: none; font-weight: 600; }
+		a:hover { text-decoration: underline; }
+		hr { border: 0; border-top: 1px solid #f1f5f9; margin: 24px 0; }
   </style>
 </head>
 
 <body>
   <div class="container">
 
-    <!-- App Icon -->
-    <img class="app-icon" src="assets/logos/sharknx2.png" alt="SharKNX App Icon" />
+	<div class="card" style="text-align: center;">
+	   <img class="app-icon" src="assets/logos/sharknx2.png" alt="SharKNX App Icon" />
+	  <h1>SharKNX</h1>
+	  <p style="font-weight: 600; color: var(--knx-green);">Mobile KNX monitoring & diagnostics</p>
 
-    <h1>SharKNX</h1>
-    <p><strong>Mobile KNX monitoring & diagnostics</strong></p>
+	  <p>
+		SharKNX is a professional mobile tool for KNX installers, system integrators,
+		and technical maintenance teams.
+		Perform fast diagnostics and live bus monitoring directly on site -
+		without opening ETS or carrying a laptop.
+	  </p>
 
-    <p>
-      SharKNX is a professional mobile tool for KNX installers, system integrators,
-      and technical maintenance teams.
-      Perform fast diagnostics and live bus monitoring directly on site -
-      without opening ETS or carrying a laptop.
-    </p>
+	  <p style="font-style: italic; font-size: 0.95rem; background: #fffbeb; padding: 10px; border-radius: 8px; color: #92400e;">
+		<strong>Note:</strong> SharKNX is not intended to replace ETS.
+		It does not provide all ETS functions, but serves as a fast, practical
+		mobile companion for commissioning, troubleshooting, and support.
+	  </p>
 
-    <p>
-      <strong>Note:</strong> SharKNX is not intended to replace ETS.
-      It does not provide all ETS functions, but serves as a fast, practical
-      mobile companion for commissioning, troubleshooting, and support.
-    </p>
+	  <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
 
-    <ul>
-      <li>Live monitoring of KNX group telegrams</li>
-      <li>View ETS (.knxproj) project data on phone or tablet</li>
-      <li>Discover and connect to KNX/IP gateways and routers</li>
-      <li>Quick on-site troubleshooting during commissioning and support</li>
-      <li>
-        <strong>Shark Hunts:</strong> Create custom diagnostic pages with send actions
-        (fixed values or sequences) and advanced monitor filters
-        (by device, space, time, etc.).
-        Share them with customers so checks can be performed remotely -
-        identify issues before visiting the site.
-      </li>
-    </ul>
+	  <ul>
+		<li>Live monitoring of KNX group telegrams</li>
+		<li>View ETS (.knxproj) project data on phone or tablet</li>
+		<li>Discover and connect to KNX/IP gateways and routers</li>
+		<li>Quick on-site troubleshooting during commissioning and support</li>
+		<li style="margin-top: 12px; color: #0f172a;">
+		  <strong>Shark Hunts:</strong> Create custom diagnostic pages with send actions 
+		  (fixed values or sequences) and advanced monitor filters. 
+		  Share them with customers for remote troubleshooting.
+		</li>
+	  </ul>
+	</div>
 
-    <!-- Screenshots -->
-    <h2>Screenshots</h2>
-    <p>SharKNX Android app</p>
+	<div class="card">
+	  <h2>Screenshots</h2>
+	  <p>SharKNX Android & iOS interface</p>
 
-    <div class="screenshots">
-      <img src="assets/screenshots/monitor.png" alt="KNX Bus Monitor">
-      <img src="assets/screenshots/project_view_gas.png" alt="ETS Project Viewer">
-      <img src="assets/screenshots/discover_page.png" alt="Gateway Discovery">
-    </div>
+	  <div class="screenshots">
+		<img src="assets/screenshots/monitor.png" alt="KNX Bus Monitor">
+		<img src="assets/screenshots/project_view_gas.png" alt="ETS Project Viewer">
+		<img src="assets/screenshots/discover_page.png" alt="Gateway Discovery">
+	  </div>
+	</div>
 
-    <!-- Trust / Reassurance -->
-    <div class="card">
-      <h2>Designed for System Integrators, Installers, Engineers, Maintenance Teams</h2>
-      <p>
-        Connect to your KNX/IP Gateway and start monitoring, sending commands and more!
-      </p>
-      <p>
-        SharKNX is designed as a practical on-site tool for
-        diagnostics and maintenance of KNX installations.
-      </p>
-    </div>
+	<div class="card">
+	  <h2>See it in Action</h2>
+	  <p>Discover how to quickly connect and monitor KNX telegrams on your phone.</p>
+	  <div class="video-container">
+		<iframe 
+		  src="https://www.youtube-nocookie.com/embed/XMsbHtQNQgw" 
+		  title="SharKNX Tutorial" 
+		  frameborder="0" 
+		  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+		  referrerpolicy="strict-origin-when-cross-origin"
+		  allowfullscreen>
+		</iframe>
+	  </div>
+	</div>
 
-    <!-- Android -->
     <div class="card">
       <h2>Android</h2>
       <div class="app-versions">
         <div class="version-box">
           <h3>Full Version</h3>
-          <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
+          <a href="[https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en](https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en)">
             <img class="app-version-icon" src="assets/logos/sharknx2.png" alt="SharKNX Full Version" />
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
+          <a href="[https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en](https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en)">
             <img class="play-icon" src="assets/logos/google_play_store_icon.png" alt="Get on Google Play" />
           </a>
         </div>
         <div class="version-box">
           <h3>3-day Free Trial</h3>
-          <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx.demo">
+          <a href="[https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx.demo](https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx.demo)">
             <img class="app-version-icon" src="assets/logos/sharknxDemo.png" alt="SharKNX Demo Version" />
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx.demo">
+          <a href="[https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx.demo](https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx.demo)">
             <img class="play-icon" src="assets/logos/google_play_store_icon.png" alt="Get on Google Play" />
           </a>
         </div>
       </div>
     </div>
 
-    <!-- iOS -->
     <div class="card">
       <h2>iOS</h2>
       <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
-        <a href="https://apps.apple.com/us/app/sharknx/id6758055077">
+        <a href="[https://apps.apple.com/us/app/sharknx/id6758055077](https://apps.apple.com/us/app/sharknx/id6758055077)">
           <img class="app-version-icon" src="assets/logos/sharknx2.png" alt="SharKNX iOS" />
         </a>
       </div>
-      <a href="https://apps.apple.com/us/app/sharknx/id6758055077">
+      <a href="[https://apps.apple.com/us/app/sharknx/id6758055077](https://apps.apple.com/us/app/sharknx/id6758055077)">
         <img class="play-icon" src="assets/logos/ios_app_store_icon.svg" alt="Download on the App Store" />
       </a>
     </div>
 
-    <!-- Footer -->
     <div class="footer">
       © 2026 <strong>OWL AUTOMATA</strong> · Engineering Services and Tools<br/>
-      <a href="https://www.owl-automata.com">www.owl-automata.com</a> ·
-      <a href="https://github.com/owl-automata/SharKNX">GitHub Documentation</a>
+      <a href="[https://www.owl-automata.com](https://www.owl-automata.com)">www.owl-automata.com</a> ·
+      <a href="[https://github.com/owl-automata/SharKNX](https://github.com/owl-automata/SharKNX)">GitHub Documentation</a>
     </div>
 
   </div>
