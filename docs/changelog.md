@@ -4,6 +4,26 @@ All notable changes to SharKNX are documented in this file.
 
 ---
 
+## [1.4.1+20] - 2026-01-30
+
+### Added
+- **Interactive Monitor Badges** - Added status badges for quick access to monitoring controls, telegram count, and gateway information with tap-to-view details
+- **Clickable Building Elements** - Group addresses and devices in Buildings tab are now tappable, opening detail sheets for quick information access
+- **Floating Filter Bar** - Filter bar now stays visible when scrolling through project tabs for easier access
+
+### Improved
+- **Error Notifications** - Monitor errors now appear as non-intrusive floating messages that auto-dismiss
+- **Accessibility** - Better text scaling support and improved readability across all project views
+- **Device Names** - Improved device name display in Buildings tab with proper fallback handling
+- **Visual Consistency** - Standardized address format and improved icon clarity throughout the app
+
+### Fixed
+- **Search Functionality** - Device search now correctly finds devices with alternative name formats
+- **Filter Behavior** - Fixed expansion of parent items when filtering by nested devices
+- **Layout Issues** - Resolved overflow warnings in monitor page layout
+
+---
+
 ## [1.3.2+19] - 2026-01-28
 
 ### Added
