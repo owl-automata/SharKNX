@@ -15,7 +15,9 @@
 SharKNX is a mobile app for KNX installers and System Integrators. Carry your ETS projects in your pocket, discover and connect to KNX IP gateways/routers and monitor your KNX installation. 
 
 ##  Platforms
+
 **SharKNX is available for:** 
+
 <div align="center"> 
   <table> 
     <tr> 
@@ -31,7 +33,7 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
       </td>
       <td align="center" valign="middle"> 
         <a href="https://apps.microsoft.com/detail/9NDT1096KHS0"> 
-         <img src="assets/logos/Store.ico" alt="Get it on Microsoft Store" width="200" /> 
+         <img src="assets/logos/Store.ico" alt="Get it on Microsoft Store" style="width: 200px; height: 60px; object-fit: contain;" /> 
         </a> 
       </td> 
     </tr> 
