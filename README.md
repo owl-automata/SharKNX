@@ -33,7 +33,7 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
       </td>
       <td align="center" valign="middle">
         <a href="https://apps.microsoft.com/detail/9NDT1096KHS0">
-          <img src="assets/logos/microsoft_store.png" alt="Get it on Microsoft Store" width="200" height="80" />
+          <img src="assets/logos/microsoft_store.png" alt="Get it on Microsoft Store" width="200" height="120" />
         </a>
       </td>
     </tr>
