@@ -15,19 +15,27 @@
 SharKNX is a mobile app for KNX installers and System Integrators. Carry your ETS projects in your pocket, discover and connect to KNX IP gateways/routers and monitor your KNX installation. 
 
 ##  Platforms
-
-<p align="center"><strong>SharKNX is available for:</strong></p>
-
-<div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; align-items: center;">
-  <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
-    <img src="assets/logos/google_play_store_icon.png" alt="Get it on Google Play" width="200" />
-  </a>
-  <a href="https://apps.apple.com/us/app/sharknx/id6758055077">
-    <img src="assets/logos/ios_app_store_icon.svg" alt="Download on the App Store" width="200" />
-  </a>
-  <a href="https://apps.microsoft.com/detail/9NDT1096KHS0">
-    <img src="assets/logos/Store.png" alt="Get it on Microsoft Store" width="200" />
-  </a>
+**SharKNX is available for:** 
+<div align="center"> 
+  <table> 
+    <tr> 
+      <td align="center" valign="middle"> 
+        <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en"> 
+          <img src="assets/logos/google_play_store_icon.png" alt="Get it on Google Play" width="200" /> 
+        </a> 
+      </td> 
+      <td align="center" valign="middle"> 
+        <a href="https://apps.apple.com/us/app/sharknx/id6758055077"> 
+         <img src="assets/logos/ios_app_store_icon.svg" alt="Download on the App Store" width="200" /> 
+        </a> 
+      </td>
+      <td align="center" valign="middle"> 
+        <a href="https://apps.microsoft.com/detail/9NDT1096KHS0"> 
+         <img src="assets/logos/Store.ico" alt="Get it on Microsoft Store" width="200" /> 
+        </a> 
+      </td> 
+    </tr> 
+  </table> 
 </div>
 
 ## Features
