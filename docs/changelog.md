@@ -2,6 +2,55 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## Known Limitations
+
+iOS Version: Multicast Discovery and Conmmand Send does not work. Will be available on next release version, planned for end of February 2026.
+
+## [1.6.3+27] - 2026-02-17
+
+### Improved
+- **Project Page View** - Persistent section expanded state across tab changes.
+
+---
+
+## [1.6.2+24] - 2026-02-16
+
+### Fixed
+- **Command Composer State** - Fixed DPT value encoding errors when opening command composer from group address detail sheet. Value field now properly initializes with DPT-specific defaults (e.g., "0.0" for DPT 9.x) when DPT is provided without explicit value, eliminating "failed to encode value off" errors.
+- **Connection Timeout Settings** - Fixed slider crash when loading saved timeout values outside new range. Adjusted connection timeout range from 5-30s to 1-10s with 3s default (was 10s) for faster connection attempts. Added value clamping during settings load to handle legacy saved values.
+
+### Improved
+- **Auto-Connect Feature** - Read/Write buttons in GA detail sheet, Telegram detail sheet, and Command Composer now automatically connect to selected gateway if not already connected. Shows red X icon with "Error!" status for 2 seconds on connection failures.
+- **Connection Timeout Configuration** - Connection timeout now respects user settings across all connection types (tunneling/routing, plain/secure). All Rust connection functions accept timeout parameter passed from Flutter settings service.
+
+---
+
+## [1.6.1+23] - 2026-02-13
+
+### Fixed
+- **Disconnect Speed** - Fixed 10-second disconnect delay introduced in v0.11.0. Background tasks now stop before waiting for disconnect response, eliminating race condition. Disconnect completes in ~100-500ms while preserving send/recv performance improvements.
+- **Hunt Connection UI** - Added loading indicators to connection FAB and status badge during connect/disconnect operations. Shows "Connecting..." or "Disconnecting..." with circular progress indicator, disabled during loading to prevent multiple simultaneous connection attempts.
+
+---
+
+## [1.6.0+22] - 2026-02-12
+
+### Added
+- **Variable Send Action** - New quick send action for Shark Hunt pages with runtime value input for up to 15 group addresses. Features multi-select GA picker with DPT validation and color-coded compatibility (red/yellow/green), DPT-specific input widgets for 25+ types (Boolean, Numeric, Time, Date, RGB/RGBW/xyY colors, Scene, etc.), and async execution with visual feedback. Optimized with Rust-side caching of parsed DPT and GAs.
+
+### Fixed
+- **KNX Routing Send** - Fixed GroupValueWrite/Read telegrams not appearing in ETS when sent via multicast routing. Corrected message code from L_Data.req (0x11) to L_Data.ind (0x29), source address from invalid 0.0.0 to configurable valid address (default: 15.15.255), and control field bits for KNX spec compliance. Added routing_source_address option to ClientOptions for customization.
+- **Tutorial Overflow** - Resolved tooltip content overflow in tour steps 2 and 3 when using large fonts or display settings
+- **Sheet Dismissal** - Fixed telegram detail, gateway details, settings, and quick send sheets expanding to full screen and blocking drag handles
+- **Monitor Layout** - Corrected SliverAppBar height calculation to prevent overflow with scaled fonts
+- **Gateway Display** - Fixed IP address text overflow in gateway rows on discover page
+
+### Improved
+- **Accessibility** - Enhanced support for maximum font sizes and display scaling across all screens
+- **Tutorial Experience** - Shortened tour descriptions by 50-60% for better readability and reduced visual clutter
+- **Bottom Sheets** - Added height constraints and scrolling to prevent full-screen expansion and ensure drag handles remain accessible
+- **Dynamic Positioning** - Tutorial tooltips now adapt position based on text scale, automatically adjusting from -100px (normal) to -50px (large scale)
+
 ---
 
 ## [1.5.1+21] - 2026-02-05
