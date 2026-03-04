@@ -2,9 +2,20 @@
 
 All notable changes to SharKNX are documented in this file.
 
-## Known Limitations
+## [1.7.1+31] - 2026-03-01
 
-iOS Version: Multicast Discovery and Conmmand Send does not work. Will be available on next release version, planned for end of February 2026.
+### New Features
+- **KNX Data Secure Support** - Monitor and Send KNX Data Secure Telegrams
+
+### Improved
+- **Dark Theme** - Changed to more modern dark theme colors
+- **Monitor Page Badges** - Added Load Project Badge to Monitor Page
+
+### Fixed
+- **Communication Objects Parser** - Fixed cases where a device had multiple options for a communication object
+- **Quick Send Bottom Sheet** - Fixed overflow of quick send chips on tablets
+
+---
 
 ## [1.6.3+27] - 2026-02-17
 
