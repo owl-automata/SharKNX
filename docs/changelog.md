@@ -2,6 +2,33 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.7.3+33] - 2026-03-15
+
+### Fixed
+- **File Picker iOS** - Fixed file picker service in load project credentials in iOS devices.
+- **Load Secure Devices** - Fixed issue where loading a knxproj file in security tab, would create a secure KNX devices management list out of interfaces found.
+
+---
+
+## [1.7.2+32] - 2026-03-14
+
+### New Features
+- **Device Management** - NEW Utility page for managing KNX devices. Check device existence, read device info, reset device and control programming mode for KNX devices. Support for KNX secure devices as well.
+
+### Improved
+- Bottom sheet behavior through whole app
+- UI in security tab
+
+### Fixed
+- **Monitor Page Project Refresh** - Fixed monitor page not updating after loading or clearing an ETS project from the project badge. All action sheets (filter picker, telegram options, quick send, command composer, view settings) and the telegram list now always reflect the current project without requiring navigation away and back.
+- **Secure KNX IP Credentials Load** - Interface count when loading secure KNX IP Credentials from ETS project, included as interfaces any KNX secure device. Fixed to only include true KNX IP Interface devices.
+- **KNX Data Secure** - Fixed sending behavior of routing/multicast for KNX data secure group addresses
+- **KNX IP Secure** - Fixed issue when sending KNX Data secure telegrams
+- **Android Multicast** - In some android devices the multicast connection did not work correctly.
+- **Shark Hunts** - Send data secure commands fixed.
+  
+---
+
 ## [1.7.1+31] - 2026-03-01
 
 ### New Features
