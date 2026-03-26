@@ -2,6 +2,24 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.8.2+35] - 2026-03-28
+
+### New Features
+- Line scan: Scan your KNX bus to identify devices present on the bus
+- Program Individual Addresses: Program a device individual address. Simply turn programming mode on or use device's serial number to program any device individual address
+
+### Fixed
+- Connect FAB in monitor page did not correctly displayed discovered gateways.
+- Telegram list order in case of very fast telegram reading was reversed. Now fixed and displays correctly.
+- ETS Project loading - fixed missing devices with no connections
+
+### Improved
+- Monitor and Shark Hunt Monitor pages: Added sort options(first/last telegram on top) and a sorting button, inside view badge.
+- KNX IP communication engine robustness
+- KNX Data Secure Send Path - Source individual address resolution and secure tunnel mismatch warning are now skipped entirely for plain (non-secure) group addresses. This makes sending non-secure group addresses slightly faster and prevents false tunnel-mismatch warnings when a global source IA is configured.
+
+---
+
 ## [1.7.3+33] - 2026-03-15
 
 ### Fixed
