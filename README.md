@@ -68,10 +68,9 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 ## Documentation
 
 ### Getting Started
-- **[Quick Start Guide](docs/getting-started.md)**
+- **[Quick Start Guide](docs/01-getting-started.md)**
 
 ### Feature Guides
-- **[Getting Started](docs/01-getting-started.md)**
 - **[Connection & Gateway Discovery](docs/02-connection-and-discovery.md)**
 - **[ETS Project Viewer](docs/03-ets-project-viewer.md)**
 - **[Bus Monitor & Send Telegrams](docs/05-monitor-and-send.md)**
