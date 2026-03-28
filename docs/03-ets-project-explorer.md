@@ -9,7 +9,7 @@ Almost all pages in **SharKNX** have a **"hamburger"** menu button on the top le
 The **ETS Project Explorer** page left pane **Menu** shows information about the current loaded ETS project. It helps as a quick diagnostic in case you cannot discover any **Gateways** on your network, allowing you to verify you are searching in the right spot.
 
 <p align="center">
-  <img src="../assets/screenshots/ets-project-explorer/project_menu.png" alt="Menu Page" width="400" />
+  <img src="../assets/screenshots/ets-project-explorer/ets-project-explorer-menu.png" alt="Menu Page" width="400" />
   <br>
   <em>ETS Project Explorer Menu</em>
 </p>
