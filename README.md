@@ -57,7 +57,7 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 
 <div align="center">
   
-  | Connection | Project Viewer |
+  | Connection | Project Explorer |
   |---|---|
   | <img src="assets/screenshots/readme/discovery.png" width="280" /> | <img src="assets/screenshots/readme/project_view_ga.png" width="280" /> |
   | **Bus Monitor** | **Device Management** |
@@ -72,7 +72,7 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 
 ### Feature Guides
 - **[Connection & Gateway Discovery](docs/02-connection-and-discovery.md)**
-- **[ETS Project Viewer](docs/03-ets-project-viewer.md)**
+- **[ETS Project Explorer](docs/03-ets-project-explorer.md)**
 - **[Bus Monitor & Send Telegrams](docs/05-monitor-and-send.md)**
 - **[Shark Hunt Pages](docs/04-shark-hunt.md)**
 - **[Manage](docs/06-manage-page.md)**
