@@ -4,9 +4,9 @@
   # SharKNX
   
   [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen)](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen)
-  ![Version](https://img.shields.io/badge/version-1.7.3+33-blue)
+  ![Version](https://img.shields.io/badge/version-1.8.2+35-blue)
   
-  Bring professional KNX monitoring and diagnostics to your phone or tablet. SharKNX gives installers and integrators ETS-like capabilities on mobile - monitor bus traffic, send telegrams, and view project data anywhere on-site.
+  Bring professional KNX monitoring and diagnostics to your phone or tablet. SharKNX gives installers and integrators ETS-like capabilities on mobile - monitor bus traffic, manage devices, send telegrams, and view project data anywhere on-site.
   
 </div>
 
@@ -46,8 +46,11 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 - **ETS Project Viewer** - Import and browse `.knxproj` files on mobile. View Group Addresses, Topology, Buildings, Devices and their connected Communication Objects
 - **Send Group Telegrams** - GroupValueWrite/Read commands with full DPT support (switching, dimming, temperature, RGB, scenes)
 - **Gateway Discovery** - Discover and connect to KNX IP Gateways/Routers on your network
-- **Diagnostic Funtionality** - Scan for devices in programming mode
+- **Device Management** - Check device existence on the bus, read information, reset device and control programming mode
+- **Commissioning** - Program individual addresses of devices, either by pressing their programming button or by using their serial number
+- **Diagnostic Funtionality** - Scan for devices in programming mode and scan KNX bus lines
 - **KNX IP Secure support** - Load credentials from `.knxkeys` file or `.knxproj` file directly
+- **KNX Data Secure support** - View and send KNX data secure telegrams and manage KNX data secure devices
 - **Shark Hunt Pages** - Allows creation of pages with quick send actions for KNX commnads and complex Monitor Filters for diagnostics
 
 ##  Screenshots
@@ -91,7 +94,6 @@ Our next steps include:
 
 1. **Localization** - Support for Greek, German, and Spanish languages
 2. **More Shark Hunt Actions** - Expand diagnostic capabilities with additional hunting actions
-3. **Enhanced Diagnostics** - New diagnostic functions including device reset functionality
 
 ## License & Intellectual Property
 
