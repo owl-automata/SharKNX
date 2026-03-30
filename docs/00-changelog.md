@@ -2,6 +2,16 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.8.3+36] - 2026-04-02
+
+### Fixed
+- Line scan connection stability and update status fixes.
+- Device management connection fixes.
+- Program individual address correct status fix.
+- KNX IP Secure fix in write of programming address.
+
+---
+
 ## [1.8.2+35] - 2026-03-28
 
 ### New Features
