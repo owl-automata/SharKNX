@@ -2,7 +2,7 @@
 
 All notable changes to SharKNX are documented in this file.
 
-## [1.8.3+36] - 2026-04-02
+## [1.8.3+36] - 2026-03-30
 
 ### Fixed
 - Line scan connection stability and update status fixes.
