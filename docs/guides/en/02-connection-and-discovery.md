@@ -107,40 +107,21 @@ These sliders allow you to control the behavior of **SharKNX**, when searching o
 
 ## Discover Tab
 
-The **Discover Tab** of Connection Manager page allows you to scan for KNX IP Gateways in your network. Initiate a scan by pressing the **Magnifying Glass button** on the bottom left.
+The **Discover Tab** of Connection Manager page allows you to scan for KNX IP Gateways in your network. Initiate a scan by pressing the **Scan Network button** on the bottom right.
 
-Discovered Gateways/Interfaces/Router will be shown as expandable cards on the page. Additionally, if a discovered device has **Routing capabilities**, the section **Multicast Routing** will be available and, upon expansion, will show the options of **Multicast Routing** or **Secure Multicast Routing**.
+Discovered devices appear as expandable cards.
 
-<p align="center">
-  <img src="../../../assets/screenshots/connection-and-discovery/connect_page_discovery" alt="Discovered Gateways" width="400" />
-  <br>
-  <em>Connection Manager - Discover Tab</em>
-</p>
+If a discovered device supports routing, additional connection options appear:
+- Multicast Routing  
+- Secure Multicast Routing  
 
-
-Expanding a discovered gateway allows you to view some extra details about it, like:
-
-- Communication Port
-	
-- KNX Physical Address
-	
-- MAC Address
-	
-- Serial Address
-	
-- Medium Type
-	
-- Supported Modes (Tunnel and/or Routing)
-	
-- Security (Supports KNX IP secure or not)
-	
-- Slots available (only for Secure devices)
-
-<p align="center">
-  <img src="../assets/screenshots/connection-and-discovery/expanded_gateways.png" alt="Gateway Info" width="400" />
-  <br>
-  <em>Connection Manager - Gateway Info</em>
-</p>
+<div align="center">
+  
+  | Connection Manager - Discover Tab |
+  |-----------------------------------|
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_discovery" alt="Discovered Gateways" width="400" /> |
+  
+</div>
 
 You can select a gateway by clicking the **green link icon**. This gateway will later be used to connect to KNX bus.
 
@@ -149,18 +130,47 @@ You can save a discovered gateway by clicking on the **blue bookmark icon** (so 
 > [!important]
 > Selecting a gateway **will not automatically connect to it**, until you actually need to connect for some operation. This helps preserve mobile battery.
 
+---
+
+### Gateway Details
+
+| Property | Description |
+|----------|------------|
+| Communication Port | KNX communication port |
+| KNX Address | Device physical address |
+| MAC Address | Hardware identifier |
+| Serial Number | Device serial |
+| Medium | KNX medium type |
+| Modes | Tunnel / Routing |
+| Security | KNX Secure support |
+| Slots | Available secure connections |
+
+---
+
 ## Configured Gateways Tab
 
-In this tab you can view, edit, select or remove your saved gateways. This allows you to skip the scanning process if you already know the address of your interface. You can create a list of all your project gateways here so you can quickly connect to them each time you are on site!
+In this tab you can: 
+- View
+- Edit
+- Select
+- Delete
 
-You can select a gateway by clicking the **green link icon**. This gateway will later be used to connect to KNX bus.
+your saved gateways.
 
-<p align="center">
-  <img src="../assets/screenshots/connection-and-discovery/configured_gateway_page.png" alt="Config. Tab" width="400" />
-  <br>
-  <em>Connection Manager - Config. Tab</em>
-</p>
+> [!TIP]
+> This allows you to skip the scanning process if you already know the address of your interface. You can create a list of all your project gateways here so you can quickly connect to them each time you are on site!
 
+<div align="center">
+  
+  | Connection Manager - Config. Tab |
+  |----------------------------------|
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_config_tab.png" alt="Config. Tab" width="400" /> |
+  
+</div>
+
+---
+
+### Adding a new Gateway
 To configure a new gateway, click on the "+" icon on the bottom right. This open the configuration page.
 
 <p align="center">
