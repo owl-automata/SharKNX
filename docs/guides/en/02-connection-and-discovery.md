@@ -37,6 +37,8 @@ The right **Settings** panel allows you to configure:
 > [!NOTE]
 > All settings are persistent between app restarts. So any change you make will be applied every time you open the app unless you change it again.
 
+---
+
 #### 1. Routing Settings
 
 | Parameter | Default | Description |
@@ -210,6 +212,11 @@ You can set the secure credentials that will be used for your Secure KNX IP conn
 Selection of a **KNX Secure Gateway** or **Secure Multicast Routing** without credentials loaded, will pop up a dialog that prompts you to navigate in **Security Tab** and load them. 
 
 There are 3 options available to load/set secure credentials:
+- Load a `.knxkeys` file
+- Load a `.knxproj` file
+- Enter backbone key manually 
+
+---
 
 ### Keyring File (.knxkeys file)
 
@@ -218,15 +225,15 @@ A `.knxkeys` file, along with the password you used when exporting it, contains 
 You can select this option to load your `.knxkeys` file that you have exported from your ETS project. A dialog pop up will prompt you for the password. SharKNX will automatically detect and use the passwords and auth codes included. 
 
 <p align="center">
-  <img src="../assets/screenshots/connection-and-discovery/knxkeys_loaded.png" alt="knxkeys loaded" width="400" />
+  <img src="../../../assets/screenshots/connection-and-discovery/connect_page_security_tab_knxkeys.png" alt="knxkeys loaded" width="400" />
   <br>
   <em>Connection Manager - knxkeys file loaded</em>
 </p>
 
-> [!warning] Ensure Correct Password Input
+> [!WARNING] Ensure Correct Password Input
 > **SharKNX does not verify that the password** you provided for your `.knxkeys` file is correct, since that would be impossible! There is no way to know, before connecting to gateway if this password is correct. That is why the password you provide for `.knxkeys` file is visible in **credential details card**. Ensure you have entered it correctly, otherwise connection will fail.
 
-> [!info]
+> [!TIP]
 > Where do I get the `.knxkeys` file? (ETS6)
 > To get a `.knxkeys` file of a device, do the following steps:
 > 1. Open ETS tool
@@ -242,7 +249,7 @@ You can select this option to load your `.knxkeys` file that you have exported f
 The Backbone key is a 32 digit, hex number used for Secure Routing. There is an option to set it manually if you want but can also be set through `.knxkeys` and `.knxproj` files (if it exists).
 
 <p align="center">
-  <img src="../assets/screenshots/connection-and-discovery/backbone_key_input.png" alt="backbone key input" width="400" />
+  <img src="../../../assets/screenshots/connection-and-discovery/connect_page_security_tab_backbone.png" alt="backbone key input" width="400" />
   <br>
   <em>Connection Manager - Input backbone key</em>
 </p>
@@ -254,7 +261,7 @@ SharKNX allows the option to load your ETS `.knxproj` file that contains the sec
 An ETS project that contains secure enabled devices must also have a password. In order to load the file you have to provide the correct project password, otherwise loading will fail.
 
 <p align="center">
-  <img src="../assets/screenshots/connection-and-discovery/knxproj_loaded.png" alt="knxproj loaded" width="400" />
+  <img src="../assets/screenshots/connection-and-discovery/connect_page_security_tab_etsproj.png.png" alt="knxproj loaded" width="400" />
   <br>
   <em>Connection Manager - knxproj file loaded</em>
 </p>
