@@ -84,6 +84,8 @@ The second page of the app (from the left) is the **ETS Project Explorer**. This
   
 </div>
 
+---
+
 ### Communication Objects
 
 If selected in the **Settings** menu (**gear icon on the top right**), the **Communication Objects** that are connected with Group Address(es), can also be viewed for each device, by tapping on a device or the **tune** icon at **Devices** tab: 
@@ -93,6 +95,8 @@ If selected in the **Settings** menu (**gear icon on the top right**), the **Com
   <br>
   <em>SharKNX ETS Project Page - Com. Objects</em>
 </p>
+
+---
 
 ### Interacting with Group Addresses
 
