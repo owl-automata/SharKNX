@@ -27,8 +27,6 @@ The left **Menu** panel shows information about the current network that your mo
   
 </div>
 
----
-
 ### Settings
 
 The right **Settings** panel allows you to configure:
@@ -38,8 +36,6 @@ The right **Settings** panel allows you to configure:
 
 > [!NOTE]
 > All settings are persistent between app restarts. So any change you make will be applied every time you open the app unless you change it again.
-
----
 
 #### 1. Routing Settings
 
@@ -55,8 +51,6 @@ The right **Settings** panel allows you to configure:
   | <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_multicast_address.png" alt="Routing Settings" width="400" /> |
   
 </div>
-
----
 
 #### 2. Advanced Settings
 
@@ -88,8 +82,6 @@ SharKNX automatically retries using **Unicast Scan** if needed.
 
 > [!TIP]
 > Enable **Force Unicast Scan** when working on unstable or complex networks.
-
----
 
 #### 3. Timeout Settings
 
@@ -171,46 +163,45 @@ your saved gateways.
 ---
 
 ### Adding a new Gateway
+
 To configure a new gateway, click on the "+" icon on the bottom right. This open the configuration page.
 
-<p align="center">
-  <img src="../assets/screenshots/connection-and-discovery/edit_add_gateway_form.png" alt="Edit-add page" width="400" />
-  <br>
-  <em>Connection Manager - Add/Edit Gateway Page</em>
-</p>
+<div align="center">
+  
+  | Connection Manager - Add/Edit Gateway Page |
+  |--------------------------------------------|
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_edit_add_gateway_form.png" alt="Edit-add page" width="400" /> |
+  
+</div>
 
+#### Available Fields
 
-The following fields are available:
-
-- **Friendly Name:** This is the display name for your configured gateway. Using project names allows you to quickly identify which one to use, e.g. "Seaside Villa"
-	
-- **IP Address:** The IP address of the gateway to connect to
-	
-- **KNX Physical Address:** The physical address of the gateway in the KNX bus
-	
-- **Port:** The port to use. In most cases 3671 should not be changed
-	
-- **NAT Mode:** Whether to use Network Address Translation or not
-	
-- **KNX IP Secure:** Whether this is a secure gateway or not
+| Field | Description |
+|------|------------|
+| **Friendly Name** | Custom label (e.g. *Seaside Villa*) |
+| **IP Address** | The IP address of the gateway to connect to |
+| **KNX Physical Address** | The physical address of the gateway in the KNX bus |
+| **Port** | The port to use. In most cases `3671` should not be changed |
+| **NAT Mode** | Enable for routed networks |
+| **KNX IP Secure** | Enable for secure gateways |
 
 #### NAT
 
 Network Address Translation (NAT) mode ensures that communication remains stable when your phone and the KNX gateway are not on the exact same local network.
 
-**Possible scenarios to enable NAT mode:**
+Enable NAT in these cases:
 
-- **Multiple Subnets:** Use this if your phone is on one VLAN (e.g., "Staff WiFi") and the KNX hardware is on a different VLAN (e.g., "Technical/IoT Network").
-	
-- **VPN Connections:** If you are connecting to the site via a VPN, NAT mode is often required to ensure the gateway knows how to route response packets back through the VPN tunnel to your phone.
-    
-- **Remote Access:** If you have configured port forwarding on a router to access a site from the internet (using a Public IP), NAT mode must be **ON**.
+- Different subnets / VLANs  
+- VPN connections  
+- Remote access via public IP  
 
 #### KNX IP Secure & KNX Physical Address
 
 The KNX Physical Address field can be left as default for most plain KNX IP communication use cases. However, if you have selected that your gateway is **Secure KNX IP enabled, YOU HAVE to give it the correct KNX physical address, otherwise the connection will fail.** 
 
 KNX IP Secure requires the KNX physical address of the tunnel to connect to.
+
+---
 
 ## Security Tab
 
@@ -220,7 +211,7 @@ Selection of a **KNX Secure Gateway** or **Secure Multicast Routing** without cr
 
 There are 3 options available to load/set secure credentials:
 
-#### Keyring File (.knxkeys file)
+### Keyring File (.knxkeys file)
 
 A `.knxkeys` file, along with the password you used when exporting it, contains all the required information to connect to a KNX IP Secure device.
 
@@ -246,7 +237,7 @@ You can select this option to load your `.knxkeys` file that you have exported f
 > 6. Select your device from the list and press **"Back up keyring"**
 > 7. Input your password and save it (also save the password somewhere to remember it)
 
-#### Backbone Key
+### Backbone Key
 
 The Backbone key is a 32 digit, hex number used for Secure Routing. There is an option to set it manually if you want but can also be set through `.knxkeys` and `.knxproj` files (if it exists).
 
@@ -256,7 +247,7 @@ The Backbone key is a 32 digit, hex number used for Secure Routing. There is an 
   <em>Connection Manager - Input backbone key</em>
 </p>
 
-#### ETS Project
+### ETS Project
 
 SharKNX allows the option to load your ETS `.knxproj` file that contains the secure device you would like to connect. The app automatically discovers the secure credentials and loads them so it can use them for secure connection.
 
@@ -268,6 +259,6 @@ An ETS project that contains secure enabled devices must also have a password. I
   <em>Connection Manager - knxproj file loaded</em>
 </p>
 
-#### History List
+### History List
 
 Loaded credentials are saved in local storage, to help quick loading of previous credentials.
