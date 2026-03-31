@@ -230,7 +230,7 @@ You can select this option to load your `.knxkeys` file that you have exported f
   <em>Connection Manager - knxkeys file loaded</em>
 </p>
 
-> [!WARNING] Ensure Correct Password Input
+> [!WARNING]Ensure Correct Password Input
 > **SharKNX does not verify that the password** you provided for your `.knxkeys` file is correct, since that would be impossible! There is no way to know, before connecting to gateway if this password is correct. That is why the password you provide for `.knxkeys` file is visible in **credential details card**. Ensure you have entered it correctly, otherwise connection will fail.
 
 > [!TIP]
