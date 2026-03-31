@@ -6,15 +6,21 @@ ShaeKNX is a mobile application for Android and iOS, that brings ETS diagnostics
 
 ## Permissions
 
-> [!information]
+SharKNX does not collect or share user data. Any stored data remains on your device and is used only for app functionality
+
+> [!important]
 > SharKNX requires network and file access permissions to communicate with KNX IP devices and to import ETS project or `.knxkeys` files.
 
-**Note:** SharKNX does not collect or share user data. Any stored data remains on your device and is used only for app functionality.
-
+---
 
 ## Discover and Select Gateway
 
-Opening the app directs you at **Connection Page**. This is where you can discover, configure and select **KNX IP Gateways**, so that you can later connect, monitor and send commands to KNX bus. Press the **Scan** button on the bottom right to start scanning your network.
+Opening the app takes you to the **Connection Page**. In this page you can:
+- Discover KNX IP Gateways or Routers
+- Configure new Gateways or save discovered ones so you can connect to them without scanning
+- Upload secure credentials for KNX IP Secure communication
+
+Press the **Scan** button on the bottom right to start scanning your network.
 
 <p align="center">
   <img src="../../../assets/screenshots/getting-started-guide/connection_page_discovery.jpg" alt="Discover Page" width="400" />
@@ -22,11 +28,13 @@ Opening the app directs you at **Connection Page**. This is where you can discov
   <em>SharKNX Gateway Discovery Page</em>
 </p>
 
-After Scan finishes, the discovered gateways will be shown on screen. If KNX IP devices with Router capabilities are discovered, the option to select **Multicast Routing** (either plain or secure) will appear.
+When scan completes:
+- Discovered KNX Gateways will appear in a list
+- If KNX IP devices with Router capabilities are discovered, the option to select **Multicast Routing** (either plain or secure) will appear
 
-You can select a gateway by clicking the **green link icon**. This gateway will later be used to connect to KNX bus.
-
-You can save a discovered gateway by clicking on the **blue bookmark icon** (so you can use it another time without scanning again).
+Actions:
+- Click the **green link icon** → select gateway  
+- Click the **blue bookmark icon** → save gateway 
 
 > [!important]
 > Selecting a gateway **will not automatically connect to it**, until you actually need to connect for some operation. This helps preserve mobile battery.
@@ -34,14 +42,25 @@ You can save a discovered gateway by clicking on the **blue bookmark icon** (so 
 > [!note]
 > If no gateways are discovered, please make sure your phone is connected to **the network that your KNX IP devices are**. The **Hamburger** menu on the top left can show your current network your mobile phone is connected to.
 
-#### Secure Credentials
+---
+
+### Secure Credentials
 
 If your **Gateway(s)** are configured for **secure KNX IP communication**, you will have to provide the credentials so that the app can establish a secure connection. 
 
-You can load either a `.knxkeys` file or a `.knxproj` file that you have exported for ETS tool. The app will find the passwords and keys and will use them to connect to your selected gateway.
+You can import:
+- `.knxkeys` file  
+- `.knxproj` file 
+
+The app will automatically:
+- Extract credentials  
+- Match them to the gateway  
+- Use them for secure communication  
 
 > [!important]
 > Please make sure that you import the right `.knxkeys` or `.knxproj` file otherwise the secure connection will fail. In the case of `.knxkeys` file, please make sure you enter its password correctly.
+
+---
 
 ## ETS Project Load & Viewing
 
@@ -65,6 +84,8 @@ The second page of the app (from the left) is the **ETS Project Explorer**. This
   
 </div>
 
+### Communication Objects
+
 If selected in the **Settings** menu (**gear icon on the top right**), the **Communication Objects** that are connected with Group Address(es), can also be viewed for each device, by tapping on a device or the **tune** icon at **Devices** tab: 
 
 <p align="center">
@@ -73,7 +94,16 @@ If selected in the **Settings** menu (**gear icon on the top right**), the **Com
   <em>SharKNX ETS Project Page - Com. Objects</em>
 </p>
 
-**Group Addresses** are clickable under the **Addresses** Tab, in **Devices** Tab and inside the **Communication Objects** page, if you opted to load them. Clicking a Group Address opens a bottom drawer that shows additional information, as well as allowing you to directly **send a Read or Write command**.
+### Interacting with Group Addresses
+
+Group Addresses are clickable:
+- In **Addresses tab**  
+- Inside **Devices**  
+- In **Communication Objects**  
+
+Clicking one opens a panel where you can:
+- View details  
+- Send **Read** or **Write** commands  
 
 <p align="center">
   <img src="../../../assets/screenshots/getting-started-guide/project_page_tap_address.jpg" alt="GA Bottom Sheet" width="400" />
@@ -83,6 +113,9 @@ If selected in the **Settings** menu (**gear icon on the top right**), the **Com
 
 
 *To be able to send a command, you have to have a Gateway selected from previous step.*
+
+---
+
 ## Monitor & Send Commands
 
 After Selecting a Gateway, you can simply navigate to **Monitor page** and start listening to incoming telegrams or sending commands to KNX bus!
@@ -98,6 +131,10 @@ Press the **Play** button on the bottom right or in the row above the filter inp
 > [!note]
 > If you have an **ETS Project** loaded, **SharKNX** will automatically decode telegram values and additional telegram information, based on your project data, like ETS does. If no project is loaded, only raw data will be available.
 
+---
+
+### Filtering Telegrams
+
 The input on the top row allows you to filter telegrams based on text. The **Magnifying Glass** icon allows you to quickly search your loaded project for **Group Addresses** or **Devices** you would like to filter for. Of course, if no ETS project is loaded, this list will be empty.
 
 <p align="center">
@@ -105,6 +142,10 @@ The input on the top row allows you to filter telegrams based on text. The **Mag
   <br>
   <em>SharKNX Monitor Page - Filter Search</em>
 </p>
+
+---
+
+### Sending Commands
 
 When **monitoring** is active, the button on the bottom right will have a **Send** icon. Clicking on it allows you to create a new command to send to KNX bus. The **"+ New Command"** button navigates you to **Command Composer** page.
 
@@ -127,6 +168,8 @@ The flow for creating a new command is simple:
 5. Press **Send**
 
 That's it! Your command is sent to KNX bus!
+
+---
 
 ## Summary
 
