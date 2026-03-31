@@ -1,6 +1,6 @@
 ## Getting Started
 
-ShaeKNX is a mobile application for Android and iOS, that brings ETS diagnostics and KNX control on your phone or tablet. This guide covers the basic functionality to help you get started immediately.
+SharKNX is a mobile application for Android and iOS, that brings ETS diagnostics and KNX control on your phone or tablet. This guide covers the basic functionality to help you get started immediately.
 
 ---
 
