@@ -23,7 +23,7 @@ The left **Menu** panel shows information about the current network that your mo
   
   | Connection Manager Menu |
   |-------------------------|
-  | <img src="../../../assets/screenshots/connection-and-discovery/connection_manager_menu.png" alt="Menu Page" width="400" /> |
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect_manager_menu.png" alt="Menu Page" width="400" /> |
   
 </div>
 
@@ -112,7 +112,7 @@ The **Discover Tab** of Connection Manager page allows you to scan for KNX IP Ga
 Discovered Gateways/Interfaces/Router will be shown as expandable cards on the page. Additionally, if a discovered device has **Routing capabilities**, the section **Multicast Routing** will be available and, upon expansion, will show the options of **Multicast Routing** or **Secure Multicast Routing**.
 
 <p align="center">
-  <img src="../assets/screenshots/connection-and-discovery/discovered_gateways.png" alt="Discovered Gateways" width="400" />
+  <img src="../../../assets/screenshots/connection-and-discovery/connect_page_discovery" alt="Discovered Gateways" width="400" />
   <br>
   <em>Connection Manager - Discover Tab</em>
 </p>
