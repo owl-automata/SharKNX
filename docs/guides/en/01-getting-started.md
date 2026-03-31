@@ -141,10 +141,13 @@ Press the **Play** button on the bottom right or in the row above the filter inp
 
 The input on the top row allows you to filter telegrams based on text. The **Magnifying Glass** icon allows you to quickly search your loaded project for **Group Addresses** or **Devices** you would like to filter for. Of course, if no ETS project is loaded, this list will be empty.
 <div align="center">
-| SharKNX Monitor Page - Filter Search |
-|--------------------------------------|
-| <img src="../../../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="280" /> |
+  
+  | SharKNX Monitor Page - Filter Search |
+  |--------------------------------------|
+  | <img src="../../../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="280" /> |
+  
 </div>
+
 <p align="center">
   <img src="../../../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="280" />
   <br>
