@@ -22,11 +22,13 @@ Opening the app takes you to the **Connection Page**. In this page you can:
 
 Press the **Scan** button on the bottom right to start scanning your network.
 
-<p align="center">
-  <img src="../../../assets/screenshots/getting-started-guide/connection_page_discovery.jpg" alt="Discover Page" width="400" />
-  <br>
-  <em>SharKNX Gateway Discovery Page</em>
-</p>
+<div align="center">
+  
+  | SharKNX Gateway Discovery Page |
+  |--------------------------------|
+  | <img src="../../../assets/screenshots/getting-started-guide/connection_page_discovery.jpg" alt="Discover Page" width="400" /> |
+  
+</div>
 
 When scan completes:
 - Discovered KNX Gateways will appear in a list
@@ -90,11 +92,13 @@ The second page of the app (from the left) is the **ETS Project Explorer**. This
 
 If selected in the **Settings** menu (**gear icon on the top right**), the **Communication Objects** that are connected with Group Address(es), can also be viewed for each device, by tapping on a device or the **tune** icon at **Devices** tab: 
 
-<p align="center">
-  <img src="../../../assets/screenshots/getting-started-guide/project_page_comm_objects.jpg" alt="Communication Objects" width="400" />
-  <br>
-  <em>SharKNX ETS Project Page - Com. Objects</em>
-</p>
+<div align="center">
+  
+  | SharKNX ETS Project Page - Com. Objects |
+  |-----------------------------------------|
+  | <img src="../../../assets/screenshots/getting-started-guide/project_page_comm_objects.jpg" alt="Communication Objects" width="400" /> |
+  
+</div>
 
 ---
 
@@ -109,12 +113,13 @@ Clicking one opens a panel where you can:
 - View details  
 - Send **Read** or **Write** commands  
 
-<p align="center">
-  <img src="../../../assets/screenshots/getting-started-guide/project_page_tap_address.jpg" alt="GA Bottom Sheet" width="400" />
-  <br>
-  <em>SharKNX ETS Project Page - GA Bottom Sheet</em>
-</p>
-
+<div align="center">
+  
+  | SharKNX ETS Project Page - GA Bottom Sheet |
+  |--------------------------------------------|
+  | <img src="../../../assets/screenshots/getting-started-guide/project_page_tap_address.jpg" alt="GA Bottom Sheet" width="400" /> |
+  
+</div>
 
 *To be able to send a command, you have to have a Gateway selected from previous step.*
 
