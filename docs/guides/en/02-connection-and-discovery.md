@@ -57,12 +57,6 @@ The right **Settings** panel allows you to configure:
   
 </div>
 
-<p align="center">
-  <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_multicast_address.png" alt="Routing Settings" width="400" />
-  <br>
-  <em>Connection Manager - Routing Settings</em>
-</p>
-
 ---
 
 #### Advanced Settings
@@ -77,13 +71,14 @@ The right **Settings** panel allows you to configure:
 
 **Force Unicast Subnet Scan**
 	The procedure of **discovering KNX IP Gateway** devices by **KNX** is **to send Multicast Discovery Requests through the network**. However, multicast packets are unreliable on wireless communication like in Wi-Fi networks, especially if the network is overloaded, and might not reach their destination, resulting in **"No Gateways Discovered"**. This is a common problem in mobile phones or laptops and can even happen in ETS tool. 
-	For this reason, **SharKNX** always tries a **Unicast Scan** if no Gateways are discovered after a common Multicast Scan. You can always **force this Unicast Scan**, even when gateways are discovered, to make sure any active gateway in your network will respond.
 
-<p align="center">
-  <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_scan.png" alt="Advanced Settings" width="400" />
-  <br>
-  <em>Connection Manager - Advanced Settings</em>
-</p>
+<div align="center">
+  
+  | Connection Manager - Advanced Settings |
+  |----------------------------------------|
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_scan.png" alt="Advanced Settings" width="400" /> |
+  
+</div>
 
 Multicast discovery may fail in:
 - Wi-Fi networks  
@@ -101,11 +96,13 @@ SharKNX automatically retries using **Unicast Scan** if needed.
 
 These sliders allow you to control the behavior of **SharKNX**, when searching or connecting to a gateway. The default options are usually robust but in case you would like to **make the scan faster** or **make it listen to responses for a longer time**, you can change it here. Likewise, default connection timeout is fine for most cases. However, if your network is unstable, you can **increase the timeout setting** when connecting to gateway to allow **SharKNX** for more time to listen to device responses.
 
-<p align="center">
-  <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_timeout.png" alt="Timeout Settings" width="400" />
-  <br>
-  <em>Connection Manager - Timeout Settings</em>
-</p>
+<div align="center">
+  
+  | Connection Manager - Timeout Settings |
+  |----------------------------------------|
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_timeout.png" alt="Timeout Settings" width="400" /> |
+  
+</div>
 
 ## Discover Tab
 
