@@ -15,6 +15,8 @@ Almost all pages in **SharKNX** include:
 
 These open side panels for additional information and configuration.
 
+---
+
 ### Menu - Network Information
 
 The left **Menu** panel shows information about the current network that your mobile phone is connected to. This is useful for diagnosing discovery issues.
