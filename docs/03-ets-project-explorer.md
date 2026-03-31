@@ -18,15 +18,17 @@ You can also unload the current ETS project from this menu.
 <p align="center">
   <img src="../assets/screenshots/ets-project-explorer/ets-project-explorer-menu.png" alt="Menu Page" width="400" />
   <br>
-  <em>Connection Manager Menu</em>
+  <em>ETS Project Explorer Menu</em>
 </p>
 
-The settings menu allows you to change loading behavior and  of ETS
+Clicking the **gear** icon will open the ETS Project explorer settings menu. The following two options are available:
+- **Load Communication Objects:** If set to true, loading an ETS project will also load the Communication Objects of each device, that are actually connected with a Group Address. Set it to false to not load Communication Objects, speed up load time and app memory usage.
+- **Items per Page:** This option allows you to control how many items (e.g. Group Addresses, Devices etc.) will be immediately shown when you expand a selection. 
 
 <p align="center">
   <img src="../assets/screenshots/ets-project-explorer/ets-project-explorer-settings.png" alt="Menu Page" width="400" />
   <br>
-  <em>Connection Manager Menu</em>
+  <em>ETS Project Explorer Settings</em>
 </p>
 
 ## Loading an ETS Project
