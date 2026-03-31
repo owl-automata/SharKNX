@@ -3,7 +3,7 @@
 A quick guide for helping you get started with SharKNX app!
 ## Permissions
 
-> [!warning] 
+> [!info] 
 > SharKNX requires network and file access permissions. This is solely for the purpose of communicating with KNX IP devices in your network, as well as allowing you to import ETS project and `.knxkeys` files for viewing and secure credentials loading.
 
 > [!note] 
@@ -14,7 +14,7 @@ A quick guide for helping you get started with SharKNX app!
 Opening the app directs you at **Connection Page**. This is where you can discover, configure and select **KNX IP Gateways**, so that you can later connect, monitor and send commands to KNX bus. Press the **Scan** button on the bottom right to start scanning your network.
 
 <p align="center">
-  <img src="../assets/screenshots/discover_page.png" alt="Discover Page" width="400" />
+  <img src="../assets/screenshots/getting-started-guide/connection_page_discovery.jpg" alt="Discover Page" width="400" />
   <br>
   <em>SharKNX Gateway Discovery Page</em>
 </p>
@@ -48,7 +48,7 @@ You can load either a `.knxkeys` file or a `.knxproj` file that you have exporte
 The second page of the app (from the left) is the **ETS Project Explorer**. This is where you can load a `.knxproj` file and view:
 
 - Group Addresses
-- Devices (physical address, name, connected Group Addresses)
+- Devices (physical address, name, connected Group Addresses, Communication Objects)
 - Topology
 - Buildings
 
@@ -56,18 +56,16 @@ The second page of the app (from the left) is the **ETS Project Explorer**. This
   
   | Addresses | Devices |
   |---|---|
-  | <img src="../assets/screenshots/getting-started-guide/gas_view.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/device_view.png" width="280" /> |
+  | <img src="../assets/screenshots/getting-started-guide/project_page_ga_view.jpg" width="280" /> | <img src="../assets/screenshots/getting-started-guide/project_page_device_view.jpg" width="280" /> |
   | **Topology** | **Buildings** |
-  | <img src="../assets/screenshots/getting-started-guide/topology_view.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/buildings_view.png" width="280" /> |
+  | <img src="../assets/screenshots/getting-started-guide/project_page_topology_view.jpg" width="280" /> | <img src="../assets/screenshots/getting-started-guide/project_page_buildings_view.jpg" width="280" /> |
   
 </div>
 
-If selected in the **Settings** menu (**gear icon on the top right**), the **Communication Objects** that are connected with Group Address(es) of each device, can also be available under: 
-
-- Topology -> Device X (press the device to open page).
+If selected in the **Settings** menu (**gear icon on the top right**), the **Communication Objects** that are connected with Group Address(es), can also be viewed for each device, by tapping on a device or the **tune** icon at **Devices** tab: 
 
 <p align="center">
-  <img src="../assets/screenshots/getting-started-guide/com_objects_view.png" alt="Communication Objects" width="400" />
+  <img src="../assets/screenshots/getting-started-guide/project_page_comm_objects.jpg" alt="Communication Objects" width="400" />
   <br>
   <em>SharKNX ETS Project Page - Com. Objects</em>
 </p>
@@ -75,7 +73,7 @@ If selected in the **Settings** menu (**gear icon on the top right**), the **Com
 **Group Addresses** are clickable under the **Addresses** Tab, in **Devices** Tab and inside the **Communication Objects** page, if you opted to load them. Clicking a Group Address opens a bottom drawer that shows additional information, as well as allowing you to directly **send a Read or Write command**.
 
 <p align="center">
-  <img src="../assets/screenshots/getting-started-guide/ga_bottom_sheet.png" alt="GA Bottom Sheet" width="400" />
+  <img src="../assets/screenshots/getting-started-guide/project_page_tap_address.jpg" alt="GA Bottom Sheet" width="400" />
   <br>
   <em>SharKNX ETS Project Page - GA Bottom Sheet</em>
 </p>
@@ -89,7 +87,7 @@ After Selecting a Gateway, you can simply navigate to **Monitor page** and start
 Press the **Play** button on the bottom right or in the row above the filter input and the app will connect to the selected gateway and start monitoring.
 
 <p align="center">
-  <img src="../assets/screenshots/monitor.png" alt="Monitor Page" width="400" />
+  <img src="../assets/screenshots/getting-started-guide//monitor_page_telegram_list.jpg" alt="Monitor Page" width="400" />
   <br>
   <em>SharKNX Monitor Page</em>
 </p>
@@ -100,7 +98,7 @@ Press the **Play** button on the bottom right or in the row above the filter inp
 The input on the top row allows you to filter telegrams based on text. The **Magnifying Glass** icon allows you to quickly search your loaded project for **Group Addresses** or **Devices** you would like to filter for. Of course, if no ETS project is loaded, this list will be empty.
 
 <p align="center">
-  <img src="../assets/screenshots/getting-started-guide/monitor_filter_sheet.png" alt="Monitor Filter Sheet" width="400" />
+  <img src="../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="400" />
   <br>
   <em>SharKNX Monitor Page - Filter Search</em>
 </p>
@@ -111,9 +109,9 @@ When **monitoring** is active, the button on the bottom right will have a **Send
   
   | Send Temperature | Send Dimming |
   |---|---|
-  | <img src="../assets/screenshots/getting-started-guide/dpt_9001_command.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/dpt_3007_command.png" width="280" /> |
-  | **Send RGB** | **Send Read** |
-  | <img src="../assets/screenshots/getting-started-guide/dpt_232_command.png" width="280" /> | <img src="../assets/screenshots/getting-started-guide/read_command.png" width="280" /> |
+  | <img src="../assets/screenshots/getting-started-guide/send_command_temperature.jpg" width="280" /> | <img src="../assets/screenshots/getting-started-guide/send_command_dim.jpg" width="280" /> |
+  | **Send RGB** | **Send Scene** |
+  | <img src="../assets/screenshots/getting-started-guide/send_command_rgb.jpg" width="280" /> | <img src="../assets/screenshots/getting-started-guide/send_command_scene.jpg" width="280" /> |
   
 </div>
 
@@ -130,8 +128,8 @@ That's it! Your command is sent to KNX bus!
 ## Summary
 
 This guide covered the most basic and common functionality of SharKNX app. To discover more or or find more details, please look at the dedicated guides:
-1. [Connection & Discovery](connection-and-discovery.md)
-2. [ETS Project Explorer](ets-project-viewer.md)
-3. [Monitor & Send](monitor-and-send.md)
-4. [Utilities](utilities-page.md)
-5. [Shark Hunts](shark-hunt.md)
+1. [Connection & Discovery](02-connection-and-discovery.md)
+2. [ETS Project Explorer](03-ets-project-explorer.md)
+3. [Shark Hunts](04-shark-hunt.md)
+3. [Monitor & Send](05-monitor-and-send.md)
+4. [Manage Devices](06-manage-page.md)
