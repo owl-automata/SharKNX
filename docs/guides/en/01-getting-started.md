@@ -126,11 +126,13 @@ After Selecting a Gateway, you can simply navigate to **Monitor page** and start
 
 Press the **Play** button on the bottom right or in the row above the filter input and the app will connect to the selected gateway and start monitoring.
 
-<p align="center">
-  <img src="../../../assets/screenshots/getting-started-guide//monitor_page_telegram_list.jpg" alt="Monitor Page" width="400" />
-  <br>
-  <em>SharKNX Monitor Page</em>
-</p>
+<div align="center">
+  
+  | SharKNX Monitor Page |
+  |----------------------|
+  | <img src="../../../assets/screenshots/getting-started-guide//monitor_page_telegram_list.jpg" alt="Monitor Page" width="400" /> |
+  
+</div>
 
 > [!note]
 > If you have an **ETS Project** loaded, **SharKNX** will automatically decode telegram values and additional telegram information, based on your project data, like ETS does. If no project is loaded, only raw data will be available.
