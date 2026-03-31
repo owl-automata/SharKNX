@@ -1,13 +1,16 @@
 ## Getting Started
 
-A quick guide for helping you get started with SharKNX app!
+ShaeKNX is a mobile application for Android and iOS, that brings ETS diagnostics and KNX control on your phone or tablet. This guide covers the basic functionality to help you get started immediately.
+
+---
+
 ## Permissions
 
-> [!info] 
-> SharKNX requires network and file access permissions. This is solely for the purpose of communicating with KNX IP devices in your network, as well as allowing you to import ETS project and `.knxkeys` files for viewing and secure credentials loading.
+> [!information]
+> SharKNX requires network and file access permissions to communicate with KNX IP devices and to import ETS project or `.knxkeys` files.
 
-> [!note] 
-> SharKNX does not collect and share user data. Any data saved is solely for the purposes of app functionality and stays on your phone.
+**Note:** SharKNX does not collect or share user data. Any stored data remains on your device and is used only for app functionality.
+
 
 ## Discover and Select Gateway
 
