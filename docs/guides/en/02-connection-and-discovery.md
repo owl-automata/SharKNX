@@ -66,10 +66,7 @@ The right **Settings** panel allows you to configure:
 | **Force Unicast Subnet Scan** | Forces discovery via unicast instead of multicast |
 
 > [!NOTE]
-> In order to be able to use the **Multicast/Routing** option as a way to communicate with the KNX bus, you would normally need to have a **KNX IP Router** in your installation, otherwise no one would route/send your telegrams to or from the KNX bus. This is the reason Multicast/Routing options **are only visible > if a KNX IP device with routing capabilities is discovered**. However you can change this behavior in **Advanced Settings**.
-
-> [!NOTE]
-> The procedure of **discovering KNX IP Gateway** devices by **KNX** is **to send Multicast Discovery Requests through the network**. However, multicast packets are unreliable on wireless communication like in Wi-Fi networks, especially if the network is overloaded, and might not reach their destination, > resulting in **"No Gateways Discovered"**. This is a common problem in mobile phones or laptops and can even happen in ETS tool. 
+> In order to be able to use the **Multicast/Routing** option as a way to communicate with the KNX bus, you would normally need to have a **KNX IP Router** in your installation, otherwise no one would route/send your telegrams to or from the KNX bus. This is the reason Multicast/Routing options **are only visible if a KNX IP device with routing capabilities is discovered**. However you can change this behavior in **Advanced Settings**.
 
 <div align="center">
   
@@ -78,6 +75,9 @@ The right **Settings** panel allows you to configure:
   | <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_scan.png" alt="Advanced Settings" width="400" /> |
   
 </div>
+
+> [!NOTE]
+> The procedure of **discovering KNX IP Gateway** devices by **KNX** is **to send Multicast Discovery Requests through the network**. However, multicast packets are unreliable on wireless communication like in Wi-Fi networks, especially if the network is overloaded, and might not reach their destination, resulting in **"No Gateways Discovered"**. This is a common problem in mobile phones or laptops and can even happen in ETS tool. 
 
 Multicast discovery may fail in:
 - Wi-Fi networks  
@@ -102,6 +102,8 @@ These sliders allow you to control the behavior of **SharKNX**, when searching o
   | <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_timeout.png" alt="Timeout Settings" width="400" /> |
   
 </div>
+
+---
 
 ## Discover Tab
 
@@ -223,7 +225,8 @@ You can select this option to load your `.knxkeys` file that you have exported f
 > [!warning] Ensure Correct Password Input
 > **SharKNX does not verify that the password** you provided for your `.knxkeys` file is correct, since that would be impossible! There is no way to know, before connecting to gateway if this password is correct. That is why the password you provide for `.knxkeys` file is visible in **credential details card**. Ensure you have entered it correctly, otherwise connection will fail.
 
-> [!info] Where do I get the `.knxkeys` file? (ETS6)
+> [!info]
+> Where do I get the `.knxkeys` file? (ETS6)
 > To get a `.knxkeys` file of a device, do the following steps:
 > 1. Open ETS tool
 > 2. Open your ETS project that contains your secure device (must be open)
