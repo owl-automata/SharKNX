@@ -68,25 +68,25 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 ## Documentation
 
 ### Getting Started
-- **[Quick Start Guide](docs/01-getting-started.md)**
+- **[Quick Start Guide](docs/guides/en/01-getting-started.md)**
 
 ### Feature Guides
-- **[Connection & Gateway Discovery](docs/02-connection-and-discovery.md)**
-- **[ETS Project Explorer](docs/03-ets-project-explorer.md)**
-- **[Bus Monitor & Send Telegrams](docs/05-monitor-and-send.md)**
-- **[Shark Hunt Pages](docs/04-shark-hunt.md)**
-- **[Manage](docs/06-manage-page.md)**
+- **[Connection & Gateway Discovery](docs/guides/en/02-connection-and-discovery.md)**
+- **[ETS Project Explorer](docs/guides/en/03-ets-project-explorer.md)**
+- **[Bus Monitor & Send Telegrams](docs/guides/en/05-monitor-and-send.md)**
+- **[Shark Hunt Pages](docs/guides/en/04-shark-hunt.md)**
+- **[Manage](docs/guides/en/06-manage-page.md)**
 
 ### Misc
 - **[Changelog](docs/00-changelog.md)**
-- **[Privacy & Data](docs/privacy-and-data.md)**
+- **[Privacy & Data](docs/privacy/privacy-and-data.md)**
 
 ##  Issues & Feature Requests
 
 Please see guided on how to report a bug/issue or request additional functionality that might be missing.
 
-- **Found a bug?** - Please read our **[How to Report an Issue Guide](how-to/how-to-report-an-issue.md)** for detailed instructions
-- **Have a feature idea?** - Check out our **[How to Request a Feature Guide](how-to/how-to-request-a-feature.md)**
+- **Found a bug?** - Please read our **[How to Report an Issue Guide](docs/how-to/how-to-report-an-issue.md)** for detailed instructions
+- **Have a feature idea?** - Check out our **[How to Request a Feature Guide](docs/how-to/how-to-request-a-feature.md)**
 
 ##  Roadmap
 
