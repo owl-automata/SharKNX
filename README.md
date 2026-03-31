@@ -85,8 +85,8 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 
 Please see guided on how to report a bug/issue or request additional functionality that might be missing.
 
-- **Found a bug?** - Please read our **[How to Report an Issue Guide](docs/how-to/how-to-report-an-issue.md)** for detailed instructions
-- **Have a feature idea?** - Check out our **[How to Request a Feature Guide](docs/how-to/how-to-request-a-feature.md)**
+- **Found a bug?** - Please read our **[How to Report an Issue Guide](docs/features-issues-request/how-to-report-an-issue.md)** for detailed instructions
+- **Have a feature idea?** - Check out our **[How to Request a Feature Guide](docs/features-issues-request/how-to-request-a-feature.md)**
 
 ##  Roadmap
 
