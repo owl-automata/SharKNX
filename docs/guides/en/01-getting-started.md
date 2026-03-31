@@ -14,7 +14,7 @@ A quick guide for helping you get started with SharKNX app!
 Opening the app directs you at **Connection Page**. This is where you can discover, configure and select **KNX IP Gateways**, so that you can later connect, monitor and send commands to KNX bus. Press the **Scan** button on the bottom right to start scanning your network.
 
 <p align="center">
-  <img src="../assets/screenshots/getting-started-guide/connection_page_discovery.jpg" alt="Discover Page" width="400" />
+  <img src="../../../assets/screenshots/getting-started-guide/connection_page_discovery.jpg" alt="Discover Page" width="400" />
   <br>
   <em>SharKNX Gateway Discovery Page</em>
 </p>
@@ -56,16 +56,16 @@ The second page of the app (from the left) is the **ETS Project Explorer**. This
   
   | Addresses | Devices |
   |---|---|
-  | <img src="../assets/screenshots/getting-started-guide/project_page_ga_view.jpg" width="280" /> | <img src="../assets/screenshots/getting-started-guide/project_page_device_view.jpg" width="280" /> |
+  | <img src="../../../assets/screenshots/getting-started-guide/project_page_ga_view.jpg" width="280" /> | <img src="../../../assets/screenshots/getting-started-guide/project_page_device_view.jpg" width="280" /> |
   | **Topology** | **Buildings** |
-  | <img src="../assets/screenshots/getting-started-guide/project_page_topology_view.jpg" width="280" /> | <img src="../assets/screenshots/getting-started-guide/project_page_buildings_view.jpg" width="280" /> |
+  | <img src="../../../assets/screenshots/getting-started-guide/project_page_topology_view.jpg" width="280" /> | <img src="../../../assets/screenshots/getting-started-guide/project_page_buildings_view.jpg" width="280" /> |
   
 </div>
 
 If selected in the **Settings** menu (**gear icon on the top right**), the **Communication Objects** that are connected with Group Address(es), can also be viewed for each device, by tapping on a device or the **tune** icon at **Devices** tab: 
 
 <p align="center">
-  <img src="../assets/screenshots/getting-started-guide/project_page_comm_objects.jpg" alt="Communication Objects" width="400" />
+  <img src="../../../assets/screenshots/getting-started-guide/project_page_comm_objects.jpg" alt="Communication Objects" width="400" />
   <br>
   <em>SharKNX ETS Project Page - Com. Objects</em>
 </p>
@@ -73,7 +73,7 @@ If selected in the **Settings** menu (**gear icon on the top right**), the **Com
 **Group Addresses** are clickable under the **Addresses** Tab, in **Devices** Tab and inside the **Communication Objects** page, if you opted to load them. Clicking a Group Address opens a bottom drawer that shows additional information, as well as allowing you to directly **send a Read or Write command**.
 
 <p align="center">
-  <img src="../assets/screenshots/getting-started-guide/project_page_tap_address.jpg" alt="GA Bottom Sheet" width="400" />
+  <img src="../../../assets/screenshots/getting-started-guide/project_page_tap_address.jpg" alt="GA Bottom Sheet" width="400" />
   <br>
   <em>SharKNX ETS Project Page - GA Bottom Sheet</em>
 </p>
@@ -87,7 +87,7 @@ After Selecting a Gateway, you can simply navigate to **Monitor page** and start
 Press the **Play** button on the bottom right or in the row above the filter input and the app will connect to the selected gateway and start monitoring.
 
 <p align="center">
-  <img src="../assets/screenshots/getting-started-guide//monitor_page_telegram_list.jpg" alt="Monitor Page" width="400" />
+  <img src="../../../assets/screenshots/getting-started-guide//monitor_page_telegram_list.jpg" alt="Monitor Page" width="400" />
   <br>
   <em>SharKNX Monitor Page</em>
 </p>
@@ -98,7 +98,7 @@ Press the **Play** button on the bottom right or in the row above the filter inp
 The input on the top row allows you to filter telegrams based on text. The **Magnifying Glass** icon allows you to quickly search your loaded project for **Group Addresses** or **Devices** you would like to filter for. Of course, if no ETS project is loaded, this list will be empty.
 
 <p align="center">
-  <img src="../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="400" />
+  <img src="../../../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="400" />
   <br>
   <em>SharKNX Monitor Page - Filter Search</em>
 </p>
@@ -109,9 +109,9 @@ When **monitoring** is active, the button on the bottom right will have a **Send
   
   | Send Temperature | Send Dimming |
   |---|---|
-  | <img src="../assets/screenshots/getting-started-guide/send_command_temperature.jpg" width="280" /> | <img src="../assets/screenshots/getting-started-guide/send_command_dim.jpg" width="280" /> |
+  | <img src="../../../assets/screenshots/getting-started-guide/send_command_temperature.jpg" width="280" /> | <img src="../../../assets/screenshots/getting-started-guide/send_command_dim.jpg" width="280" /> |
   | **Send RGB** | **Send Scene** |
-  | <img src="../assets/screenshots/getting-started-guide/send_command_rgb.jpg" width="280" /> | <img src="../assets/screenshots/getting-started-guide/send_command_scene.jpg" width="280" /> |
+  | <img src="../../../assets/screenshots/getting-started-guide/send_command_rgb.jpg" width="280" /> | <img src="../../../assets/screenshots/getting-started-guide/send_command_scene.jpg" width="280" /> |
   
 </div>
 
