@@ -230,11 +230,10 @@ You can select this option to load your `.knxkeys` file that you have exported f
   <em>Connection Manager - knxkeys file loaded</em>
 </p>
 
-> [!WARNING]Ensure Correct Password Input
+> [!WARNING]
 > **SharKNX does not verify that the password** you provided for your `.knxkeys` file is correct, since that would be impossible! There is no way to know, before connecting to gateway if this password is correct. That is why the password you provide for `.knxkeys` file is visible in **credential details card**. Ensure you have entered it correctly, otherwise connection will fail.
 
 > [!TIP]
-> Where do I get the `.knxkeys` file? (ETS6)
 > To get a `.knxkeys` file of a device, do the following steps:
 > 1. Open ETS tool
 > 2. Open your ETS project that contains your secure device (must be open)
@@ -261,7 +260,7 @@ SharKNX allows the option to load your ETS `.knxproj` file that contains the sec
 An ETS project that contains secure enabled devices must also have a password. In order to load the file you have to provide the correct project password, otherwise loading will fail.
 
 <p align="center">
-  <img src="../assets/screenshots/connection-and-discovery/connect_page_security_tab_etsproj.png.png" alt="knxproj loaded" width="400" />
+  <img src="../../../assets/screenshots/connection-and-discovery/connect_page_security_tab_etsproj.png.png" alt="knxproj loaded" width="400" />
   <br>
   <em>Connection Manager - knxproj file loaded</em>
 </p>
