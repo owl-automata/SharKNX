@@ -15,9 +15,9 @@ Almost all pages in **SharKNX** include:
 
 These open side panels for additional information and configuration.
 
-### Network Information
+### Menu - Network Information
 
-The **Connection Manager** page left pane **Menu** shows information about the current network that your mobile phone is connected to. It helps as a quick diagnostic in case you cannot discover any **Gateways** on your network, allowing you to verify you are searching in the right spot.
+The left **Menu** panel shows information about the current network that your mobile phone is connected to. This is useful for diagnosing discovery issues.
 
 <p align="center">
   <img src="../assets/screenshots/connection-and-discovery/connect_menu.png" alt="Menu Page" width="400" />
@@ -27,14 +27,25 @@ The **Connection Manager** page left pane **Menu** shows information about the c
 
 ---
 
-The Settings panel allows you to change **routing settings**, **routing view options**, **default scan behavior** and **timeout settings**.
+### Settings
+
+The right **Settings** panel allows you to configure:
+- Routing settings
+- Multicast interface options  
+- Discovery scan behavior  
+- Timeout settings  
 
 > [!NOTE]
 > All settings are persistent between app restarts. So any change you make will be applied every time you open the app unless you change it again.
 
+---
+
 #### Routing Settings
 
-The default **Multicast Address** and **Port** defined by KNX is **224.0.23.12** and **3671**. However, if you would like to change the default address and port you can enter your preference in the settings panel option:
+| Parameter | Default | Description |
+|----------|--------|------------|
+| **Multicast Address** | `224.0.23.12` | Standard KNX multicast address |
+| **Port** | `3671` | Default KNX communication port |
 
 <p align="center">
   <img src="../assets/screenshots/connection-and-discovery/connect_settings_multicast_address.png" alt="Routing Settings" width="400" />
@@ -42,7 +53,14 @@ The default **Multicast Address** and **Port** defined by KNX is **224.0.23.12**
   <em>Connection Manager - Routing Settings</em>
 </p>
 
+---
+
 #### Advanced Settings
+
+| Option | Description |
+|--------|------------|
+| **Always Show Multicast Options** | Shows routing options even if no KNX IP Router is detected |
+| **Force Unicast Subnet Scan** | Forces discovery via unicast instead of multicast |
 
 **Always Show Multicast Options**
 	In order to be able to use the **Multicast/Routing** option as a way to communicate with the KNX bus, you would normally need to have a **KNX IP Router** in your installation, otherwise no one would route/send your telegrams to or from the KNX bus. This is the reason Multicast/Routing options **are only visible if a KNX IP device with routing capabilities is discovered**. However you can change this behavior in **Advanced Settings**.
@@ -56,6 +74,18 @@ The default **Multicast Address** and **Port** defined by KNX is **224.0.23.12**
   <br>
   <em>Connection Manager - Advanced Settings</em>
 </p>
+
+Multicast discovery may fail in:
+- Wi-Fi networks  
+- Congested networks  
+- VLAN-separated environments  
+
+SharKNX automatically retries using **Unicast Scan** if needed.
+
+> [!TIP]
+> Enable **Force Unicast Scan** when working on unstable or complex networks.
+
+---
 
 #### Timeout Settings
 
