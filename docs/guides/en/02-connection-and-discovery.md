@@ -19,11 +19,13 @@ These open side panels for additional information and configuration.
 
 The left **Menu** panel shows information about the current network that your mobile phone is connected to. This is useful for diagnosing discovery issues.
 
-<p align="center">
-  <img src="../../../assets/screenshots/connection-and-discovery/connection_manager_menu.png" alt="Menu Page" width="400" />
-  <br>
-  <em>Connection Manager Menu</em>
-</p>
+<div align="center">
+  
+  | Connection Manager Menu |
+  |-------------------------|
+  | <img src="../../../assets/screenshots/connection-and-discovery/connection_manager_menu.png" alt="Menu Page" width="400" /> |
+  
+</div>
 
 ---
 
@@ -46,6 +48,14 @@ The right **Settings** panel allows you to configure:
 |----------|--------|------------|
 | **Multicast Address** | `224.0.23.12` | Standard KNX multicast address |
 | **Port** | `3671` | Default KNX communication port |
+
+<div align="center">
+  
+  | Connection Manager - Routing Settings |
+  |---------------------------------------|
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_multicast_address.png" alt="Routing Settings" width="400" /> |
+  
+</div>
 
 <p align="center">
   <img src="../../../assets/screenshots/connection-and-discovery/connect_settings_multicast_address.png" alt="Routing Settings" width="400" />
