@@ -65,11 +65,11 @@ The right **Settings** panel allows you to configure:
 | **Always Show Multicast Options** | Shows routing options even if no KNX IP Router is detected |
 | **Force Unicast Subnet Scan** | Forces discovery via unicast instead of multicast |
 
-**Always Show Multicast Options**
-	In order to be able to use the **Multicast/Routing** option as a way to communicate with the KNX bus, you would normally need to have a **KNX IP Router** in your installation, otherwise no one would route/send your telegrams to or from the KNX bus. This is the reason Multicast/Routing options **are only visible if a KNX IP device with routing capabilities is discovered**. However you can change this behavior in **Advanced Settings**.
+> [!NOTE]
+> In order to be able to use the **Multicast/Routing** option as a way to communicate with the KNX bus, you would normally need to have a **KNX IP Router** in your installation, otherwise no one would route/send your telegrams to or from the KNX bus. This is the reason Multicast/Routing options **are only visible > if a KNX IP device with routing capabilities is discovered**. However you can change this behavior in **Advanced Settings**.
 
-**Force Unicast Subnet Scan**
-	The procedure of **discovering KNX IP Gateway** devices by **KNX** is **to send Multicast Discovery Requests through the network**. However, multicast packets are unreliable on wireless communication like in Wi-Fi networks, especially if the network is overloaded, and might not reach their destination, resulting in **"No Gateways Discovered"**. This is a common problem in mobile phones or laptops and can even happen in ETS tool. 
+> [!NOTE]
+> The procedure of **discovering KNX IP Gateway** devices by **KNX** is **to send Multicast Discovery Requests through the network**. However, multicast packets are unreliable on wireless communication like in Wi-Fi networks, especially if the network is overloaded, and might not reach their destination, > resulting in **"No Gateways Discovered"**. This is a common problem in mobile phones or laptops and can even happen in ETS tool. 
 
 <div align="center">
   
