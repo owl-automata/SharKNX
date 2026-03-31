@@ -1,10 +1,21 @@
 # Connection & Gateway Discovery
 
-This guide explains how to use the connection page of the app. It explains the varioys options available, how to configure new gateways and how to use load secure credentials page.
+This guide explains how to use the **Connection Manager** page, including:
+- Discovering KNX gateways  
+- Configuring connections  
+- Managing secure credentials  
+
+---
 
 ## Menu & Settings
 
-Almost all pages in **SharKNX** have a **"hamburger"** menu button on the top left and a **"gear"** settings icon on the right. Clicking on them opens the respective left or right drawer panel to view additional information and edit certain settings.
+Almost all pages in **SharKNX** include:
+- **3-line Icon** Menu (top-left)  
+- **Gear Icon** Settings (top-right) 
+
+These open side panels for additional information and configuration.
+
+### Network Information
 
 The **Connection Manager** page left pane **Menu** shows information about the current network that your mobile phone is connected to. It helps as a quick diagnostic in case you cannot discover any **Gateways** on your network, allowing you to verify you are searching in the right spot.
 
@@ -13,6 +24,8 @@ The **Connection Manager** page left pane **Menu** shows information about the c
   <br>
   <em>Connection Manager Menu</em>
 </p>
+
+---
 
 The Settings panel allows you to change **routing settings**, **routing view options**, **default scan behavior** and **timeout settings**.
 
