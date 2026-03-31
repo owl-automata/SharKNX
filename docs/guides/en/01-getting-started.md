@@ -144,15 +144,9 @@ The input on the top row allows you to filter telegrams based on text. The **Mag
   
   | SharKNX Monitor Page - Filter Search |
   |--------------------------------------|
-  | <img src="../../../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="280" /> |
+  | <img src="../../../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="400" /> |
   
 </div>
-
-<p align="center">
-  <img src="../../../assets/screenshots/getting-started-guide/monitor_page_filter_sheet.jpg" alt="Monitor Filter Sheet" width="280" />
-  <br>
-  <em>SharKNX Monitor Page - Filter Search</em>
-</p>
 
 ---
 
