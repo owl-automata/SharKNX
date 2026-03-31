@@ -33,7 +33,6 @@ The left **Menu** panel shows information about the current network that your mo
 
 The right **Settings** panel allows you to configure:
 - Routing settings
-- Multicast interface options  
 - Discovery scan behavior  
 - Timeout settings  
 
@@ -42,7 +41,7 @@ The right **Settings** panel allows you to configure:
 
 ---
 
-#### Routing Settings
+#### 1. Routing Settings
 
 | Parameter | Default | Description |
 |----------|--------|------------|
@@ -59,7 +58,7 @@ The right **Settings** panel allows you to configure:
 
 ---
 
-#### Advanced Settings
+#### 2. Advanced Settings
 
 | Option | Description |
 |--------|------------|
@@ -92,7 +91,7 @@ SharKNX automatically retries using **Unicast Scan** if needed.
 
 ---
 
-#### Timeout Settings
+#### 3. Timeout Settings
 
 These sliders allow you to control the behavior of **SharKNX**, when searching or connecting to a gateway. The default options are usually robust but in case you would like to **make the scan faster** or **make it listen to responses for a longer time**, you can change it here. Likewise, default connection timeout is fine for most cases. However, if your network is unstable, you can **increase the timeout setting** when connecting to gateway to allow **SharKNX** for more time to listen to device responses.
 
