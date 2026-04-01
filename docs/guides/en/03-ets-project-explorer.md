@@ -1,6 +1,9 @@
 # ETS Project Explorer
 
-This guide explains ETS Project Explorer page, available options and how to use the various available controls.
+This guide explains how to use **ETS Project Explorer** page, including:
+- Loading ETS project
+- Navigate different views
+
 
 ## Menu & Settings
 

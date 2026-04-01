@@ -1,15 +1,21 @@
-## Getting Started
+# Getting Started
 
-SharKNX is a mobile application for Android and iOS, that brings ETS diagnostics and KNX control on your phone or tablet. This guide covers the basic functionality to help you get started immediately.
+SharKNX is a mobile application for Android and iOS that brings ETS diagnostics and KNX control to your phone or tablet. This guide walks you through the essential steps to get up and running: discovering and connecting to a KNX IP gateway, optionally loading your ETS project, and monitoring or sending commands on the KNX bus. The app requires network and file access permissions to communicate with KNX IP devices and to import project files.
 
 ---
 
-## Permissions
+## Contents
 
-SharKNX does not collect or share user data. Any stored data remains on your device and is used only for app functionality
-
-> [!important]
-> SharKNX requires network and file access permissions to communicate with KNX IP devices and to import ETS project or `.knxkeys` files.
+- [Discover and Select Gateway](#discover-and-select-gateway)
+- [Secure Credentials](#secure-credentials)
+- [ETS Project Load & Viewing](#ets-project-load--viewing)
+  - [Communication Objects](#communication-objects)
+  - [Interacting with Group Addresses](#interacting-with-group-addresses)
+- [Monitor & Send Commands](#monitor--send-commands)
+  - [Filtering Telegrams](#filtering-telegrams)
+  - [Sending Commands](#sending-commands)
+- [Summary](#summary)
+- [Permissions](#permissions)
 
 ---
 
@@ -46,7 +52,7 @@ Actions:
 
 ---
 
-### Secure Credentials
+## Secure Credentials
 
 If your **Gateway(s)** are configured for **secure KNX IP communication**, you will have to provide the credentials so that the app can establish a secure connection. 
 
@@ -191,3 +197,12 @@ This guide covered the most basic and common functionality of SharKNX app. To di
 3. [Shark Hunts](04-shark-hunt.md)
 3. [Monitor & Send](05-monitor-and-send.md)
 4. [Manage Devices](06-manage-page.md)
+
+---
+
+## Permissions
+
+SharKNX does not collect or share user data. Any stored data remains on your device and is used only for app functionality
+
+> [!important]
+> SharKNX requires network and file access permissions to communicate with KNX IP devices and to import ETS project or `.knxkeys` files.

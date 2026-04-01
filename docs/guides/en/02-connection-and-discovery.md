@@ -1,9 +1,25 @@
 # Connection & Gateway Discovery
 
-This guide explains how to use the **Connection Manager** page, including:
-- Discovering KNX gateways  
-- Configuring connections  
-- Managing secure credentials  
+The **Connection Manager** is the first page you see when opening SharKNX. This is where you discover KNX IP gateways on your network, save them for future use, and manage the secure credentials needed for KNX IP Secure communication. This guide covers all options and settings available on this page in detail.
+
+---
+
+## Contents
+
+- [Menu & Settings](#menu--settings)
+  - [Menu - Network Information](#menu---network-information)
+  - [Settings](#settings)
+    - [1. Routing Settings](#1-routing-settings)
+    - [2. Advanced Settings](#2-advanced-settings)
+    - [3. Timeout Settings](#3-timeout-settings)
+- [Discover Tab](#discover-tab)
+  - [Gateway Details](#gateway-details)
+- [Configured Gateways Tab](#configured-gateways-tab)
+  - [Adding a new Gateway](#adding-a-new-gateway)
+- [Security Tab](#security-tab)
+  - [Keyring File (.knxkeys file)](#keyring-file-knxkeys-file)
+  - [Backbone Key](#backbone-key)
+  - [ETS Project](#ets-project)
 
 ---
 
