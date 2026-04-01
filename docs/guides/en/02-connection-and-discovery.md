@@ -115,7 +115,7 @@ If a discovered device supports routing, additional connection options appear:
   
   | Connection Manager - Discover Tab |
   |-----------------------------------|
-  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_discovery" alt="Discovered Gateways" width="400" /> |
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_discovery.jpg" alt="Discovered Gateways" width="400" /> |
   
 </div>
 
