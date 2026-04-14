@@ -2,6 +2,29 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.9.1+37] - 2026-04-15
+
+### New Features
+- Configure gateway now allows input of server/domain name for connection through dynamic DNS services or server hardware
+- Import telegrams from ETS communication-log XML exports. Imports standard L_Data group and individual address frames with timestamp, source/destination, APCI type, and decoded value. Device management frames and tunneling echoes are skipped. Decrypted IP-Secure frames use ETS's pre-decrypted data; KNX Data Secure group telegrams require an ETS project with keys loaded to decode values.
+- Plot button in telegram detail sheet: time-series chart of a Group Address's received values. Requires ETS project loaded with DPT assigned. Boolean DPTs render as step chart; all other scalar DPTs as line chart.
+
+### Improved
+- Added support for more datapoint types. More than 60+ DPTs supported
+- Device info now shows firmware version, order number, and address/association/group object table load states
+- UI Improvements in Discovery Page
+- Additional information to loaded ETS Projects: Contact Information and Created by Tool
+- Additional information to loaded devices: application and individual address load status, last modified and download timestamp
+- Export telegrams includes metadata for time, hop count, priority and if it is a group address telegram
+
+### Fixed
+- Export telegrams delimiter fix
+
+### Removed
+- Onboarding tutorial
+
+---
+
 ## [1.8.3+36] - 2026-03-30
 
 ### Fixed
