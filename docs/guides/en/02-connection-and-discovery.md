@@ -160,7 +160,7 @@ You can select this option to load your `.knxkeys` file that you have exported f
   
   | Connection Manager - knxkeys file loaded |
   |------------------------------------------|
-  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_security_tab_knxkeys.png" alt="knxkeys loaded" width="400" /> |
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-security-tab-knxkeys.png" alt="knxkeys loaded" width="400" /> |
   
 </div>
 
