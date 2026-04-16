@@ -1,6 +1,14 @@
 # ETS Project Explorer
 
-The **ETS Project Explorer** is the second page of SharKNX (from the left). It allows you to load and inspect KNX projects directly from `.knxproj` files - plain or password-protected. Once a project is loaded, you can browse Group Addresses, Devices, Topology and Buildings through four tree-view tabs, interact with individual addresses, and perform device management actions such as checking device presence, reading device info, and programming individual addresses - all from your phone. When a project with **KNX Data Secure** group addresses is loaded, SharKNX automatically identifies them and their encryption keys, enabling secure telegram monitoring and sending.
+The **ETS Project Explorer** is the second page of SharKNX (from the left). It allows you to load and inspect KNX projects directly from `.knxproj` files - plain or password-protected. Once loaded, you can:
+
+- Browse **Group Addresses**, **Devices**, **Topology**, and **Buildings** through four tree-view tabs
+- Interact with individual group addresses (read, write)
+- Perform device management: check presence, read device info, program individual addresses
+- View the **Communication Objects** connected to group addresses for each device
+- Monitor and send **KNX Data Secure** telegrams - SharKNX automatically identifies secure group addresses and their encryption keys
+
+This guide covers all options and features available on this page in detail.
 
 ---
 
@@ -26,13 +34,18 @@ The **ETS Project Explorer** is the second page of SharKNX (from the left). It a
 
 ## Loading a Project
 
-To load a project, tap the **load** button and select your `.knxproj` file. If the project is password-protected, a dialog will prompt you for the password.
+Tap the **folder icon button** on the bottom right to load a project. This opens a bottom sheet with:
+- A list of **previously loaded projects** — tap any entry to reload it directly
+- A **Load New** option to pick a new `.knxproj` file from your device
+- A **Clear History** option to remove the saved project list
+
+If the selected project is password-protected, a dialog will prompt you for the password.
 
 <div align="center">
 
   | ETS Project Explorer - Load Project |
   |-------------------------------------|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_load_project.jpg" alt="Load Project" width="400" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-project-load.png" alt="Load Project Bottom Sheet" width="400" /> |
 
 </div>
 
@@ -44,6 +57,9 @@ To load a project, tap the **load** button and select your `.knxproj` file. If t
 ## View Tabs
 
 After a project is loaded, four tabs become available to explore your project data.
+
+> [!NOTE]
+> In any tab that shows devices, a device whose individual address has been confirmed as loaded is shown with a **bold green address** and a **green tick** next to it. This status is read from your ETS project data and is not affected by programming an individual address from within SharKNX.
 
 <div align="center">
 
@@ -71,8 +87,6 @@ Displays all group addresses in a collapsible tree. The tree structure follows t
 ### Devices
 
 Lists all devices in the project. Each device is expandable and shows the group addresses connected to it.
-
-Devices whose individual address has been confirmed as loaded (according to the ETS project data) are shown with a **bold green address** and a **green tick** next to them. This status reflects what is recorded in your ETS project and is read-only within SharKNX — programming an individual address via the app does not change it.
 
 > [!TIP]
 > Long-tap a device in the **Devices** tab to open its action panel directly, even when its group addresses are collapsed.
@@ -103,7 +117,7 @@ Tapping a group address opens a bottom sheet with:
 
   | ETS Project Explorer - Group Address Bottom Sheet |
   |----------------------------------------------------|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_ga_bottom_sheet.jpg" alt="Group Address Bottom Sheet" width="400" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-ga-bottom-sheet.png" alt="Group Address Bottom Sheet" width="400" /> |
 
 </div>
 
@@ -120,7 +134,7 @@ Tapping a device (or long-tapping in the **Devices** tab) opens a bottom sheet w
 
   | ETS Project Explorer - Device Bottom Sheet |
   |--------------------------------------------|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_device_bottom_sheet.jpg" alt="Device Bottom Sheet" width="400" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-device-bottom-sheet.png" alt="Device Bottom Sheet" width="400" /> |
 
 </div>
 
@@ -158,7 +172,7 @@ The **Communication Objects** page shows the communication objects of a device t
 
   | ETS Project Explorer - Communication Objects |
   |----------------------------------------------|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_comm_objects.jpg" alt="Communication Objects" width="400" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-comm-objects.png" alt="Communication Objects" width="400" /> |
 
 </div>
 
@@ -189,14 +203,6 @@ When a project is loaded, a **search bar** is available at the top of the page. 
 - Any other text visible in the tree views
 
 The view automatically filters to show only matching items across the active tab.
-
-<div align="center">
-
-  | ETS Project Explorer - Search |
-  |-------------------------------|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_search.jpg" alt="Search" width="400" /> |
-
-</div>
 
 ---
 
