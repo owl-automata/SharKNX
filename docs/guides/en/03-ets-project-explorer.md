@@ -35,7 +35,7 @@ This guide covers all options and features available on this page in detail.
 ## Loading a Project
 
 Tap the **folder icon button** on the bottom right to load a project. This opens a bottom sheet with:
-- A list of **previously loaded projects** — tap any entry to reload it directly
+- A list of **previously loaded projects** - tap any entry to reload it directly
 - A **Load New** option to pick a new `.knxproj` file from your device
 - A **Clear History** option to remove the saved project list
 
@@ -101,7 +101,7 @@ A classic **Area → Line → Device** tree view, reflecting the physical KNX to
 
 ### Buildings
 
-Shows the buildings structure of your project — buildings, floors, rooms — along with any functions defined within them.
+Shows the buildings structure of your project - buildings, floors, rooms - along with any functions defined within them.
 
 ---
 
@@ -158,7 +158,7 @@ Tapping a device (or long-tapping in the **Devices** tab) opens a bottom sheet w
 
   | ETS Project Explorer - Read Device Info |
   |------------------------------------------|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_read_info.jpg" alt="Read Device Info" width="400" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-device-mgmt.png" alt="Read Device Info" width="400" /> |
 
 </div>
 
@@ -228,8 +228,8 @@ A **banner** appears at the top of all tabs when secure group addresses are pres
 </div>
 
 On this page you can either:
-- Set a **global sender** — the app will use this individual address as the sender for all secure group addresses
-- Define a **per-address sender** — assign a specific sender to each group address individually
+- Set a **global sender** - the app will use this individual address as the sender for all secure group addresses
+- Define a **per-address sender** - assign a specific sender to each group address individually
 - Use **Auto-generate** to automatically assign senders based on the project data
 
 **Sender resolution order:**
