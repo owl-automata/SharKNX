@@ -72,6 +72,8 @@ Displays all group addresses in a collapsible tree. The tree structure follows t
 
 Lists all devices in the project. Each device is expandable and shows the group addresses connected to it.
 
+Devices whose individual address has been confirmed as loaded (according to the ETS project data) are shown with a **bold green address** and a **green tick** next to them. This status reflects what is recorded in your ETS project and is read-only within SharKNX — programming an individual address via the app does not change it.
+
 > [!TIP]
 > Long-tap a device in the **Devices** tab to open its action panel directly, even when its group addresses are collapsed.
 
