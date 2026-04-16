@@ -167,6 +167,9 @@ You can select this option to load your `.knxkeys` file that you have exported f
 > [!WARNING]
 > **SharKNX does not verify that the password** you provided for your `.knxkeys` file is correct, since that would be impossible! There is no way to know, before connecting to gateway if this password is correct. That is why the password you provide for `.knxkeys` file is visible in **credential details card**. Ensure you have entered it correctly, otherwise connection will fail.
 
+> [!NOTE]
+> The credential details card also includes a **Secure Device Mgmt** section. This lists the individual addresses of devices found in the `.knxkeys` file that have a device management key, which allows SharKNX to perform KNX Data Secure device management operations on those devices.
+
 > [!TIP]
 > To get a `.knxkeys` file of a device, do the following steps:
 > 1. Open ETS tool
@@ -202,6 +205,9 @@ An ETS project that contains secure enabled devices must also have a password. I
   | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-security-tab-knxproj.png" alt="knxproj loaded" width="400" /> |
   
 </div>
+
+> [!NOTE]
+> The credential details card also includes a **Secure Device Mgmt** section. This lists the individual addresses of devices found in the `.knxproj` file that have a device management key, which allows SharKNX to perform KNX Data Secure device management operations on those devices.
 
 ---
 
