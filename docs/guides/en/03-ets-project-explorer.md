@@ -1,52 +1,306 @@
 # ETS Project Explorer
 
-This guide explains how to use **ETS Project Explorer** page, including:
-- Loading ETS project
-- Navigate different views
-
-
-## Menu & Settings
-
-Almost all pages in **SharKNX** have a **"hamburger"** menu button on the top left and a **"gear"** settings icon on the right. Clicking on them opens the respective left or right drawer panel to view additional information and edit certain settings.
-
-The **ETS Project Explorer** page left pane **Menu** shows information about the current loaded ETS project. You can view the following information of your loaded project:
-- Name of the project
-- When it was initially created
-- When it was last updated
-- The Group Address format used
-- How many areas, lines, devices and group addresses are in total inside the project
-
-You can also unload the current ETS project from this menu.
-
-<p align="center">
-  <img src="../assets/screenshots/ets-project-explorer/ets-project-explorer-menu.png" alt="Menu Page" width="400" />
-  <br>
-  <em>ETS Project Explorer Menu</em>
-</p>
+The **ETS Project Explorer** is the second page of SharKNX (from the left). It allows you to load and inspect KNX projects directly from `.knxproj` files - plain or password-protected. Once a project is loaded, you can browse Group Addresses, Devices, Topology and Buildings through four tree-view tabs, interact with individual addresses, and perform device management actions such as checking device presence, reading device info, and programming individual addresses - all from your phone. When a project with **KNX Data Secure** group addresses is loaded, SharKNX automatically identifies them and their encryption keys, enabling secure telegram monitoring and sending.
 
 ---
 
-Clicking the **gear** icon will open the ETS Project explorer settings menu. The following two options are available:
-| Option | Description |
-|--------|------------|
-| **Load Communication Objects** | Loads communication objects linked to group addresses. Disable for faster performance. |
-| **Items per Page** | Controls how many items are displayed when expanding a selection. |
+## Contents
 
-<p align="center">
-  <img src="../assets/screenshots/ets-project-explorer/ets-project-explorer-settings.png" alt="Menu Page" width="400" />
-  <br>
-  <em>ETS Project Explorer Settings</em>
-</p>
+- [Loading a Project](#loading-a-project)
+- [View Tabs](#view-tabs)
+  - [Group Addresses](#group-addresses)
+  - [Devices](#devices)
+  - [Topology](#topology)
+  - [Buildings](#buildings)
+- [Interacting with Group Addresses](#interacting-with-group-addresses)
+- [Interacting with Devices](#interacting-with-devices)
+  - [Communication Objects](#communication-objects)
+- [Search](#search)
+- [KNX Data Secure](#knx-data-secure)
+  - [Secure Sender Configuration](#secure-sender-configuration)
+- [Menu & Settings](#menu--settings)
+  - [Menu](#menu)
+  - [Settings](#settings)
 
-## Loading an ETS Project
+---
 
-Coming soon...
+## Loading a Project
 
+To load a project, tap the **load** button and select your `.knxproj` file. If the project is password-protected, a dialog will prompt you for the password.
 
-## Viewing Options
+<div align="center">
 
-Coming soon...
+  | ETS Project Explorer - Load Project |
+  |-------------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_load_project.jpg" alt="Load Project" width="400" /> |
 
-## Troubleshooting
+</div>
 
-Coming soon...
+> [!NOTE]
+> Loading a project is optional for monitoring and sending commands. See the [Getting Started](01-getting-started.md) guide for more context.
+
+---
+
+## View Tabs
+
+After a project is loaded, four tabs become available to explore your project data.
+
+<div align="center">
+
+  | Group Addresses | Devices |
+  |---|---|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_ga_view.jpg" width="280" /> | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_devices_view.jpg" width="280" /> |
+  | **Topology** | **Buildings** |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_topology_view.jpg" width="280" /> | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_buildings_view.jpg" width="280" /> |
+
+</div>
+
+---
+
+### Group Addresses
+
+Displays all group addresses in a collapsible tree. The tree structure follows the group address format defined in your project:
+
+| Format | Tree structure |
+|--------|----------------|
+| **3-level** | Main group → Middle group → Sub group |
+| **2-level** | Main group → Sub group |
+
+---
+
+### Devices
+
+Lists all devices in the project. Each device is expandable and shows the group addresses connected to it.
+
+> [!TIP]
+> Long-tap a device in the **Devices** tab to open its action panel directly, even when its group addresses are collapsed.
+
+---
+
+### Topology
+
+A classic **Area → Line → Device** tree view, reflecting the physical KNX topology of your project.
+
+---
+
+### Buildings
+
+Shows the buildings structure of your project — buildings, floors, rooms — along with any functions defined within them.
+
+---
+
+## Interacting with Group Addresses
+
+Group addresses are tappable in all tabs: **Addresses**, **Devices**, **Topology**, **Buildings**, and the **Communication Objects** page.
+
+Tapping a group address opens a bottom sheet with:
+- **Address**, **Name**, and **DPT**
+- Quick **Read** and **Write** action buttons
+
+<div align="center">
+
+  | ETS Project Explorer - Group Address Bottom Sheet |
+  |----------------------------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_ga_bottom_sheet.jpg" alt="Group Address Bottom Sheet" width="400" /> |
+
+</div>
+
+> [!NOTE]
+> To send a Read or Write command, you must have a gateway selected. See [Connection & Gateway Discovery](02-connection-and-discovery.md).
+
+---
+
+## Interacting with Devices
+
+Tapping a device (or long-tapping in the **Devices** tab) opens a bottom sheet with information and action buttons for that device.
+
+<div align="center">
+
+  | ETS Project Explorer - Device Bottom Sheet |
+  |--------------------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_device_bottom_sheet.jpg" alt="Device Bottom Sheet" width="400" /> |
+
+</div>
+
+### Device Info
+
+| Field | Description |
+|-------|-------------|
+| **Individual Address** | Whether the app has the device individual address loaded |
+| **Application Address** | Whether the app has the device application address loaded |
+
+### Device Actions
+
+| Action | Description |
+|--------|-------------|
+| **Check Presence** | Quickly checks if the device is reachable on the KNX bus |
+| **Read Info** | Reads device details: mask version, manufacturer, serial number, programming mode status, load state, run state, and app version |
+| **Program Individual Address** | Waits up to 30 seconds for you to press the device's programming button, then programs the individual address |
+| **Communication Objects** | Opens the Communication Objects page for this device |
+
+<div align="center">
+
+  | ETS Project Explorer - Read Device Info |
+  |------------------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_read_info.jpg" alt="Read Device Info" width="400" /> |
+
+</div>
+
+---
+
+### Communication Objects
+
+The **Communication Objects** page shows the communication objects of a device that are connected to group addresses. Objects with no group address connection are not shown.
+
+<div align="center">
+
+  | ETS Project Explorer - Communication Objects |
+  |----------------------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_comm_objects.jpg" alt="Communication Objects" width="400" /> |
+
+</div>
+
+At the top of the page, an info card shows:
+- **Last Modified** timestamp of the device in the project
+- **Last Downloaded** timestamp (last time the application was downloaded to the device)
+
+Each communication object displays:
+
+| Field | Description |
+|-------|-------------|
+| **Name** | Name as defined in ETS |
+| **Type** | Data type / DPT |
+| **Flags** | Indicates whether the object sends, receives, or both |
+
+Tapping a group address listed under a communication object opens the same [Group Address bottom sheet](#interacting-with-group-addresses) with quick Read/Write actions.
+
+> [!NOTE]
+> Communication Object loading can be toggled in **Settings**. Disabling it speeds up project loading and reduces memory usage. See [Settings](#settings).
+
+---
+
+## Search
+
+When a project is loaded, a **search bar** is available at the top of the page. You can search by:
+- Group address number or name
+- Device name or individual address
+- Any other text visible in the tree views
+
+The view automatically filters to show only matching items across the active tab.
+
+<div align="center">
+
+  | ETS Project Explorer - Search |
+  |-------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_search.jpg" alt="Search" width="400" /> |
+
+</div>
+
+---
+
+## KNX Data Secure
+
+When a project containing **KNX Data Secure** group addresses is loaded, SharKNX automatically identifies those addresses and extracts their encryption keys. This enables the app to monitor and send secure KNX telegrams without any additional manual configuration.
+
+> [!IMPORTANT]
+> KNX Data Secure devices only accept telegrams from **trusted senders**. Before sending secure telegrams, you must configure the **Secure Sender** list. See [Secure Sender Configuration](#secure-sender-configuration) below.
+
+---
+
+### Secure Sender Configuration
+
+A **banner** appears at the top of all tabs when secure group addresses are present in the loaded project. Tapping it opens the **Secure Sender Configuration** page.
+
+<div align="center">
+
+  | ETS Project Explorer - Secure Sender Banner |
+  |----------------------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_secure_banner.jpg" alt="Secure Banner" width="400" /> |
+
+</div>
+
+On this page you can either:
+- Set a **global sender** — the app will use this individual address as the sender for all secure group addresses
+- Define a **per-address sender** — assign a specific sender to each group address individually
+- Use **Auto-generate** to automatically assign senders based on the project data
+
+**Sender resolution order:**
+
+1. Per-address sender (if defined). If an address has multiple senders, the one with the **lowest individual address** is used
+2. Global sender (if no per-address sender is defined)
+3. The **connected gateway's address** (if no sender is configured at all)
+
+<div align="center">
+
+  | ETS Project Explorer - Secure Sender Configuration |
+  |------------------------------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_secure_sender.jpg" alt="Secure Sender Config" width="400" /> |
+
+</div>
+
+---
+
+## Menu & Settings
+
+Almost all pages in **SharKNX** include:
+- **3-line Icon** Menu (top-left)
+- **Gear Icon** Settings (top-right)
+
+These open side panels for additional information and configuration.
+
+---
+
+### Menu
+
+The **Menu** panel shows information about the currently loaded project:
+
+| Info | Description |
+|------|-------------|
+| **Name** | Project name |
+| **Created On** | Project creation date |
+| **Last Updated** | Date of the last modification |
+| **Group Address Format** | 2-level or 3-level |
+| **Created By** | Tool used (e.g. ETS6) |
+| **Contact** | Author contact information |
+
+It also displays basic **project statistics**: number of areas, lines, devices, and group addresses.
+
+At the bottom of the menu, the **Unload Project** button clears the currently loaded project.
+
+<div align="center">
+
+  | ETS Project Explorer - Menu |
+  |------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-menu.png" alt="ETS Project Explorer Menu" width="400" /> |
+
+</div>
+
+---
+
+### Settings
+
+The **Settings** panel allows you to adjust loading behavior and view performance.
+
+<div align="center">
+
+  | ETS Project Explorer - Settings |
+  |----------------------------------|
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-settings.png" alt="ETS Project Explorer Settings" width="400" /> |
+
+</div>
+
+#### Device Details
+
+A toggle that controls whether **Communication Objects** are loaded for each device when the project is imported.
+
+| State | Effect |
+|-------|--------|
+| **Enabled** | Communication objects are loaded per device (default) |
+| **Disabled** | Faster project loading and lower memory usage; Communication Objects page will not be available |
+
+#### Items Per Page
+
+A slider that sets the maximum number of items shown per tree node in any view tab. If a node has more items than the configured limit, a **Load More** button appears at the bottom.
+
+> [!TIP]
+> Lowering the **Items Per Page** value improves UI performance for projects with a large number of group addresses or devices under a single node.
