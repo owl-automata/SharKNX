@@ -87,7 +87,7 @@ your saved gateways.
   
   | Connection Manager - Config. Tab |
   |----------------------------------|
-  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_config_tab.png" alt="Config. Tab" width="400" /> |
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-config-tab.png" alt="Config. Tab" width="400" /> |
   
 </div>
 
@@ -101,7 +101,7 @@ To configure a new gateway, click on the "+" icon on the bottom right. This open
   
   | Connection Manager - Add/Edit Gateway Page |
   |--------------------------------------------|
-  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_edit_add_gateway_form.png" alt="Edit-add page" width="400" /> |
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-edit-add-gateway-form.png" alt="Edit-add page" width="400" /> |
   
 </div>
 
@@ -110,7 +110,7 @@ To configure a new gateway, click on the "+" icon on the bottom right. This open
 | Field | Description |
 |------|------------|
 | **Friendly Name** | Custom label (e.g. *Seaside Villa*) |
-| **IP Address** | The IP address of the gateway to connect to |
+| **IP Address / Hostname** | The IP address or hostname of the gateway (e.g. a DynDNS address). SharKNX will resolve the hostname automatically |
 | **KNX Physical Address** | The physical address of the gateway in the KNX bus |
 | **Port** | The port to use. In most cases `3671` should not be changed |
 | **NAT Mode** | Enable for routed networks |
@@ -199,7 +199,7 @@ An ETS project that contains secure enabled devices must also have a password. I
   
   | Connection Manager - knxproj file loaded |
   |------------------------------------------|
-  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_security_tab_etsproj.png" alt="knxproj loaded" width="400" /> |
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-security-tab-knxproj.png" alt="knxproj loaded" width="400" /> |
   
 </div>
 
