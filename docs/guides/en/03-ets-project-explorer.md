@@ -223,7 +223,7 @@ A **banner** appears at the top of all tabs when secure group addresses are pres
 
   | ETS Project Explorer - Secure Sender Banner |
   |----------------------------------------------|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_secure_banner.jpg" alt="Secure Banner" width="400" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-secure-senders-banner.png" alt="Secure Banner" width="400" /> |
 
 </div>
 
@@ -242,7 +242,7 @@ On this page you can either:
 
   | ETS Project Explorer - Secure Sender Configuration |
   |------------------------------------------------------|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_secure_sender.jpg" alt="Secure Sender Config" width="400" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-secure-senders-page.png" alt="Secure Sender Config" width="400" /> |
 
 </div>
 
