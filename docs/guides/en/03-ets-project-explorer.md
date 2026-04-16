@@ -49,9 +49,9 @@ After a project is loaded, four tabs become available to explore your project da
 
   | Group Addresses | Devices |
   |---|---|
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_ga_view.jpg" width="280" /> | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_devices_view.jpg" width="280" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-ga-view.png" width="280" /> | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-devices-view.png" width="280" /> |
   | **Topology** | **Buildings** |
-  | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_topology_view.jpg" width="280" /> | <img src="../../../assets/screenshots/ets-project-explorer/ets_project_explorer_buildings_view.jpg" width="280" /> |
+  | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-topology-view.png" width="280" /> | <img src="../../../assets/screenshots/ets-project-explorer/ets-project-explorer-buildings-view.png" width="280" /> |
 
 </div>
 
