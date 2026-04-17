@@ -65,6 +65,10 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
   
 </div>
 
+## Community
+
+[![SharKNX Video Review by Poseidwn Tech](https://img.youtube.com/vi/ktrKcycl_Eg/maxresdefault.jpg)](https://www.youtube.com/watch?v=ktrKcycl_Eg)
+
 ## Documentation
 
 ### Getting Started
