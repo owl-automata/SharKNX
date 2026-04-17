@@ -208,7 +208,7 @@ Indicates whether an **ETS project** is currently loaded. The badge is **green**
 Tapping it opens a bottom sheet:
 
 - **If a project is loaded** — shows the project details and an **Unload Project** button
-- **If no project is loaded** — shows a **Load Project** button, which triggers the same project load flow described in the [ETS Project Explorer](../../03-ets-project-explorer.md) guide
+- **If no project is loaded** — shows a **Load Project** button, which triggers the same project load flow described in the [ETS Project Explorer](../03-ets-project-explorer.md) guide
 
 <div align="center">
 
@@ -230,7 +230,7 @@ Indicates whether **KNX Data Secure senders** are configured for this session.
 Tapping it opens a bottom sheet:
 
 - **If no project is loaded** - shows an informational message only
-- **If a project is loaded and senders are configured** - shows the configured sender details and a **Configure Senders** button, which navigates to the same secure sender configuration page described in the [ETS Project Explorer](../../03-ets-project-explorer.md) guide
+- **If a project is loaded and senders are configured** - shows the configured sender details and a **Configure Senders** button, which navigates to the same secure sender configuration page described in the [ETS Project Explorer](../03-ets-project-explorer.md) guide
 
 <div align="center">
 
@@ -258,3 +258,158 @@ Displays the **IP address of the selected gateway**, or *"No Gateway Selected"* 
 </div>
 
 ---
+
+### Connecting to the Bus
+
+The Hunt Page has two FAB buttons on the bottom right for managing the KNX bus connection:
+
+| FAB | Description |
+|-----|-------------|
+| **Connect FAB** (large, green, link icon) | Connects to the selected gateway. While connected, it turns red with a stop icon - tapping it disconnects |
+| **Select Gateway FAB** (small, blue, gateway icon) | Opens the gateway selection dialog directly |
+
+If no gateway is selected when you press the **Connect FAB**, the same gateway selection dialog opens automatically before connecting.
+
+The **gateway selection dialog** lists all available options:
+
+- **Discovered gateways** - gateways found during the last network scan
+- **Hunt's configured gateway** - a gateway saved specifically in this hunt's configuration during creation
+- **General configured gateways** - gateways saved in the [Connection Manager](../02-connection-and-discovery.md)
+
+<div align="center">
+
+  | Gateway Selection Dialog |
+  |--------------------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-gateway-dialog.png" alt="Gateway Selection Dialog" width="400" /> |
+
+</div>
+
+---
+
+## Hunt Monitor Page
+
+Tapping a **monitor action card** on the Hunt Page opens the **Hunt Monitor Page**. This is where you start and stop bus monitoring for that specific filter you created and inspect the received telegrams.
+
+<div align="center">
+
+  | Hunt Monitor Page |
+  |-------------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page.png" alt="Hunt Monitor Page" width="400" /> |
+
+</div>
+
+### Top Bar
+
+The top bar shows:
+- **Back button** (left) - returns to the Hunt Page
+- **Hunt name** (left, next to back button) - the name of the parent hunt
+- **Monitor action name** (below the hunt name) - the name of the specific monitor filter currently active
+- **Export button** (right) - exports the current telegram list as a CSV file. See the [Monitor & Send](../05-monitor-and-send/monitor-and-send.md) guide for full details on the export format.
+
+### FABs
+
+Two FAB buttons are available on the bottom right:
+
+| FAB | Description |
+|-----|-------------|
+| **Start Monitor FAB** (large, green, play icon) | Starts monitoring the KNX bus with the active filter. While running, it turns red with a stop icon - tapping it stops the monitor |
+| **Change Filter FAB** (small, blue, tune icon) | Opens a bottom sheet listing all monitor actions available in this hunt. Tap any action to switch to its filter. The currently active filter is highlighted with a green indicator |
+
+<div align="center">
+
+  | Change Filter Bottom Sheet |
+  |----------------------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-filter-sheet.png" alt="Change Filter Bottom Sheet" width="400" /> |
+
+</div>
+
+### Badges
+
+A row of floating badges sits below the top bar, above the telegram list.
+
+---
+
+#### Send Command Badge
+
+Allows you to send commands directly from the monitor page. See the [Monitor & Send](../05-monitor-and-send/monitor-and-send.md) guide for full details on sending commands.
+
+---
+
+#### Filter Details Badge
+
+Opens a bottom sheet showing the details of the currently active monitor filter - the group addresses, sources, and any other conditions applied.
+
+<div align="center">
+
+  | Filter Details Badge |
+  |----------------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-badge-filter.png" alt="Filter Details Badge" width="400" /> |
+
+</div>
+
+---
+
+#### Clear All Badge
+
+Clears the current telegram list view.
+
+---
+
+#### Data Secure Badge
+
+Same behavior as the [Data Secure Badge](#data-secure-badge) on the Hunt Page.
+
+---
+
+#### View Badge
+
+Opens a bottom sheet with two display options for the telegram list:
+
+- **Sort order** - choose between *Newest first* (new incoming telegrams appear at the top) or *Oldest first* (new incoming telegrams appear at the bottom)
+- **Address format** - toggle the group address display format between **3-level** (e.g. *1/2/3*) and **2-level** (e.g. *1/512*)
+
+<div align="center">
+
+  | View Badge |
+  |------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-badge-view.png" alt="View Badge" width="400" /> |
+
+</div>
+
+---
+
+#### Telegram Statistics Badge
+
+Opens a bottom sheet with a summary of the current telegram list:
+
+| Stat | Description |
+|------|-------------|
+| **Total Telegrams** | Total number of telegrams received |
+| **Duration** | Length of the monitoring session |
+| **Rate** | Telegrams received per second |
+| **Group Addresses** | Percentage breakdown by group address (e.g. *5/5/5 - 20%*) |
+| **Sources** | Percentage breakdown by individual/source address |
+| **Types** | Percentage breakdown by telegram type (e.g. *Group Value Write*, *Group Value Read*) |
+
+> [!NOTE]
+> Statistics are calculated at the moment you open the bottom sheet. They are not updated in real time while the sheet is open.
+
+<div align="center">
+
+  | Telegram Statistics Badge |
+  |---------------------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-badge-stats.png" alt="Telegram Statistics Badge" width="400" /> |
+
+</div>
+
+---
+
+#### Gateway Badge
+
+Displays details of the currently selected gateway. Unlike the [Gateway Badge](#gateway-badge) on the Hunt Page, this badge is **read-only** - it shows information only and does not allow clearing or changing the gateway.
+
+---
+
+### Telegram List
+
+The telegram list view is identical to the one in the **Monitor & Send** page. See the [Monitor & Send](../05-monitor-and-send/monitor-and-send.md) guide for a full description of the list, its columns, and how to interact with individual telegrams.
