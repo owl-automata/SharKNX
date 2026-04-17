@@ -16,8 +16,11 @@ This guide covers all pages and options available in Shark Hunt in detail.
 ## Contents
 
 - [Shark Hunts Page](#shark-hunts-page)
-  - [Hunt Card Actions](#hunt-card-actions)
-  - [Importing a Hunt](#importing-a-hunt)
+  - [Top Bar](#top-bar)
+  - [Filter Bar](#filter-bar)
+  - [Hunt Cards](#hunt-cards)
+  - [Multi-Select](#multi-select)
+  - [Menu Panel](#menu-panel)
 - [Hunt Page](#hunt-page)
   - [Send Actions](#send-actions)
   - [Monitor Actions](#monitor-actions)
@@ -45,7 +48,7 @@ The top bar contains two buttons on the right side:
 
 | Button | Description |
 |--------|-------------|
-| **Import** | Import a `.json` hunt file from your device. You can import a file containing a single hunt or multiple hunts at once |
+| **Import** | Import a `.json` hunt file from your device. You can import a file containing a single hunt or multiple hunts at once. If an imported hunt has the same name as an existing one, it is added as a copy with the same name |
 | **Help (?)** | Opens the help page with additional information about Shark Hunt |
 
 <div align="center">
@@ -86,6 +89,29 @@ Each card shows:
 | **Info** | Opens a bottom sheet with full hunt details: basic info, full list of actions, creation date and last modified date |
 
 Tapping the card itself navigates to the [Hunt Page](#hunt-page) for that hunt.
+
+> [!NOTE]
+> You can have a maximum of **25 hunts** in the app.
+
+---
+
+### Multi-Select
+
+Long-pressing a hunt card enters **multi-select mode**. You can then tap additional cards to add them to the selection. While in multi-select mode, the top bar shows three action buttons:
+
+| Button | Description |
+|--------|-------------|
+| **Copy** | Creates a copy of each selected hunt |
+| **Export** | Exports the selected hunts together into a single `.json` file |
+| **Delete** | Deletes all selected hunts |
+
+<div align="center">
+
+  | Shark Hunt Multi-Select |
+  |-------------------------|
+  | <img src="../../../assets/screenshots/shark-hunts/shark-hunt-main-page-multiple-select.png" alt="Shark Hunt Multi-Select" width="400" /> |
+
+</div>
 
 ---
 
