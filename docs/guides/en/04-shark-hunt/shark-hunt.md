@@ -286,6 +286,18 @@ The **gateway selection dialog** lists all available options:
 
 ---
 
+### Action Cards
+
+The main body of the Hunt Page displays action cards grouped into two collapsible sections - **Send Actions** and **Monitor Actions** - each showing the count of actions it contains.
+
+Action cards show the **name**, **description** (if set), and the **action type** in bold colored text. Cards are **dimmed and not tappable** when not connected to the bus.
+
+**Send action cards:** tapping executes the command immediately. A loading indicator is shown while the command is being sent and can be cancelled. For **variable commands**, tapping first opens a bottom sheet to enter the value to send before dispatching.
+
+**Monitor action cards:** tapping navigates to the [Hunt Monitor Page](#hunt-monitor-page) for that action.
+
+---
+
 ## Hunt Monitor Page
 
 Tapping a **monitor action card** on the Hunt Page opens the **Hunt Monitor Page**. This is where you start and stop bus monitoring for that specific filter you created and inspect the received telegrams.
