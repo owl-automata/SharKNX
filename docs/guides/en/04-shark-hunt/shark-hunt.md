@@ -280,7 +280,7 @@ The **gateway selection dialog** lists all available options:
 
   | Gateway Selection Dialog |
   |--------------------------|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-gateway-dialog.png" alt="Gateway Selection Dialog" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-select-gateway-dialog.png" alt="Gateway Selection Dialog" width="400" /> |
 
 </div>
 
@@ -294,7 +294,7 @@ Tapping a **monitor action card** on the Hunt Page opens the **Hunt Monitor Page
 
   | Hunt Monitor Page |
   |-------------------|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page.png" alt="Hunt Monitor Page" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-main.png" alt="Hunt Monitor Page" width="400" /> |
 
 </div>
 
@@ -319,7 +319,7 @@ Two FAB buttons are available on the bottom right:
 
   | Change Filter Bottom Sheet |
   |----------------------------|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-filter-sheet.png" alt="Change Filter Bottom Sheet" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-filter-select.png" alt="Change Filter Bottom Sheet" width="400" /> |
 
 </div>
 
@@ -343,7 +343,7 @@ Opens a bottom sheet showing the details of the currently active monitor filter 
 
   | Filter Details Badge |
   |----------------------|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-badge-filter.png" alt="Filter Details Badge" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-filter-details.png" alt="Filter Details Badge" width="400" /> |
 
 </div>
 
@@ -372,7 +372,7 @@ Opens a bottom sheet with two display options for the telegram list:
 
   | View Badge |
   |------------|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-badge-view.png" alt="View Badge" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-view-badge.png" alt="View Badge" width="400" /> |
 
 </div>
 
@@ -398,7 +398,7 @@ Opens a bottom sheet with a summary of the current telegram list:
 
   | Telegram Statistics Badge |
   |---------------------------|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-badge-stats.png" alt="Telegram Statistics Badge" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-monitor-page-statistics.png" alt="Telegram Statistics Badge" width="400" /> |
 
 </div>
 
