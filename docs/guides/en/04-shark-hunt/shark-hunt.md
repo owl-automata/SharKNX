@@ -9,7 +9,9 @@ A hunt can contain two types of actions:
 This guide covers all pages and options available in Shark Hunt in detail.
 
 > [!NOTE]
-> Shark Hunts are stored as `.json` files with a defined structure. If you want to create or edit hunts manually outside the app, see the [Shark Hunt Advanced Topics](advanced-topics.md) guide.
+> - To learn how to create a hunt, see the [Creating a Hunt](create-hunt.md) guide.
+> - For a full reference of all action types, see the [Actions Reference](actions.md) guide.
+> - To create or edit hunts manually as `.json` files, see the [Advanced Topics](advanced-topics.md) guide.
 
 ---
 
@@ -295,6 +297,9 @@ Action cards show the **name**, **description** (if set), and the **action type*
 **Send action cards:** tapping executes the command immediately. A loading indicator is shown while the command is being sent and can be cancelled. For **variable commands**, tapping first opens a bottom sheet to enter the value to send before dispatching.
 
 **Monitor action cards:** tapping navigates to the [Hunt Monitor Page](#hunt-monitor-page) for that action.
+
+> [!NOTE]
+> For a full description of each action type and its configuration, see the [Actions Reference](actions.md) guide.
 
 ---
 

@@ -69,7 +69,7 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=ktrKcycl_Eg">
-    <img src="https://img.youtube.com/vi/ktrKcycl_Eg/mqdefault.jpg" alt="SharKNX Review by Poseidwn Tech" width="320" />
+    <img src="https://img.youtube.com/vi/ktrKcycl_Eg/mqdefault.jpg" alt="SharKNX Review by Poseidwn Tech" width="400" />
     <br/>
     <strong>▶ Watch on YouTube — SharKNX Review by Poseidwn Tech</strong>
   </a>
@@ -85,6 +85,8 @@ SharKNX is a mobile app for KNX installers and System Integrators. Carry your ET
 - **[ETS Project Explorer](docs/guides/en/03-ets-project-explorer.md)**
 - **[Bus Monitor & Send Telegrams](docs/guides/en/05-monitor-and-send/monitor-and-send.md)**
 - **[Shark Hunt Pages](docs/guides/en/04-shark-hunt/shark-hunt.md)**
+  - [Creating a Hunt](docs/guides/en/04-shark-hunt/create-hunt.md)
+  - [Actions Reference](docs/guides/en/04-shark-hunt/actions.md)
 - **[Manage](docs/guides/en/06-manage-page.md)**
 
 ### Misc
