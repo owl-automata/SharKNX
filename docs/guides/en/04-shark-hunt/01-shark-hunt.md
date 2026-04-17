@@ -9,7 +9,7 @@ A hunt can contain two types of actions:
 This guide covers all pages and options available in Shark Hunt in detail.
 
 > [!NOTE]
-> Shark Hunts are stored as `.json` files with a defined structure. If you want to create or edit hunts manually outside the app, see the [Shark Hunt Advanced Topics](07-shark-hunt-advanced-topics.md) guide.
+> Shark Hunts are stored as `.json` files with a defined structure. If you want to create or edit hunts manually outside the app, see the [Shark Hunt Advanced Topics](03-advanced-topics.md) guide.
 
 ---
 
@@ -38,7 +38,7 @@ The **Shark Hunts Page** is the main entry point for Shark Hunt. It lists all yo
 
   | Shark Hunts Page |
   |------------------|
-  | <img src="../../../assets/screenshots/shark-hunts/shark-hunt-main-page.png" alt="Shark Hunts Main Page" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-main-page.png" alt="Shark Hunts Main Page" width="400" /> |
 
 </div>
 
@@ -55,7 +55,7 @@ The top bar contains two buttons on the right side:
 
   | Shark Hunt Help Page |
   |----------------------|
-  | <img src="../../../assets/screenshots/shark-hunts/shark-hunt-main-page-help.png" alt="Shark Hunt Help Page" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-main-page-help.png" alt="Shark Hunt Help Page" width="400" /> |
 
 </div>
 
@@ -109,7 +109,7 @@ Long-pressing a hunt card enters **multi-select mode**. You can then tap additio
 
   | Shark Hunt Multi-Select |
   |-------------------------|
-  | <img src="../../../assets/screenshots/shark-hunts/shark-hunt-main-page-multiple-select.png" alt="Shark Hunt Multi-Select" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-main-page-multiple-select.png" alt="Shark Hunt Multi-Select" width="400" /> |
 
 </div>
 
@@ -123,7 +123,7 @@ The **hamburger icon** (top-left) opens a side panel with a summary of all your 
 
   | Shark Hunt Menu Panel |
   |-----------------------|
-  | <img src="../../../assets/screenshots/shark-hunts/shark-hunt-main-page-menu.png" alt="Shark Hunt Menu Panel" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-main-page-menu.png" alt="Shark Hunt Menu Panel" width="400" /> |
 
 </div>
 
