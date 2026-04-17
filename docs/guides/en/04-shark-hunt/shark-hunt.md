@@ -9,7 +9,7 @@ A hunt can contain two types of actions:
 This guide covers all pages and options available in Shark Hunt in detail.
 
 > [!NOTE]
-> Shark Hunts are stored as `.json` files with a defined structure. If you want to create or edit hunts manually outside the app, see the [Shark Hunt Advanced Topics](03-advanced-topics.md) guide.
+> Shark Hunts are stored as `.json` files with a defined structure. If you want to create or edit hunts manually outside the app, see the [Shark Hunt Advanced Topics](advanced-topics.md) guide.
 
 ---
 

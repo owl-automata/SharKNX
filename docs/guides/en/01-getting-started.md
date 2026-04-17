@@ -194,8 +194,8 @@ That's it! Your command is sent to KNX bus!
 This guide covered the most basic and common functionality of SharKNX app. To discover more or or find more details, please look at the dedicated guides:
 1. [Connection & Discovery](02-connection-and-discovery.md)
 2. [ETS Project Explorer](03-ets-project-explorer.md)
-3. [Shark Hunts](04-shark-hunt/01-shark-hunt.md)
-4. [Monitor & Send](05-monitor-and-send/01-monitor-and-send.md)
+3. [Shark Hunts](04-shark-hunt/shark-hunt.md)
+4. [Monitor & Send](05-monitor-and-send/monitor-and-send.md)
 5. [Manage Devices](06-manage-page.md)
 
 ---
