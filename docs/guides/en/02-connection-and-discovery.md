@@ -32,7 +32,13 @@ This guide covers all options and settings available on this page in detail.
 
 The **Discover Tab** of Connection Manager page allows you to scan for KNX IP Gateways in your network. Initiate a scan by pressing the **Scan Network button** on the bottom right.
 
-Discovered devices appear as expandable cards.
+Discovered devices appear as cards. Each card has two action buttons:
+- **Select** marks this gateway as the active one to use for KNX communication
+- **Save** saves the gateway to your **Configured Gateways** list for future use without scanning again
+
+Tapping on a gateway card opens a **bottom sheet** with additional device details and actions:
+- A **Connect** button to immediately initiate a connection to the gateway
+- A **Load Credentials** button, which appears if the gateway supports **KNX IP Secure**
 
 If a discovered device supports routing, additional connection options appear:
 - Multicast Routing  
@@ -40,15 +46,11 @@ If a discovered device supports routing, additional connection options appear:
 
 <div align="center">
   
-  | Connection Manager - Discover Tab |
-  |-----------------------------------|
-  | <img src="../../../assets/screenshots/connection-and-discovery/connect_page_discovery.jpg" alt="Discovered Gateways" width="400" /> |
+  | Connection Manager - Discover Tab | |
+  |:-----------------------------------:|:---:|
+  | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-discovery.png" alt="Discovered Gateways" width="400" /> | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-discovery-bottom-sheet.png" alt="Discovery Bottom Sheet" width="400" /> |
   
 </div>
-
-You can select a gateway by clicking the **green link icon**. This gateway will later be used to connect to KNX bus.
-
-You can save a discovered gateway by clicking on the **blue bookmark icon** (so you can use it another time without scanning again). The saved gateways will appear on the **Configured Gateways Tab**.
 
 > [!important]
 > Selecting a gateway **will not automatically connect to it**, until you actually need to connect for some operation. This helps preserve mobile battery.
@@ -57,16 +59,15 @@ You can save a discovered gateway by clicking on the **blue bookmark icon** (so 
 
 ### Gateway Details
 
+The gateway card bottom sheet displays the following information:
+
 | Property | Description |
 |----------|------------|
-| Communication Port | KNX communication port |
-| KNX Address | Device physical address |
+| KNX Address | Device physical address on the KNX bus |
+| Serial Number | Device serial number |
 | MAC Address | Hardware identifier |
-| Serial Number | Device serial |
 | Medium | KNX medium type |
-| Modes | Tunnel / Routing |
-| Security | KNX Secure support |
-| Slots | Available secure connections |
+| Device Management | Whether the device supports KNX device management |
 
 ---
 
