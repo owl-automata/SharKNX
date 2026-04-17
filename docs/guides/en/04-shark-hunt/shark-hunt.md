@@ -186,7 +186,7 @@ Displays the **name of the current hunt**. Tapping it opens a bottom sheet with 
 
   | Hunt Info Badge |
   |-----------------|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-info.png" alt="Hunt Info Badge" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-badge-hunt-info.png" alt="Hunt Info Badge" width="400" /> |
 
 </div>
 
@@ -194,7 +194,7 @@ Displays the **name of the current hunt**. Tapping it opens a bottom sheet with 
 
 #### Connection Badge
 
-Displays the current **connection status** — either connected or disconnected. Tapping it triggers a connect or disconnect to the selected gateway.
+Displays the current **connection status** - either connected or disconnected. Tapping it triggers a connect or disconnect to the selected gateway.
 
 > [!NOTE]
 > See [Connecting to the Bus](#connecting-to-the-bus) for details on how gateway selection works.
@@ -212,9 +212,9 @@ Tapping it opens a bottom sheet:
 
 <div align="center">
 
-  | ETS Project Badge — Loaded | ETS Project Badge — No Project |
+  | ETS Project Badge - Loaded | ETS Project Badge - No Project |
   |:--------------------------:|:------------------------------:|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-ets-loaded.png" alt="ETS Badge Loaded" width="400" /> | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-ets-empty.png" alt="ETS Badge No Project" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-badge-project-loaded.png" alt="ETS Badge Loaded" width="400" /> | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-badge-project-not-loaded.png" alt="ETS Badge No Project" width="400" /> |
 
 </div>
 
@@ -224,19 +224,19 @@ Tapping it opens a bottom sheet:
 
 Indicates whether **KNX Data Secure senders** are configured for this session.
 
-- **Gray** — no Data Secure senders configured
-- **Green** — Data Secure senders are configured
+- **Gray** - no Data Secure senders configured
+- **Green** - Data Secure senders are configured
 
 Tapping it opens a bottom sheet:
 
-- **If no project is loaded** — shows an informational message only
-- **If a project is loaded and senders are configured** — shows the configured sender details and a **Configure Senders** button, which navigates to the same secure sender configuration page described in the [ETS Project Explorer](../../03-ets-project-explorer.md) guide
+- **If no project is loaded** - shows an informational message only
+- **If a project is loaded and senders are configured** - shows the configured sender details and a **Configure Senders** button, which navigates to the same secure sender configuration page described in the [ETS Project Explorer](../../03-ets-project-explorer.md) guide
 
 <div align="center">
 
-  | Data Secure Badge — Configured | Data Secure Badge — Not Configured |
-  |:------------------------------:|:-----------------------------------:|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-secure-configured.png" alt="Data Secure Badge Configured" width="400" /> | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-secure-empty.png" alt="Data Secure Badge Not Configured" width="400" /> |
+  | Data Secure Badge - Configured |
+  |--------------------------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-badge-secure-senders.png" alt="Data Secure Badge Configured" width="400" /> |
 
 </div>
 
@@ -246,14 +246,14 @@ Tapping it opens a bottom sheet:
 
 Displays the **IP address of the selected gateway**, or *"No Gateway Selected"* if none has been chosen yet.
 
-- **If a gateway is selected** — tapping opens a bottom sheet with the gateway details and a **Clear Gateway** button to deselect it
-- **If no gateway is selected** — the badge is not tappable
+- **If a gateway is selected** - tapping opens a bottom sheet with the gateway details and a **Clear Gateway** button to deselect it
+- **If no gateway is selected** - the badge is not tappable
 
 <div align="center">
 
   | Gateway Badge |
   |---------------|
-  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-gateway.png" alt="Gateway Badge" width="400" /> |
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-badge-gateway-info.png" alt="Gateway Badge" width="400" /> |
 
 </div>
 
