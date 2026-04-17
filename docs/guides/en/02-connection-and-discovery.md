@@ -46,8 +46,8 @@ If a discovered device supports routing, additional connection options appear:
 
 <div align="center">
   
-  | Connection Manager - Discover Tab | |
-  |:-----------------------------------:|:---:|
+  | Connection Manager - Discover Tab | Connection Manager - Gateway Details |
+  |:-----------------------------------:|:----------------------------------:|
   | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-discovery.png" alt="Discovered Gateways" width="400" /> | <img src="../../../assets/screenshots/connection-and-discovery/connect-page-discovery-bottom-sheet.png" alt="Discovery Bottom Sheet" width="400" /> |
   
 </div>
