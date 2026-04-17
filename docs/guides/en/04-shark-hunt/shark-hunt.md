@@ -22,10 +22,15 @@ This guide covers all pages and options available in Shark Hunt in detail.
   - [Multi-Select](#multi-select)
   - [Menu Panel](#menu-panel)
 - [Hunt Page](#hunt-page)
-  - [Send Actions](#send-actions)
-  - [Monitor Actions](#monitor-actions)
+  - [Top Bar](#top-bar-1)
+  - [Badges](#badges)
+    - [Hunt Info Badge](#hunt-info-badge)
+    - [Connection Badge](#connection-badge)
+    - [ETS Project Badge](#ets-project-badge)
+    - [Data Secure Badge](#data-secure-badge)
+    - [Gateway Badge](#gateway-badge)
   - [Connecting to the Bus](#connecting-to-the-bus)
-  - [Page Badges](#page-badges)
+  - [Action Cards](#action-cards)
 - [Hunt Monitor Page](#hunt-monitor-page)
 
 ---
@@ -146,5 +151,110 @@ Below the summary, two action buttons are available:
 
 > [!WARNING]
 > The **Delete All** button at the bottom of the panel permanently removes all hunts from the app. This action cannot be undone.
+
+---
+
+## Hunt Page
+
+Tapping a hunt card on the [Shark Hunts Page](#shark-hunts-page) opens the **Hunt Page** for that hunt. This is where you execute actions - send commands to the KNX bus or launch a bus monitor - with a single tap.
+
+<div align="center">
+
+  | Hunt Page |
+  |-----------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-action-page-overview.png" alt="Hunt Page" width="400" /> |
+
+</div>
+
+### Top Bar
+
+The top bar contains a **back button** on the left to return to the Shark Hunts Page, and a **filter input** on the right to search through the actions in the current hunt by name.
+
+---
+
+### Badges
+
+Below the top bar, a row of floating badges provides quick access to context and controls for the current hunt session.
+
+---
+
+#### Hunt Info Badge
+
+Displays the **name of the current hunt**. Tapping it opens a bottom sheet with the hunt's full details — the same information shown in the **Info** option on the Shark Hunts Page.
+
+<div align="center">
+
+  | Hunt Info Badge |
+  |-----------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-info.png" alt="Hunt Info Badge" width="400" /> |
+
+</div>
+
+---
+
+#### Connection Badge
+
+Displays the current **connection status** — either connected or disconnected. Tapping it triggers a connect or disconnect to the selected gateway.
+
+> [!NOTE]
+> See [Connecting to the Bus](#connecting-to-the-bus) for details on how gateway selection works.
+
+---
+
+#### ETS Project Badge
+
+Indicates whether an **ETS project** is currently loaded. The badge is **green** when a project is loaded and **red** when none is loaded.
+
+Tapping it opens a bottom sheet:
+
+- **If a project is loaded** — shows the project details and an **Unload Project** button
+- **If no project is loaded** — shows a **Load Project** button, which triggers the same project load flow described in the [ETS Project Explorer](../../03-ets-project-explorer.md) guide
+
+<div align="center">
+
+  | ETS Project Badge — Loaded | ETS Project Badge — No Project |
+  |:--------------------------:|:------------------------------:|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-ets-loaded.png" alt="ETS Badge Loaded" width="400" /> | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-ets-empty.png" alt="ETS Badge No Project" width="400" /> |
+
+</div>
+
+---
+
+#### Data Secure Badge
+
+Indicates whether **KNX Data Secure senders** are configured for this session.
+
+- **Gray** — no Data Secure senders configured
+- **Green** — Data Secure senders are configured
+
+Tapping it opens a bottom sheet:
+
+- **If no project is loaded** — shows an informational message only
+- **If a project is loaded and senders are configured** — shows the configured sender details and a **Configure Senders** button, which navigates to the same secure sender configuration page described in the [ETS Project Explorer](../../03-ets-project-explorer.md) guide
+
+<div align="center">
+
+  | Data Secure Badge — Configured | Data Secure Badge — Not Configured |
+  |:------------------------------:|:-----------------------------------:|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-secure-configured.png" alt="Data Secure Badge Configured" width="400" /> | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-secure-empty.png" alt="Data Secure Badge Not Configured" width="400" /> |
+
+</div>
+
+---
+
+#### Gateway Badge
+
+Displays the **IP address of the selected gateway**, or *"No Gateway Selected"* if none has been chosen yet.
+
+- **If a gateway is selected** — tapping opens a bottom sheet with the gateway details and a **Clear Gateway** button to deselect it
+- **If no gateway is selected** — the badge is not tappable
+
+<div align="center">
+
+  | Gateway Badge |
+  |---------------|
+  | <img src="../../../../assets/screenshots/shark-hunts/shark-hunt-badge-gateway.png" alt="Gateway Badge" width="400" /> |
+
+</div>
 
 ---
