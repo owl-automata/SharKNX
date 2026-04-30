@@ -2,6 +2,13 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.10.2+39] - 2026-05-01
+
+### Fixed
+- Monitor scrolling behavior fix. Jump to top button added.
+
+---
+
 ## [1.10.1+38] - 2026-04-30
 
 ### New Features
