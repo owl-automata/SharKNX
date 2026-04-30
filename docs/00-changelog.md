@@ -2,6 +2,27 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.10.1+38] - 2026-04-30
+
+### New Features
+- Restore last selected gateway on start-up
+- Restore last credentials loaded on start-up
+- Reconstruct communication objects from device memory: Read comm. objects and their connected group addresses, send commands to test functionality and generate reports to share with your team
+
+### Improved
+- Added seperate plot view in monitored telgrams, with source bar charts
+- Additional device management info(where supported): Device type, Friendly name, Device Status and Error flags
+- Line scan page has color coding for quick checks
+- Batch read info in line scan behavior
+- Configured Gateway: Increased maximum entries to 50.
+
+### Fixed
+- Removed "Name", in fron of building names in project pages
+- Fixed Management page, device tab input not showing dot symbol for iOS
+- Monitor scrolling behavior
+
+---
+
 ## [1.9.1+37] - 2026-04-15
 
 ### New Features
