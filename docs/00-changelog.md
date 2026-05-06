@@ -2,6 +2,23 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.10.3+40] - 2026-05-06
+
+### New Features
+- Added language support for German, French, Italian and Spanish
+- Added collapse all open items to project page
+
+### Improved
+- Added time in milliseconds
+- Store/Restore of "Device Info" for devices in inspect tab
+- New icon UI in Group Addresses
+
+### Fixed
+- Device reconstruct tab, input for raw hex value keyboard not showing char inputs.
+- Read telegrams showing 0 value. Correctly show no value at all now.
+
+---
+
 ## [1.10.2+39] - 2026-05-01
 
 ### Fixed
