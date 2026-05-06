@@ -14,6 +14,16 @@
 
 SharKNX is a mobile app for KNX installers and System Integrators. Carry your ETS projects in your pocket, discover and connect to KNX IP gateways/routers and monitor your KNX installation. 
 
+## Supported Languages
+
+SharKNX is available in:
+
+- 🇬🇧 English
+- 🇩🇪 German
+- 🇫🇷 French
+- 🇪🇸 Spanish
+- 🇮🇹 Italian
+
 ##  Platforms
 
 **SharKNX is available for:** 
