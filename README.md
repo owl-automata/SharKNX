@@ -4,7 +4,7 @@
   # SharKNX
   
   [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen)](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen)
-  ![Version](https://img.shields.io/badge/version-1.10.2+39-blue)
+  ![Version](https://img.shields.io/badge/version-1.10.3+40-blue)
   
   Bring professional KNX monitoring and diagnostics to your phone or tablet. SharKNX gives installers and integrators ETS-like capabilities on mobile - monitor bus traffic, manage devices, send telegrams, and view project data anywhere on-site.
   
@@ -104,8 +104,8 @@ Please see guided on how to report a bug/issue or request additional functionali
 
 Our next steps include:
 
-1. **Localization** - Support for Greek, German, and Spanish languages
-2. **More Shark Hunt Actions** - Expand diagnostic capabilities with additional hunting actions
+1. **More Shark Hunt Actions** - Expand diagnostic capabilities with additional hunting actions
+2. Auto create automation tasks based on project and reconstruction
 
 ## License & Intellectual Property
 
