@@ -2,6 +2,18 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.10.4+41] - 2026-05-20
+
+### Improved
+- Project page scrolling and view bahavior
+- Added collapse/expand toggle button to project view
+- Unified settings page
+- Minor UI improvements
+
+### Fixed
+- Translations missing in Inspect Tab/page
+
+---
 ## [1.10.3+40] - 2026-05-06
 
 ### New Features
