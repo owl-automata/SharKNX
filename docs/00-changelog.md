@@ -2,7 +2,22 @@
 
 All notable changes to SharKNX are documented in this file.
 
-## [1.10.4+41] - 2026-05-20
+## [1.11.1+42] - 2026-05-12
+
+### New Features
+- Main Control menu panel by clicking the SharKNX icon on top left
+- Connection/Monitor status always available on the SharKNX icon
+
+### Changed
+- Shark Hunts Page icon: Bottom bar, cards and info chips
+- Page actions moved to "Tune" button on the app top bar
+- Unified left panel menu with quick access items
+
+### Fixed
+- Connect button on discovery page not working as it should for Multicast/Routing options
+- Programming mode scan connection error cleanup
+
+## [1.10.4+41] - 2026-05-08
 
 ### Improved
 - Project page scrolling and view bahavior
