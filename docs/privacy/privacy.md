@@ -1,111 +1,56 @@
-# Privacy Policy for SharKNX  
+# Privacy Policy for SharKNX
 **OWL Automata**  
-**Last updated:** 2025-12-08  
+**Last updated:** May 8, 2026
 
 ---
 
 ## 1. Introduction
+SharKNX is a mobile application developed by **OWL Automata**. The application is a tool for monitoring and managing KNX installations.
 
-SharKNX is a mobile application developed by **OWL Automata** (founded in 2023).  
-The application is a **tool for monitoring and managing KNX installations**.  
-
-SharKNX does **not collect, store, sell, or share personal data** from users.  
-The app operates entirely on the user’s device and interacts only with KNX devices on the local network.  
+Previously, SharKNX operated with zero data collection. In this version, we have introduced **RevenueCat** to manage user entitlements (such as "Grandparent" status for existing users who purchased the app previously) and to support future subscriptions. Outside of this specific technical necessity, the app remains focused on local-network privacy.
 
 ---
 
-## 2. Mobile Application Notice
+## 2. Technical Data Collection (Subscriptions & Entitlements)
+To manage your access to premium features or "Grandparent" status, SharKNX uses **RevenueCat**. This requires the limited collection of the following data:
 
-SharKNX is a **mobile application** for Android devices.  
+*   **User Identifiers:** An anonymous, unique ID is generated to identify your account. This is not linked to your name, email, or identity.
+*   **Purchase History:** We verify transaction tokens from the Google Play Store or Apple App Store to confirm your purchase history and unlock features.
+*   **Device Identifiers:** Non-personal hardware identifiers are used to ensure your status works across your devices and to monitor app stability.
 
-- All data generated or processed by the app stays **locally on the device**.  
-- SharKNX **does not transmit user data** to external servers.  
-- The app may use standard network protocols (e.g., UDP, TCP) to communicate with KNX devices on the local network, but no personal information is sent or received.  
-
----
-
-## 3. Data We Access
-
-SharKNX does **not access personal user data**, such as:  
-- Contacts  
-- Calendar events  
-- Emails  
-- Location  
-
-The app only interacts with KNX devices to monitor and control installations.  
+**Note:** We do **not** collect your name, email address, or phone number. All payment processing is handled securely by the App Stores; OWL Automata never sees or stores your credit card information.
 
 ---
 
-## 4. How We Use the Data
-
-SharKNX uses device and network information **solely for the purpose of KNX monitoring and management**, including:  
-
-- Discovering KNX devices on the local network  
-- Reading device status and telemetry  
-- Sending control commands to KNX devices  
-
-SharKNX **does not**:  
-
-- Track user activity  
-- Collect analytics or usage statistics  
-- Share any information with third parties  
+## 3. Data Usage & Necessity
+We collect the data mentioned in Section 2 **solely because it is a technical requirement** for:
+*   Granting "Grandparent" status to users who purchased the app prior to the subscription model.
+*   Managing and validating in-app subscriptions.
+*   Basic app functionality and stability analytics.
 
 ---
 
-## 5. Data Storage
-
-SharKNX does **not store any personal data** externally.  
-
-- Temporary configuration files and logs may be stored **locally on the device** to support app functionality.  
-- These files are **never transmitted** off the device.  
-
----
-
-## 6. Network Access
-
-SharKNX communicates with KNX installations using local network protocols.  
-
-- All communication happens **within the local network**.  
-- No information is sent to external servers outside the user’s network.  
+## 4. Local Operation (KNX Installation)
+Aside from the subscription management mentioned above, SharKNX remains a local-first tool:
+*   **Local Traffic:** Communication with KNX devices happens entirely within your local network (via standard protocols like UDP/TCP).
+*   **No Cloud Storage:** Your KNX configuration and installation data stay **locally on your device**.
+*   **No Activity Tracking:** We do not track your specific interactions with KNX devices or monitor your daily usage habits.
 
 ---
 
-## 7. Data Sharing
-
-SharKNX **does not share** any information with:  
-
-- Third-party services  
-- Advertising networks  
-- Analytics providers  
-- External servers  
-
-All processing and communication happen **locally on the user’s device**.  
+## 5. Data Sharing
+SharKNX **does not share** your information with third parties for marketing or advertising. Data is only shared with:
+*   **RevenueCat:** Our service provider for subscription management and entitlement verification. You can review their privacy practices at [RevenueCat’s Privacy Policy](https://www.revenuecat.com/privacy).
 
 ---
 
-## 8. Security
-
-SharKNX uses:  
-
-- Standard network security protocols when communicating with KNX devices  
-- OS-protected local storage for temporary configuration files  
-- Best practices for mobile application security  
-
-No user data is ever exposed externally.  
+## 6. Data Deletion
+Users can request the deletion of the anonymous transaction data associated with their unique anonymous ID. To submit a request, please visit:
+**[https://www.owl-automata.com/contact](https://www.owl-automata.com/contact)**
 
 ---
 
-## 9. Changes to This Policy
-
-OWL Automata may update this privacy policy as needed.  
-The most recent version will always be available at the public privacy URL.  
-
----
-
-## 10. Contact
-
-For questions or privacy inquiries, contact:  
-
-**OWL Automata**  
-Email: **info@owl-automata.com**  
-Website: **https://owl-automata.com**
+## 7. Contact
+For questions regarding this policy or your data:
+**Email:** info@owl-automata.com  
+**Website:** [https://owl-automata.com](https://owl-automata.com)
