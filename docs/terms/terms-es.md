@@ -1,46 +1,44 @@
-# Términos de Servicio
+# Términos de Servicio y Acuerdo de Licencia de Usuario Final (EULA)
 
 **Última actualización:** Mayo de 2026
 
-## 1. Descripción general
-SharKNX es una aplicación móvil profesional para el monitoreo, diagnóstico y control de instalaciones KNX. Permite a los usuarios cargar e interactuar con archivos de proyecto ETS (`.knxproj`) y comunicarse con dispositivos KNX.
+## 1. Alcance de la licencia
+SharKNX es otorgado bajo licencia, no vendido, por **OWL Automata** ("Licenciante"). El Licenciante le otorga una licencia no transferable y no exclusiva para usar la aplicación en dispositivos que posea o controle. Todos los derechos no otorgados expresamente están reservados por OWL Automata.
 
-## 2. Uso previsto
-Esta aplicación está destinada a profesionales y usuarios familiarizados con sistemas KNX. Al utilizar SharKNX, usted acepta que comprende cómo funcionan los sistemas KNX y el impacto potencial de interactuar con ellos.
+## 2. Uso previsto y descargo de responsabilidad de seguridad KNX
+SharKNX es una herramienta profesional para el monitoreo y gestión de instalaciones KNX.
+* **Uso profesional:** Esta aplicación está destinada a profesionales familiarizados con sistemas KNX. Al usar SharKNX, usted reconoce que comprende el impacto de enviar direcciones de grupo y comandos a un bus en vivo.
+* **Sistemas críticos:** SharKNX **no** está destinado para su uso en sistemas críticos de seguridad (p. ej., soporte vital o cierres de emergencia).
 
 ## 3. Responsabilidad del usuario
-Al utilizar esta aplicación, usted reconoce que:
-* Usted es el único responsable de todos los comandos y telegramas enviados a los dispositivos KNX.
-* Usted comprende los efectos de sus acciones en la instalación.
-* El uso inadecuado puede afectar a los sistemas del edificio, como la iluminación, la climatización (HVAC) y la automatización.
+Usted reconoce que:
+* Es el único responsable de todos los comandos y telegramas enviados a los dispositivos KNX.
+* Comprende los efectos de sus acciones en los sistemas técnicos del edificio (Iluminación, Climatización/HVAC, Automatización).
+* OWL Automata no se hace responsable de ninguna mala configuración de la instalación resultante del uso de esta herramienta.
 
-## 4. Sin garantía y limitación de responsabilidad
-La aplicación se proporciona **"tal cual"**, sin garantías de ningún tipo.
+## 4. Acciones prohibidas
+Usted no puede:
+* Copiar, descompilar, realizar ingeniería inversa, desensamblar o intentar derivar el código fuente de la aplicación.
+* Modificar o crear trabajos derivados de la aplicación.
+* Redistribuir, vender o sublicenciar la aplicación.
 
-En la medida en que la ley lo permita, el desarrollador no será responsable de:
-* Cualquier daño a dispositivos, instalaciones o propiedad.
-* Desconfiguración o funcionamiento incorrecto de la instalación.
-* Interrupciones del servicio o mal funcionamiento del sistema.
-* Pérdida o corrupción de datos.
+## 5. Sin garantía y limitación de responsabilidad
+LA APLICACIÓN SE PROPORCIONA **"TAL CUAL"** SIN GARANTÍAS DE NINGÚN TIPO.
+En la medida máxima permitida por la ley, OWL Automata no será responsable de:
+* **Daños físicos** al hardware KNX, dispositivos o propiedad del edificio.
+* Pérdida de beneficios, pérdida de datos o interrupción del negocio.
+* Funcionamiento incorrecto del sistema causado por la interacción del usuario.
+ en ningún caso la responsabilidad total excederá el importe pagado por la aplicación o cincuenta dólares ($50.00).
 
-## 5. Datos y privacidad
-SharKNX no recopila, almacena ni procesa datos personales en servidores externos.
-Todos los archivos de proyecto (`.knxproj`) y los datos relacionados se procesan localmente en el dispositivo del usuario.
+## 6. Datos y servicios de terceros
+* **Datos locales:** Los archivos de proyecto (`.knxproj`) se procesan localmente. OWL Automata no almacena sus datos de instalación en sus servidores.
+* **Servicios:** La app utiliza **RevenueCat** para suscripciones y puede conectarse a **Google Drive**. El uso de estos servicios está sujeto a sus propios términos.
 
-## 6. Servicios de terceros
-La aplicación puede permitir a los usuarios conectarse a servicios de terceros como Google Drive.
-Al utilizar dichas funciones:
-* Usted autoriza el acceso únicamente a los archivos que seleccione explícitamente.
-* La aplicación no almacena ni comparte sus archivos externamente.
-* El uso de servicios de terceros está sujeto a sus propios términos y políticas.
+## 7. Terminación
+Esta licencia es efectiva hasta que usted o el Licenciante la den por terminada. Sus derechos terminarán automáticamente si incumple cualquiera de sus términos.
 
-## 7. Descargo de responsabilidad de seguridad
-SharKNX no está destinado a su uso en sistemas críticos para la seguridad.
-Los usuarios son responsables de garantizar que su uso no interfiera con la infraestructura crítica o los mecanismos de seguridad.
-
-## 8. Cambios en estos términos
-Estos Términos de Servicio pueden actualizarse en cualquier momento. El uso continuado de la aplicación constituye la aceptación de cualquier cambio.
+## 8. Ley aplicable
+Este Acuerdo se regirá por las leyes de la jurisdicción donde OWL Automata esté registrada.
 
 ## 9. Contacto
-Para preguntas o soporte, póngase en contacto con:
-**[info@owl-automata.com](mailto:info@owl-automata.com)**
+**Correo electrónico:** info@owl-automata.com
