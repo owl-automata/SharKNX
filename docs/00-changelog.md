@@ -2,6 +2,15 @@
 
 All notable changes to SharKNX are documented in this file.
 
+## [1.11.2+43] - 2026-05-14
+
+### Improved
+- Better message description on restore purchases explanation
+- Better message description for legacy user pop up dialog
+- Added on tap value tooltip to charts and horizontal pan
+
+---
+
 ## [1.11.1+42] - 2026-05-12
 
 ### New Features
