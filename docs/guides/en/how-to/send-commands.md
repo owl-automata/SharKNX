@@ -62,6 +62,21 @@ The detail sheet also has a **Read** button that sends a read request immediatel
 2. Expand a device and tap any group address listed under it.
 3. The same bottom sheet appears — tap **Write** or **Read**.
 
+### From the Communication Objects Page
+
+1. Go to the **Project** page → **Devices** tab.
+2. Tap a device (or long-press a device that has group addresses) to open its detail sheet.
+3. Tap **Communication Objects** to open the comm objects page for that device.
+4. Tap any group address shown under a communication object — the same Read/Write bottom sheet appears, pre-filled with the address and DPT.
+
+### From the Inspect Tab — Associations
+
+When you have reconstructed a device's communication tables in the **Management → Inspect** tab, the Associations tab lists all group addresses found in device memory.
+
+1. Tap any group address in the Associations tab.
+2. Because the DPT is not available from device memory alone, a **raw value input** is shown instead of a DPT-aware UI. Enter a hex or decimal value and send.
+3. A **Read** button is also available to send a read request to that address.
+
 ---
 
 ## Sending a Read Command
