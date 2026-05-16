@@ -1,0 +1,10 @@
+# SharKNX Export v1
+ID,Time,Source,Destination,Name,Type,Value,Raw,_timestampMs,_isGroupAddress,_priority,_hopCount,_numericValue
+1,16:03:14.21,1.1.250,0/1/0,PV Battery Percent,GroupValueWrite,0%,00,1778590994210,true,Low,6,0.0
+2,16:03:11.74,1.1.250,0/1/0,PV Battery Percent,GroupValueWrite,0%,00,1778590991749,true,Low,6,0.0
+3,16:03:07.49,1.1.250,0/1/0,PV Battery Percent,GroupValueWrite,74%,BF,1778590987493,true,Low,6,74.0
+4,16:03:04.57,1.1.250,0/1/0,PV Battery Percent,GroupValueWrite,74%,BF,1778590984573,true,Low,6,74.0
+5,16:02:59.93,1.1.250,0/1/0,PV Battery Percent,GroupValueWrite,50%,80,1778590979931,true,Low,6,50.0
+6,16:02:55.45,1.1.250,0/1/0,PV Battery Percent,GroupValueWrite,50%,80,1778590975456,true,Low,6,50.0
+7,16:02:51.48,1.1.250,0/1/0,PV Battery Percent,GroupValueWrite,25%,40,1778590971484,true,Low,6,25.0
+8,16:02:46.74,1.1.250,0/1/0,PV Battery Percent,GroupValueWrite,25%,40,1778590966748,true,Low,6,25.0
