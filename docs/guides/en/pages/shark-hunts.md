@@ -41,7 +41,9 @@ Long-pressing any card enters multi-select mode, allowing you to copy, export, o
 
 Hunt cards are persistent and survive app restarts.
 
-<img src="../../../../assets/screenshots/guides/pages/shark-hunts/shark-hunts-main.png" width="320" alt="Shark Hunts main page showing hunt cards with colour-coded top borders and filter row" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/shark-hunts/shark-hunts-main.png" width="320" alt="Shark Hunts main page showing hunt cards with colour-coded top borders and filter row" />
+</div>
 
 ---
 
@@ -75,7 +77,9 @@ Send action cards are grouped in the upper section of the hunt page. Tapping a c
 - **Multiple / Sequence action** — sends all commands in sequence, with any configured delays between them
 - **Variable action** — opens a bottom sheet with a DPT-appropriate input UI (e.g. colour sliders for RGB, a percentage slider for DPT 5.001). Confirm with the send button.
 
-<img src="../../../../assets/screenshots/guides/pages/shark-hunts/shark-hunts-hunt-page.png" width="320" alt="Hunt detail page showing send action cards in the upper section and monitor action cards below" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/shark-hunts/shark-hunts-hunt-page.png" width="320" alt="Hunt detail page showing send action cards in the upper section and monitor action cards below" />
+</div>
 
 ---
 
