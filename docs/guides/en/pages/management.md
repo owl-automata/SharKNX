@@ -84,7 +84,9 @@ Discovered devices appear as cards. The card border colour indicates the device 
 
 A **Read Device Info** button appears above the card list after a scan completes. Tapping it reads device info (manufacturer, serial number, and other details) for all discovered devices in sequence — useful for quickly building a picture of an installation you did not commission yourself.
 
-<img src="../../../../assets/screenshots/guides/pages/management/management-line-scan.png" width="320" alt="Line scan tab showing discovered device cards with colour-coded borders and the Read Device Info button" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/management/management-line-scan.png" width="320" alt="Line scan tab showing discovered device cards with colour-coded borders and the Read Device Info button" />
+</div>
 
 ### Device Card Detail Sheet
 
@@ -97,7 +99,9 @@ Tap any discovered device card to open its detail sheet. It contains:
   - **Via serial number** — if you already read the device info and have its serial number, programs the address without requiring physical access to the programming button.
 - **Rebuild Communication** — navigates to the Inspect tab with this device's address prefilled.
 
-<img src="../../../../assets/screenshots/guides/pages/management/management-device-card.png" width="320" alt="Line scan device card detail sheet showing diagnostic action buttons and Program Address option" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/management/management-device-card.png" width="320" alt="Line scan device card detail sheet showing diagnostic action buttons and Program Address option" />
+</div>
 
 ---
 
@@ -118,7 +122,9 @@ A **Read Full Info** button on each card triggers a separate device info read if
 
 Session cards are **persistent** — they survive app restarts. Use the **Clear** button above the card list to remove all sessions when you are done.
 
-<img src="../../../../assets/screenshots/guides/pages/management/management-inspect.png" width="320" alt="Inspect tab showing multiple session cards for different devices" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/management/management-inspect.png" width="320" alt="Inspect tab showing multiple session cards for different devices" />
+</div>
 
 ### Session Details Page
 
@@ -141,7 +147,9 @@ Each group address is tappable. Because the datapoint type is not known from mem
 
 **Export CSV** and **Export TXT** buttons export the associations list for this device only.
 
-<img src="../../../../assets/screenshots/guides/pages/management/management-inspect-associations.png" width="320" alt="Associations tab showing communication objects with flags, size, and linked group addresses" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/management/management-inspect-associations.png" width="320" alt="Associations tab showing communication objects with flags, size, and linked group addresses" />
+</div>
 
 #### Device Info
 
