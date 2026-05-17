@@ -4,7 +4,9 @@ The Settings page is accessible from any screen by tapping the **gear icon** (�
 
 The page groups all configurable options into sections. A **search icon** (🔍) in the top bar lets you jump directly to a section by name.
 
-<img src="../../../../assets/screenshots/guides/settings/settings-overview.png" width="320" alt="Settings page — full section list" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/settings/settings-overview.png" width="320" alt="Settings page — full section list" />
+</div>
 
 ---
 
