@@ -22,9 +22,10 @@ The **Discovery** page opens automatically when the app starts. It is the leftmo
 2. Tap **Select** on the gateway card you want to use.  
    The gateway moves to the **Last Selected Gateway** section at the top of the page and is remembered across restarts — no need to scan again on the next session.
 
-  | |
+<div align="center">
   |-|
   |<img src="../../../assets/screenshots/guides/getting-started/getting-started-discovery.png" width="320" alt="Discovery tab showing a discovered gateway card with Select and Save buttons" /> |
+</div>
 
 > **No gateways found?** Verify your device is on the same network segment as the gateway. On Wi-Fi with a wired VLAN, multicast packets may be dropped by the router. Use the **Config** tab to add the gateway manually by IP address and port, or enable **Force unicast subnet scan** in Discover Settings.
 
