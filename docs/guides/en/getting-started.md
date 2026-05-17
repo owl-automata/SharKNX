@@ -23,8 +23,7 @@ The **Discovery** page opens automatically when the app starts. It is the leftmo
    The gateway moves to the **Last Selected Gateway** section at the top of the page and is remembered across restarts — no need to scan again on the next session.
 
 <div align="center">
-  ||
-  |<img src="../../../assets/screenshots/guides/getting-started/getting-started-discovery.png" width="320" alt="Discovery tab showing a discovered gateway card with Select and Save buttons" /> |
+  <img src="../../../assets/screenshots/guides/getting-started/getting-started-discovery.png" width="320" alt="Discovery tab showing a discovered gateway card with Select and Save buttons" />
 </div>
 
 > **No gateways found?** Verify your device is on the same network segment as the gateway. On Wi-Fi with a wired VLAN, multicast packets may be dropped by the router. Use the **Config** tab to add the gateway manually by IP address and port, or enable **Force unicast subnet scan** in Discover Settings.
@@ -44,7 +43,9 @@ An ETS project gives SharKNX the group address names, datapoint types, and devic
    If you have loaded projects before, a history sheet appears first — select a recent entry or tap **Browse** to pick a new file.
 3. Wait for the project to finish loading. The four tabs (Group Addresses, Devices, Topology, Buildings) populate with your project data.
 
-<img src="../../../assets/screenshots/guides/getting-started/getting-started-load-project.png" width="320" alt="Project page with the group address tree expanded after loading an ETS project" />
+<div align="center">
+  <img src="../../../assets/screenshots/guides/getting-started/getting-started-load-project.png" width="320" alt="Project page with the group address tree expanded after loading an ETS project" />
+</div>
 
 > **Getting the file onto your device:** Export your ETS project from your PC (`File → Export project` or right-click the project in ETS). Then transfer the `.knxproj` to your mobile using any method that suits you — send it to yourself via a messaging app (e.g. save to your own chat in Viber, WhatsApp, or Telegram), attach it to an email, upload it to a cloud drive (Google Drive, iCloud, OneDrive) and open it on your phone, or copy it over USB.
 
@@ -66,7 +67,9 @@ An ETS project gives SharKNX the group address names, datapoint types, and devic
    - Raw hex payload
    - Timestamp in `HH:MM:SS.ms` format
 
-<img src="../../../assets/screenshots/guides/getting-started/getting-started-monitor-active.png" width="320" alt="Monitor page with live telegrams in the list view" />
+<div align="center">
+  <img src="../../../assets/screenshots/guides/getting-started/getting-started-monitor-active.png" width="320" alt="Monitor page with live telegrams in the list view" />
+</div>
 
 > Tap any telegram row to open its details, including source, destination, decoded value, and buttons to send an immediate **Read** or **Write** command to that address.
 
@@ -87,7 +90,9 @@ With the monitor running, you can send test commands without leaving the monitor
    - For write, enter the value to send.
 4. Tap **Send**. The command is transmitted to the bus and appears in the telegram list immediately.
 
-<img src="../../../assets/screenshots/guides/getting-started/getting-started-send-command.png" width="320" alt="Command composer page showing group address input, DPT selector, and value field" />
+<div align="center">
+  <img src="../../../assets/screenshots/guides/getting-started/getting-started-send-command.png" width="320" alt="Command composer page showing group address input, DPT selector, and value field" />
+</div>
 
 > **Quick resend:** After sending a command, a chip with its address and value appears near the send FAB. Tap the chip to resend immediately, or long-press it to reopen the composer with the fields pre-filled.
 
