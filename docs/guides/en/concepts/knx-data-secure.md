@@ -38,7 +38,9 @@ SharKNX extracts all data secure group keys automatically when you load a `.knxp
 
 The **Data Secure badge** in the Monitor page badge row reflects the current state: grayed out if no data secure group addresses are present in the loaded project, amber if data secure addresses are loaded but senders have not been configured, and green when senders are configured and sending is ready.
 
-<img src="../../../../assets/screenshots/guides/concepts/knx-data-secure/knx-data-secure-project-banner.png" width="320" alt="Project page with the data secure banner prompting sender configuration after loading a project with data secure group addresses" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/concepts/knx-data-secure/knx-data-secure-project-banner.png" width="320" alt="Project page with the data secure banner prompting sender configuration after loading a project with data secure group addresses" />
+</div>
 
 ---
 
@@ -54,7 +56,9 @@ In the senders page you can:
 - Set **per-address overrides** — map individual group addresses to specific sender individual addresses.
 - **Auto-generate from project data** — SharKNX reads the ETS project and automatically creates the group address ↔ individual address mappings based on which devices are connected to each secure group address. This is the fastest way to set up senders when you have a complete project.
 
-<img src="../../../../assets/screenshots/guides/concepts/knx-data-secure/knx-data-secure-senders.png" width="320" alt="Data Secure Senders configuration page showing global sender and per-address mapping list" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/concepts/knx-data-secure/knx-data-secure-senders.png" width="320" alt="Data Secure Senders configuration page showing global sender and per-address mapping list" />
+</div>
 
 ---
 
