@@ -18,7 +18,9 @@ On mobile the exported file is offered via the OS share sheet. On desktop (Windo
 
 Exported from the Monitor page and from any Shark Hunt Monitor page using the export/save button or the tune menu.
 
-<img src="../../../../assets/screenshots/guides/reference/export-format/export-format-telegram-sheet.png" width="320" alt="Telegram export bottom sheet" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/reference/export-format/export-format-telegram-sheet.png" width="320" alt="Telegram export bottom sheet" />
+</div>
 
 ### Filename
 
@@ -85,7 +87,9 @@ A SharKNX CSV file can be re-imported into the Monitor via the tune menu → **I
 
 Exported from the Scan page after a line scan completes, via the utilities menu → **Export as Text**.
 
-<img src="../../../../assets/screenshots/guides/reference/export-format/export-format-scan-utilities.png" width="320" alt="Scan page utilities menu showing export options" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/reference/export-format/export-format-scan-utilities.png" width="320" alt="Scan page utilities menu showing export options" />
+</div>
 
 ### Filename
 
@@ -153,7 +157,9 @@ Example: `line_scan_1.1_2026-05-16.pdf`.
 
 The PDF contains the same information as the [Line Scan Text](#line-scan-text) report, formatted as an A4 document with the SharKNX logo, section bands, and alternating row shading. Page numbers and the generation timestamp appear in the footer.
 
-<img src="../../../../assets/screenshots/guides/reference/export-format/export-format-line-scan-pdf.png" width="600" alt="Line scan PDF report preview" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/reference/export-format/export-format-line-scan-pdf.png" width="600" alt="Line scan PDF report preview" />
+</div>
 
 **Sample file:** [sample-line-scan.pdf](../../../../assets/examples/exports/sample-line-scan.pdf)
 
@@ -185,7 +191,9 @@ Example: `device_tables_1.1.5_2026-05-16.pdf`.
 
 Each section starts on a new page so multi-section reports paginate cleanly.
 
-<img src="../../../../assets/screenshots/guides/reference/export-format/export-format-device-tables-pdf.png" width="600" alt="Device tables PDF report preview" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/reference/export-format/export-format-device-tables-pdf.png" width="600" alt="Device tables PDF report preview" />
+</div>
 
 **Sample file:** [sample-device-tables.pdf](../../../../assets/examples/exports/sample-device-tables.pdf)
 
