@@ -56,11 +56,15 @@ Credentials can be loaded in three places:
 
 **Security tab (Discovery page):** The dedicated tab for managing all secure credentials. Tap the shield FAB to open the credential import sheet. After loading, the tab shows an overview of what was imported: how many interfaces were found and how many KNX Data Secure devices were present in the file. A history button lets you quickly reload recently used files.
 
-<img src="../../../../assets/screenshots/guides/concepts/knx-ip-secure/knx-ip-secure-security-tab.png" width="320" alt="Security tab showing a loaded credential file with interface and device counts" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/concepts/knx-ip-secure/knx-ip-secure-security-tab.png" width="320" alt="Security tab showing a loaded credential file with interface and device counts" />
+</div>
 
 **Gateway card (Discovery tab):** If a discovered gateway advertises KNX IP Secure support, its detail sheet includes a **Load Credentials** button. Credentials loaded here are stored the same way as through the Security tab.
 
-<img src="../../../../assets/screenshots/guides/concepts/knx-ip-secure/knx-ip-secure-gateway-card.png" width="320" alt="Gateway detail bottom sheet with Load Credentials button for a KNX IP Secure gateway" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/concepts/knx-ip-secure/knx-ip-secure-gateway-card.png" width="320" alt="Gateway detail bottom sheet with Load Credentials button for a KNX IP Secure gateway" />
+</div>
 
 **Discovery page tune menu:** The tune icon in the top bar of the Discovery page provides quick access to load credentials from a `.knxkeys` or `.knxproj` file without navigating to the Security tab.
 
