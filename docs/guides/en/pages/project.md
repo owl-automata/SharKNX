@@ -26,7 +26,9 @@ Next to the search bar is an **Expand All / Collapse All** button that expands o
 
 If the loaded project contains KNX Data Secure group addresses, a banner appears below the tab bar prompting you to configure Data Secure senders. Tapping the banner navigates to the Data Secure Senders configuration page, where you set which individual address SharKNX should use as the sender for each secure group address. This is required for sending Data Secure commands; monitoring works without this step. See [KNX Data Secure](../concepts/knx-data-secure.md) for details.
 
-<img src="../../../../assets/screenshots/guides/pages/project/project-data-secure-banner.png" width="320" alt="Project page with the data secure banner below the tab bar after loading a project with secure group addresses" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/project/project-data-secure-banner.png" width="320" alt="Project page with the data secure banner below the tab bar after loading a project with secure group addresses" />
+</div>
 
 ---
 
@@ -40,7 +42,9 @@ Tap any main or middle group to expand or collapse it. Tap any **group address**
 - **Read** button — sends a read request to the bus and displays the response inline in the sheet within 1 second if a response arrives
 - **Write** button — opens the command composer with the group address and DPT prefilled; enter a value and send
 
-<img src="../../../../assets/screenshots/guides/pages/project/project-group-addresses.png" width="320" alt="Group Addresses tab showing the main group tree expanded to individual group addresses" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/project/project-group-addresses.png" width="320" alt="Group Addresses tab showing the main group tree expanded to individual group addresses" />
+</div>
 
 > A gateway must be selected to send read or write commands. If none is selected, the app prompts you to choose one.
 
@@ -80,7 +84,9 @@ A compact card showing whether the device's individual address and application p
 
 Opens the dedicated **Communication Objects page** for this device (see below).
 
-<img src="../../../../assets/screenshots/guides/pages/project/project-device-detail.png" width="320" alt="Device detail bottom sheet showing the info card, four quick action buttons, and the Communication Objects button" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/project/project-device-detail.png" width="320" alt="Device detail bottom sheet showing the info card, four quick action buttons, and the Communication Objects button" />
+</div>
 
 ---
 
@@ -97,7 +103,9 @@ Each communication object entry shows:
 - Object size (e.g. 1 bit, 1 byte, 2 bytes)
 - Connected group addresses — each is tappable to open the quick action sheet for read/write commands
 
-<img src="../../../../assets/screenshots/guides/pages/project/project-comm-objects.png" width="320" alt="Communication Objects page showing a list of comm objects with flags, size, and linked group addresses" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/project/project-comm-objects.png" width="320" alt="Communication Objects page showing a list of comm objects with flags, size, and linked group addresses" />
+</div>
 
 > The **Load communication objects** setting in Project Settings controls whether this data is parsed at load time. It is enabled by default. Disabling it reduces memory usage for large projects but removes access to this page.
 
