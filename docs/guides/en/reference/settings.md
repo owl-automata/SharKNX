@@ -14,12 +14,14 @@ The page groups all configurable options into sections. A **search icon** (🔍)
 
 Controls how the app searches for and connects to KNX IP gateways on the network.
 
-<table>
-  <tr>
-    <td><img src="../../../../assets/screenshots/guides/settings/settings-discover-a.png" width="320" alt="Discover Settings (1 of 2)" /></td>
-    <td><img src="../../../../assets/screenshots/guides/settings/settings-discover-b.png" width="320" alt="Discover Settings (2 of 2)" /></td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../../../../assets/screenshots/guides/settings/settings-discover-a.png" width="320" alt="Discover Settings (1 of 2)" /></td>
+      <td><img src="../../../../assets/screenshots/guides/settings/settings-discover-b.png" width="320" alt="Discover Settings (2 of 2)" /></td>
+    </tr>
+  </table>
+</div>
 
 ### Multicast
 
