@@ -64,11 +64,12 @@ Hunt cards are colour-coded so you can see at a glance what a hunt does:
 Hunts are saved on-device and persist across app restarts. The creation and last-modified timestamps for each hunt are stored and visible in the hunt info sheet.
 
 <div align="center">
-  <img src="../../../../assets/screenshots/guides/concepts/shark-hunts/shark-hunts-main-page.png" width="320" alt="Shark Hunts main page showing hunt cards with colour-coded borders" />
-</div>
-
-<div align="center">
-  <img src="../../../../assets/screenshots/guides/concepts/shark-hunts/shark-hunts-hunt-page.png" width="320" alt="An open Shark Hunt page showing send action cards and monitor action cards" />
+  <table>
+    <tr>
+      <td><img src="../../../../assets/screenshots/guides/concepts/shark-hunts/shark-hunts-main-page.png" width="320" alt="Shark Hunts main page showing hunt cards with colour-coded borders" /></td>
+      <td><img src="../../../../assets/screenshots/guides/concepts/shark-hunts/shark-hunts-hunt-page.png" width="320" alt="An open Shark Hunt page showing send action cards and monitor action cards" /></td>
+    </tr>
+  </table>
 </div>
 
 ---
