@@ -50,8 +50,6 @@ The **Monthly** and **Yearly** plans each include a **14-day free trial**. Billi
 
 Subscription management is handled through the platform store. In-app options are available in **Settings → Subscription**.
 
-<img src="../../../../assets/screenshots/guides/reference/subscription-plans/subscription-plans-settings.png" width="320" alt="Subscription section in Settings" />
-
 | Action | How |
 |--------|-----|
 | **Purchase** | Use the plan picker in the app (paywall or Settings → Subscription) |
