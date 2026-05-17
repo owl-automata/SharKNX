@@ -23,7 +23,7 @@ The **Discovery** page opens automatically when the app starts. It is the leftmo
    The gateway moves to the **Last Selected Gateway** section at the top of the page and is remembered across restarts — no need to scan again on the next session.
 
 <div align="center">
-  |-|
+  ||
   |<img src="../../../assets/screenshots/guides/getting-started/getting-started-discovery.png" width="320" alt="Discovery tab showing a discovered gateway card with Select and Save buttons" /> |
 </div>
 
