@@ -2,8 +2,6 @@
 
 SharKNX is a paid app. All features are included in every paid plan — there are no feature tiers.
 
-<img src="../../../../assets/screenshots/guides/reference/subscription-plans/subscription-plans-paywall.png" width="320" alt="SharKNX plan picker" />
-
 ---
 
 ## Plans
