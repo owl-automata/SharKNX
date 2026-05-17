@@ -29,9 +29,14 @@ Tapping a card (not a button) opens the **gateway detail sheet**:
 - **Connect** button — connects immediately; useful for testing reachability, though not required for normal operation
 - **Load Credentials** button *(KNX IP Secure gateways only)* — loads `.knxkeys` or `.knxproj` credentials for this gateway. See [KNX IP Secure](../concepts/knx-ip-secure.md).
 
-<img src="../../../../assets/screenshots/guides/pages/discovery/discovery-scan.png" width="320" alt="Discover tab showing discovered gateway cards with Select and Save buttons" />
-
-<img src="../../../../assets/screenshots/guides/pages/discovery/discovery-gateway-detail.png" width="320" alt="Gateway detail bottom sheet showing address, serial number, MAC, and Connect button" />
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="../../../../assets/screenshots/guides/pages/discovery/discovery-scan.png" width="320" alt="Discover tab showing discovered gateway cards with Select and Save buttons" /></td>
+      <td><img src="../../../../assets/screenshots/guides/pages/discovery/discovery-gateway-detail.png" width="320" alt="Gateway detail bottom sheet showing address, serial number, MAC, and Connect button" /></td>
+    </tr>
+  </table>
+</div>
 
 ### Last Selected Gateway
 
@@ -66,7 +71,9 @@ Tap the **"+" FAB** to open the manual gateway configuration page. Fill in:
 
 Tap **Save** to create the entry. The gateway appears as a card in the Config tab.
 
-<img src="../../../../assets/screenshots/guides/pages/discovery/discovery-config-manual.png" width="320" alt="Manual gateway configuration page with fields for name, IP, port, and secure options" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/discovery/discovery-config-manual.png" width="320" alt="Manual gateway configuration page with fields for name, IP, port, and secure options" />
+</div>
 
 ### Config Gateway Cards
 
@@ -94,7 +101,9 @@ After loading, the tab displays a summary:
 
 A **History** button at the top lets you quickly reload recently used credential files without browsing the file system again.
 
-<img src="../../../../assets/screenshots/guides/pages/discovery/discovery-security-tab.png" width="320" alt="Security tab showing a loaded credential file summary with interface and device counts" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/discovery/discovery-security-tab.png" width="320" alt="Security tab showing a loaded credential file summary with interface and device counts" />
+</div>
 
 > **Tool keys:** A `.knxkeys` file may also contain tool keys for KNX Data Secure devices. If present, SharKNX stores them automatically to enable encrypted device management operations (toggle programming mode, read device info, etc.). See [KNX Data Secure](../concepts/knx-data-secure.md).
 
