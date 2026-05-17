@@ -1,0 +1,125 @@
+════════════════════════════════════════════
+  KNX LINE SCAN REPORT
+════════════════════════════════════════════
+Generated     : 2026-05-17  13:06:32
+ETS Project   : SharKNX
+Gateway       : Tunnel  192.168.2.4:3671  (1.1.0)
+Line          : 1.1
+Medium        : TP
+Range         : 0 - 15
+Devices Found : 3
+Duration      : 4s
+
+────────────────────────────────────────────
+  DEVICE LIST
+────────────────────────────────────────────
+  [1]   1.1.0     KNX Coupler              (0x091A)
+  [2]   1.1.1     KNX System B             (0x07B0)
+  [3]   1.1.12    KNX System B             (0x07B0)
+
+════════════════════════════════════════════
+  DETAILED RESULTS
+════════════════════════════════════════════
+
+[1] 1.1.0  ·  KNX Coupler
+  ────────────────────────────────────────────
+  ── Identity
+  ────────────────────────────────────────────
+  Descriptor      : 0x091A
+  Device Role     : -
+  Device Name     : -
+  DataSecure      : -
+  ────────────────────────────────────────────
+  ── Hardware
+  ────────────────────────────────────────────
+  Serial No.      : 0002C270FF51
+  Manufacturer    : ABB
+  Order Info      : -
+  Firmware        : -
+  Hardware Type   : -
+  Max APDU        : -
+  ────────────────────────────────────────────
+  ── Application
+  ────────────────────────────────────────────
+  Load State      : -
+  Run State       : -
+  App Version     : -
+  Addr Table      : -
+  Assoc Table     : -
+  Group Obj.      : -
+  ────────────────────────────────────────────
+  ── Status
+  ────────────────────────────────────────────
+  Prog. Mode      : -
+  Error Flags     : -
+  Device Control  : -
+
+[2] 1.1.1  ·  KNX System B
+  ────────────────────────────────────────────
+  ── Identity
+  ────────────────────────────────────────────
+  Descriptor      : 0x07B0
+  Device Role     : -
+  Device Name     : -
+  DataSecure      : -
+  ────────────────────────────────────────────
+  ── Hardware
+  ────────────────────────────────────────────
+  Serial No.      : 00C501073C05
+  Manufacturer    : Weinzierl Engineering GmbH
+  Order Info      : -
+  Firmware        : -
+  Hardware Type   : -
+  Max APDU        : -
+  ────────────────────────────────────────────
+  ── Application
+  ────────────────────────────────────────────
+  Load State      : Loaded
+  Run State       : Running
+  App Version     : -
+  Addr Table      : -
+  Assoc Table     : -
+  Group Obj.      : -
+  ────────────────────────────────────────────
+  ── Status
+  ────────────────────────────────────────────
+  Prog. Mode      : -
+  Error Flags     : -
+  Device Control  : -
+
+[3] 1.1.12  ·  KNX System B
+  ────────────────────────────────────────────
+  ── Identity
+  ────────────────────────────────────────────
+  Descriptor      : 0x07B0
+  Device Role     : -
+  Device Name     : -
+  DataSecure      : -
+  ────────────────────────────────────────────
+  ── Hardware
+  ────────────────────────────────────────────
+  Serial No.      : 000A18A12C15
+  Manufacturer    : Siemens
+  Order Info      : -
+  Firmware        : -
+  Hardware Type   : -
+  Max APDU        : -
+  ────────────────────────────────────────────
+  ── Application
+  ────────────────────────────────────────────
+  Load State      : Loaded
+  Run State       : Running
+  App Version     : -
+  Addr Table      : -
+  Assoc Table     : -
+  Group Obj.      : -
+  ────────────────────────────────────────────
+  ── Status
+  ────────────────────────────────────────────
+  Prog. Mode      : -
+  Error Flags     : -
+  Device Control  : -
+
+════════════════════════════════════════════
+  End of Report - 3 device(s)
+════════════════════════════════════════════
