@@ -17,7 +17,9 @@ Without a project, SharKNX still works — you can connect to a gateway, monitor
 **Project page — four structured views:**
 The Group Addresses, Devices, Topology, and Buildings tabs all populate with the data from your project, mirroring the structure you have in ETS. You can browse the full hierarchy, search across all names, and tap any group address to send a read or write command directly.
 
-<img src="../../../../assets/screenshots/guides/concepts/ets-project-in-sharknx/ets-project-group-addresses.png" width="320" alt="Project page showing the group address tree with main groups, middle groups, and group addresses from a loaded ETS project" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/concepts/ets-project-in-sharknx/ets-project-group-addresses.png" width="320" alt="Project page showing the group address tree with main groups, middle groups, and group addresses from a loaded ETS project" />
+</div>
 
 **Monitor page — named, decoded telegrams:**
 Incoming telegrams are automatically matched to the loaded project. Each telegram row shows the group address name and a human-readable decoded value based on its datapoint type, instead of just a raw hex payload. The command composer uses the project to prefill the group address name and DPT when you tap a group address.
@@ -34,7 +36,9 @@ When the **Load communication objects** setting is enabled (the default), SharKN
 - In the Devices tab, you can open a dedicated communication objects page per device, showing all connected comm objects with their flags, sizes, functions, and linked group addresses.
 - This is particularly useful for device diagnostics — you can see at a glance which comm objects are mapped to which group addresses and send test commands directly from that view.
 
-<img src="../../../../assets/screenshots/guides/concepts/ets-project-in-sharknx/ets-project-comm-objects.png" width="320" alt="Communication objects page for a device showing object number, flags, function, size, and linked group addresses" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/concepts/ets-project-in-sharknx/ets-project-comm-objects.png" width="320" alt="Communication objects page for a device showing object number, flags, function, size, and linked group addresses" />
+</div>
 
 Disabling this setting reduces memory usage, which can be relevant on devices with limited RAM or for very large projects. The rest of the project data (group addresses, topology, buildings) is still loaded normally.
 
