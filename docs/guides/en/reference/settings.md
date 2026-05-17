@@ -50,7 +50,9 @@ Controls how the app searches for and connects to KNX IP gateways on the network
 
 Controls how ETS project files are parsed and displayed.
 
-<img src="../../../../assets/screenshots/guides/settings/settings-project.png" width="320" alt="Project Settings" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/settings/settings-project.png" width="320" alt="Project Settings" />
+</div>
 
 | Setting | Default | Description |
 |---|---|---|
@@ -63,7 +65,9 @@ Controls how ETS project files are parsed and displayed.
 
 Controls the behaviour of the bus monitor.
 
-<img src="../../../../assets/screenshots/guides/settings/settings-monitor.png" width="320" alt="Monitor Settings" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/settings/settings-monitor.png" width="320" alt="Monitor Settings" />
+</div>
 
 | Setting | Default | Description |
 |---|---|---|
@@ -76,7 +80,9 @@ Controls the behaviour of the bus monitor.
 
 Controls the programming mode scan in the **Management** page → **Prog. Mode** tab.
 
-<img src="../../../../assets/screenshots/guides/settings/settings-scan.png" width="320" alt="Scan Settings" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/settings/settings-scan.png" width="320" alt="Scan Settings" />
+</div>
 
 | Setting | Default | Min | Max | Description |
 |---|---|---|---|---|
@@ -89,7 +95,9 @@ Controls the programming mode scan in the **Management** page → **Prog. Mode**
 
 Shows the status of your current subscription and provides plan management options.
 
-<img src="../../../../assets/screenshots/guides/settings/settings-subscription.png" width="320" alt="Subscription" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/settings/settings-subscription.png" width="320" alt="Subscription" />
+</div>
 
 | Item | Description |
 |---|---|
