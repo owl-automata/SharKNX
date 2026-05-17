@@ -91,7 +91,9 @@ Each row in the list shows:
 - **Group address name** *(requires ETS project)* | **decoded value** *(requires ETS project)* | **raw hex payload*
 - **Timestamp** in `HH:MM:SS.ms` format
 
-<img src="../../../../assets/screenshots/guides/pages/monitor/monitor-active.png" width="320" alt="Monitor page with live telegrams in the list view" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/monitor/monitor-active.png" width="320" alt="Monitor page with live telegrams in the list view" />
+</div>
 
 ### Telegram Detail Sheet
 
@@ -108,7 +110,9 @@ Two action buttons are available:
 - **Read** — sends a read command to the telegram's group address immediately
 - **Write** — opens the command composer with the group address and datapoint type prefilled; enter a value and send
 
-<img src="../../../../assets/screenshots/guides/pages/monitor/monitor-telegram-detail.png" width="320" alt="Telegram detail sheet showing time, source, destination, value, and Read/Write/Plot buttons" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/monitor/monitor-telegram-detail.png" width="320" alt="Telegram detail sheet showing time, source, destination, value, and Read/Write/Plot buttons" />
+</div>
 
 ### Plot
 
@@ -119,7 +123,9 @@ A **Plot** button in the detail sheet opens a two-tab chart view for the selecte
 
 An info card shows the time range covered by the chart data.
 
-<img src="../../../../assets/screenshots/guides/pages/monitor/monitor-plot.png" width="320" alt="Plot view showing a time series chart of a group address value over time" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/monitor/monitor-plot.png" width="320" alt="Plot view showing a time series chart of a group address value over time" />
+</div>
 
 ---
 
@@ -148,7 +154,9 @@ Options available:
 
 **Save** writes the file to your device storage. **Share** opens the system share sheet to send it directly to a messaging app, cloud drive, or email.
 
-<img src="../../../../assets/screenshots/guides/pages/monitor/monitor-export.png" width="320" alt="Export bottom sheet showing filename input, column selection tick boxes, and Save/Share buttons" />
+<div align="center">
+  <img src="../../../../assets/screenshots/guides/pages/monitor/monitor-export.png" width="320" alt="Export bottom sheet showing filename input, column selection tick boxes, and Save/Share buttons" />
+</div>
 
 See [Export Formats](../reference/export-format.md) for the full CSV file structure.
 
