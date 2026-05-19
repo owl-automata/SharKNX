@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.12.1+44] - 2026-05-19
+
+### Added
+- Inline show of Read Command Result in Project, Monitor and Inspect tables pages
+- ETS Project:
+    - Added parameters loaded, communication part loaded, medium config loaded information
+    - Display of unassigned devices
+    - Advanced filters
+
+### Changed
+- Project parsing speed and memory
+- Added quick navigation to Configure new connection on start page and page actions
+
+### Fixed
+- Parsing of special characters inside ETS .knxproj files
+- Line scan tab - update of device cards when reprogramming address
+
 ## [1.11.2+43] - 2026-05-14
 
 ### Changed
