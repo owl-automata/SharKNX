@@ -69,9 +69,9 @@ SharKNX is available in:
   
   | Connection | Project Explorer |
   |---|---|
-  | <img src="assets/screenshots/readme/discovery.png" width="280" /> | <img src="assets/screenshots/readme/project_view_ga.png" width="280" /> |
+  | <img src="assets/screenshots/readme/discovery-page-discover-tab-last-selected.png" width="280" /> | <img src="assets/screenshots/readme/project-page-addresses-tab.png" width="280" /> |
   | **Bus Monitor** | **Device Management** |
-  | <img src="assets/screenshots/readme/monitor.png" width="280" /> | <img src="assets/screenshots/readme/device_mgmt.png" width="280" /> |
+  | <img src="assets/screenshots/readme/monitor-page-main-view.png" width="280" /> | <img src="assets/screenshots/readme/management-page-devices-tab-read-info.png" width="280" /> |
   
 </div>
 
