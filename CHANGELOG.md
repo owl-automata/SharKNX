@@ -5,7 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+
+## [1.12.2+46] - 2026-05-25
+
+### Added
+- TCP Connection support for non-secure tunneling
+- Added preffered connection mode support in edit/add gateway pages
+- Device name now falls back into description if name is not set
+- Monitor page:
+    - Show malformed telegrams
+    - Hop count
+    - Better telegram layout
+    - long tap to resend telegram
+
+### Changed
+- Edit/Add Gateway page: Merged split input for address to one
+
+### Fixed
+- iOS restore purchases behavior for lifetime users
 
 ## [1.12.1+44] - 2026-05-19
 
