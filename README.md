@@ -32,7 +32,7 @@ SharKNX is available in:
   <table>
     <tr>
       <td align="center" valign="middle">
-        <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx&hl=en">
+        <a href="https://play.google.com/store/apps/details?id=com.owlautomata.app.sharknx">
           <img src="assets/logos/google_play_store_icon.png" alt="Get it on Google Play" width="200" />
         </a>
       </td>
