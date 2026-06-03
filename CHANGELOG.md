@@ -18,8 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Clear in telegram list does not work if only malformed telegrams exist
 - Ordering of group addresses in ETS project parsing
 
----
-
 ## [1.12.2+47] - 2026-05-25
 
 ### Added
