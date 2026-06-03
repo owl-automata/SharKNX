@@ -7,10 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.12.3+48] - 2026-06-03
 
-### New Features
+### Added
 - Phase 1 for background monitor service: Notifications and tap to return to app
 
-### Improved
+### Changed
 - Icon of more actions in each page changed to more suitable one
 
 ### Fixed
