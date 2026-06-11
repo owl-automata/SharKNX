@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - [ANDROID ONLY]: Background monitor service. Monitor can run while app is  backgrounded. Requires Notification and Disable Battery optimization permissions for the app.
-- Advanced monitor filters: Filter bar in monitor page now supports AND(+), OR(||), NOT(!) and WILDCARD(*) expressions
+- Advanced monitor filters: Filter bar in monitor page now supports AND(+), OR(|), NOT(!) and WILDCARD(*) expressions
 
 ## [1.12.3+48] - 2026-06-03
 
