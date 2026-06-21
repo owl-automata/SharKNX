@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.14.2+53] - 2026-06-22
+
+### Added
+- ETS project diagnostics: View device's and group addresses' interconnections. View senders, receivers and peers.
+- Language selection for comm. objects and device names when loading an ETS project
+
+### Improved
+- App time to initialize
+
 ## [1.14.1+52] - 2026-06-17
 
 ### Improved
