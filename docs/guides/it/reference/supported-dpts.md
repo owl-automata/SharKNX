@@ -133,19 +133,19 @@ Le sezioni seguenti elencano i sottotipi selezionabili in fase di **invio** dei 
 
 | Sottotipo | Descrizione | Intervallo | Unità |
 |---------|-------------|-------|------|
-| 5.001 | Scalatura / Percentuale | 0–100 | % |
-| 5.003 | Angolo | 0–360 | ° |
-| 5.004 | Percentuale | 0–255 | % |
-| 5.005 | Rapporto (Ratio) | 0–255 | - |
-| 5.006 | Tariffa | 0–255 | - |
-| 5.010 | Conteggio Impulsi | 0–255 | - |
+| 5.001 | Scalatura / Percentuale | 0-100 | % |
+| 5.003 | Angolo | 0-360 | ° |
+| 5.004 | Percentuale | 0-255 | % |
+| 5.005 | Rapporto (Ratio) | 0-255 | - |
+| 5.006 | Tariffa | 0-255 | - |
+| 5.010 | Conteggio Impulsi | 0-255 | - |
 
 ### DPT 6 - Valore Segnato a 8-bit
 
 | Sottotipo | Descrizione | Intervallo | Unità |
 |---------|-------------|-------|------|
-| 6.001 | Percentuale | −128–127 | % |
-| 6.010 | Conteggio Impulsi | −128–127 | - |
+| 6.001 | Percentuale | -128-127 | % |
+| 6.010 | Conteggio Impulsi | -128-127 | - |
 
 ### DPT 7 - Valore Non Segnato a 2-byte
 
