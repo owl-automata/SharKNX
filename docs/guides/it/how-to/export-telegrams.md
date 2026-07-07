@@ -31,6 +31,6 @@ La medesima schermata di esportazione è disponibile all'interno di una sessione
 ## Note Importanti
 
 - Le colonne **Name** e **Value** sono significative solo se è presente un progetto ETS caricato. Senza un progetto, queste colonne risulteranno vuote per la maggior parte dei telegrammi.
-- La colonna **Raw** è sempre disponibile e contiene il payload esadecimale non analizzato — questo rappresenta il dato reale ("ground truth") che l'applicazione converte in un valore leggibile dall'utente quando viene caricato un progetto.
+- La colonna **Raw** è sempre disponibile e contiene il payload esadecimale non analizzato - questo rappresenta il dato reale ("ground truth") che l'applicazione converte in un valore leggibile dall'utente quando viene caricato un progetto.
 - L'esportazione acquisisce tutto ciò che è attualmente presente nel buffer dei telegrammi. Se il buffer ha raggiunto il suo limite massimo (valore predefinito 2000, modificabile in **Settings → Monitor**), i telegrammi più vecchi saranno già stati sovrascritti. Se hai la necessità di effettuare un'acquisizione prolungata, esegui l'esportazione prima che il buffer si riempia.
 - I file esportati possono essere nuovamente importati nel monitor per essere analizzati. Dal **menu di ottimizzazione (tune menu) di Monitor**, utilizza la funzione **Import CSV** per ricaricare un file precedentemente esportato all'interno dell'elenco dei telegrammi.
