@@ -12,7 +12,7 @@ SharKNX es un compañero de campo profesional de KNX para dispositivos móviles 
 
 ---
 
-## Paso 1 — Descubrir tu pasarela
+## Paso 1 - Descubrir tu pasarela
 
 La página de **Discovery** se abre automáticamente cuando se inicia la aplicación. Es la página situada más a la izquierda en la barra de navegación inferior.
 
@@ -34,7 +34,7 @@ La página de **Discovery** se abre automáticamente cuando se inicia la aplicac
 
 ---
 
-## Paso 2 — Cargar tu proyecto de ETS
+## Paso 2 - Cargar tu proyecto de ETS
 
 Un proyecto de ETS le proporciona a SharKNX los nombres de las direcciones de grupo, los tipos de punto de datos y los metadatos de los dispositivos de tu instalación. Sin él, los telegramas se muestran como valores hexadecimales puros, sin nombres ni valores decodificados.
 
@@ -55,7 +55,7 @@ Un proyecto de ETS le proporciona a SharKNX los nombres de las direcciones de gr
 
 ---
 
-## Paso 3 — Iniciar el monitor de bus
+## Paso 3 - Iniciar el monitor de bus
 
 1. Toca la página de **Monitor** (cuarta pestaña en la barra de navegación inferior).
 2. Toca el **FAB verde de inicio**.
@@ -77,7 +77,7 @@ Un proyecto de ETS le proporciona a SharKNX los nombres de las direcciones de gr
 
 ---
 
-## Paso 4 — Enviar un comando
+## Paso 4 - Enviar un comando
 
 Con el monitor en funcionamiento, puedes enviar comandos de prueba sin necesidad de salir de la vista de monitorización.
 
