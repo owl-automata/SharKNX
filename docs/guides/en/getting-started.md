@@ -8,11 +8,11 @@ SharKNX is a professional KNX field companion for mobile and desktop. This guide
 - A KNX IP gateway reachable on the same IP network as your device
 - (Recommended) An ETS project file (`.knxproj`) for your installation
 
-> **Subscription:** SharKNX requires an active subscription. A 2-day free preview is available on first install without sign-up. Monthly and yearly plans include a 14-day free trial. A lifetime plan is also available as a one-time purchase. See [Subscription Plans](reference/subscription-plans.md) for details.
+> **Subscription:** SharKNX requires an active subscription. Without an active subscription or trial, you can only load one ETS project and cannot connect to gateways or multicast. Monthly and yearly plans include a 14-day free trial. A lifetime plan is also available as a one-time purchase. See [Subscription Plans](reference/subscription-plans.md) for details.
 
 ---
 
-## Step 1 — Discover Your Gateway
+## Step 1 - Discover Your Gateway
 
 The **Discovery** page opens automatically when the app starts. It is the leftmost page in the bottom navigation bar.
 
@@ -20,7 +20,7 @@ The **Discovery** page opens automatically when the app starts. It is the leftmo
    The app sends KNX IP search requests across your local network. Any KNX IP gateways that respond appear as cards in the list.
 
 2. Tap **Select** on the gateway card you want to use.  
-   The gateway moves to the **Last Selected Gateway** section at the top of the page and is remembered across restarts — no need to scan again on the next session.
+   The gateway moves to the **Last Selected Gateway** section at the top of the page and is remembered across restarts, no need to scan again on the next session.
 
 <div align="center">
   <img src="../../../assets/screenshots/guides/getting-started/getting-started-discovery.png" width="320" alt="Discovery tab showing a discovered gateway card with Select and Save buttons" />
@@ -34,20 +34,20 @@ The **Discovery** page opens automatically when the app starts. It is the leftmo
 
 ---
 
-## Step 2 — Load Your ETS Project
+## Step 2 - Load Your ETS Project
 
 An ETS project gives SharKNX the group address names, datapoint types, and device metadata for your installation. Without it, telegrams appear as raw hex values with no names or decoded values.
 
 1. Tap the **Project** page (second tab in the bottom navigation bar).
 2. Tap the **folder FAB** to open the file picker. Navigate to your `.knxproj` file and select it.  
-   If you have loaded projects before, a history sheet appears first — select a recent entry or tap **Browse** to pick a new file.
+   If you have loaded projects before, a history sheet appears first, select a recent entry or tap **Browse** to pick a new file.
 3. Wait for the project to finish loading. The four tabs (Group Addresses, Devices, Topology, Buildings) populate with your project data.
 
 <div align="center">
   <img src="../../../assets/screenshots/guides/getting-started/getting-started-load-project.png" width="320" alt="Project page with the group address tree expanded after loading an ETS project" />
 </div>
 
-> **Getting the file onto your device:** Export your ETS project from your PC (`File → Export project` or right-click the project in ETS). Then transfer the `.knxproj` to your mobile using any method that suits you — send it to yourself via a messaging app (e.g. save to your own chat in Viber, WhatsApp, or Telegram), attach it to an email, upload it to a cloud drive (Google Drive, iCloud, OneDrive) and open it on your phone, or copy it over USB.
+> **Getting the file onto your device:** Export your ETS project from your PC (`File → Export project` or right-click the project in ETS). Then transfer the `.knxproj` to your mobile using any method that suits you - send it to yourself via a messaging app (e.g. save to your own chat in Viber, WhatsApp, or Telegram), attach it to an email, upload it to a cloud drive (Google Drive, iCloud, OneDrive) and open it on your phone, or copy it over USB.
 
 > **Password-protected projects** are supported. The app prompts for the project password during import.
 
@@ -55,11 +55,11 @@ An ETS project gives SharKNX the group address names, datapoint types, and devic
 
 ---
 
-## Step 3 — Start the Bus Monitor
+## Step 3 - Start the Bus Monitor
 
 1. Tap the **Monitor** page (fourth tab in the bottom navigation bar).
 2. Tap the green **start FAB**.
-   - If no gateway is selected yet, a picker appears listing your discovered and saved gateways — select one to proceed.
+   - If no gateway is selected yet, a picker appears listing your discovered and saved gateways, select one to proceed.
    - The app connects to the gateway and begins receiving telegrams.
 3. Incoming telegrams appear as rows in the list. Each row shows:
    - Sender individual address → destination group address
@@ -77,7 +77,7 @@ An ETS project gives SharKNX the group address names, datapoint types, and devic
 
 ---
 
-## Step 4 — Send a Command
+## Step 4 - Send a Command
 
 With the monitor running, you can send test commands without leaving the monitor view.
 
