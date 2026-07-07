@@ -8,11 +8,11 @@ SharKNX est un compagnon de terrain professionnel pour la domotique KNX sur mobi
 - Une passerelle KNX IP accessible sur le même réseau IP que votre appareil
 - (Recommandé) Un fichier de projet ETS (`.knxproj`) pour votre installation domotique
 
-> **Abonnement :** SharKNX nécessite un abonnement actif. Un aperçu gratuit de 2 jours est disponible lors de la première installation sans inscription. Les forfaits mensuels et annuels incluent un essai gratuit de 14 jours. Un forfait à vie est également disponible sous forme d'achat unique. Voir [Subscription Plans](reference/subscription-plans.md) pour plus de détails.
+> **Abonnement :** SharKNX nécessite un abonnement actif. Sans abonnement ni période d'essai actif, vous pouvez uniquement charger un projet ETS y vous ne pourrez pas vous connecter aux passerelles (gateways) ou en multicast. Les forfaits mensuels et annuels incluent un essai gratuit de 14 jours. Un forfait à vie est également disponible sous forme d'achat unique. Voir [Subscription Plans](reference/subscription-plans.md) pour plus de détails.
 
 ---
 
-## Étape 1 — Découvrir votre passerelle
+## Étape 1 - Découvrir votre passerelle
 
 La page **Discovery** s'ouvre automatiquement au démarrage de l'application. Il s'agit de la page la plus à gauche dans la barre de navigation inférieure.
 
@@ -20,7 +20,7 @@ La page **Discovery** s'ouvre automatiquement au démarrage de l'application. Il
    L'application envoie des requêtes de recherche KNX IP sur votre réseau local. Toutes les passerelles KNX IP qui répondent apparaissent sous forme de cartes dans la liste pour faciliter votre contrôle KNX.
 
 2. Appuyez sur **Select** sur la carte de la passerelle que vous souhaitez utiliser.  
-   La passerelle est déplacée vers la section **Last Selected Gateway** en haut de la page et est mémorisée entre les redémarrages — pas besoin de scanner à nouveau lors de la session suivante.
+   La passerelle est déplacée vers la section **Last Selected Gateway** en haut de la page et est mémorisée entre les redémarrages - pas besoin de scanner à nouveau lors de la session suivante.
 
 <div align="center">
   <img src="../../../assets/screenshots/guides/getting-started/getting-started-discovery.png" width="320" alt="Onglet Discovery montrant la carte d'une passerelle découverte avec les boutons Select et Save" />
@@ -34,20 +34,20 @@ La page **Discovery** s'ouvre automatiquement au démarrage de l'application. Il
 
 ---
 
-## Étape 2 — Charger votre projet ETS
+## Étape 2 - Charger votre projet ETS
 
 Un projet ETS fournit à SharKNX les noms d'adresse de groupe, les DPT (Type de point de données) et les métadonnées des participants de votre installation. Sans lui, les télégrammes apparaissent sous forme de valeurs hexadécimales RAW sans noms ni valeurs décodées.
 
 1. Appuyez sur la page **Project** (deuxième onglet de la barre de navigation inférieure).
 2. Appuyez sur le **folder FAB** pour ouvrir le sélecteur de fichiers. Naviguez jusqu'à votre fichier `.knxproj` et sélectionnez-le.  
-   Si vous avez déjà chargé des projets auparavant, un historique s'affiche en premier — sélectionnez une entrée récente ou appuyez sur **Browse** pour choisir un nouveau fichier.
+   Si vous avez déjà chargé des projets auparavant, un historique s'affiche en premier - sélectionnez une entrée récente ou appuyez sur **Browse** pour choisir un nouveau fichier.
 3. Attendez que le chargement du projet se termine. Les quatre onglets (Group Addresses, Devices, Topology, Buildings) se remplissent avec les données de votre projet pour vos bâtiments intelligents.
 
 <div align="center">
   <img src="../../../assets/screenshots/guides/getting-started/getting-started-load-project.png" width="320" alt="Page Project avec l'arborescence des adresses de groupe développée après le chargement d'un projet ETS" />
 </div>
 
-> **Transférer le fichier sur votre appareil :** Exportez votre projet ETS depuis votre PC (`File → Export project` ou clic droit sur le projet dans ETS). Ensuite, transférez le fichier `.knxproj` vers votre mobile en utilisant la méthode qui vous convient — envoyez-le à vous-même via une application de messagerie (par exemple, sauvegardez-le dans votre propre discussion sur Viber, WhatsApp ou Telegram), joignez-le à un e-mail, uploadez-le sur un cloud (Google Drive, iCloud, OneDrive) et ouvrez-le sur votre téléphone, ou copiez-le via USB.
+> **Transférer le fichier sur votre appareil :** Exportez votre projet ETS depuis votre PC (`File → Export project` ou clic droit sur le projet dans ETS). Ensuite, transférez le fichier `.knxproj` vers votre mobile en utilisant la méthode qui vous convient - envoyez-le à vous-même via une application de messagerie (par exemple, sauvegardez-le dans votre propre discussion sur Viber, WhatsApp ou Telegram), joignez-le à un e-mail, uploadez-le sur un cloud (Google Drive, iCloud, OneDrive) et ouvrez-le sur votre téléphone, ou copiez-le via USB.
 
 > **Les projets protégés par mot de passe** sont pris en charge. L'application vous demandera le mot de passe du projet lors de l'importation.
 
@@ -55,11 +55,11 @@ Un projet ETS fournit à SharKNX les noms d'adresse de groupe, les DPT (Type de 
 
 ---
 
-## Étape 3 — Démarrer le moniteur de bus
+## Étape 3 - Démarrer le moniteur de bus
 
 1. Appuyez sur la page **Monitor** (quatrième onglet de la barre de navigation inférieure).
 2. Appuyez sur le **start FAB** vert.
-   - Si aucune passerelle n'est encore sélectionnée, un sélecteur apparaît listant vos passerelles découvertes et sauvegardées — sélectionnez-en une pour continuer.
+   - Si aucune passerelle n'est encore sélectionnée, un sélecteur apparaît listant vos passerelles découvertes et sauvegardées - sélectionnez-en une pour continuer.
    - L'application se connecte à la passerelle et commence à recevoir les télégrammes.
 3. Les télégrammes entrants apparaissent sous forme de lignes dans la liste. Chaque ligne affiche :
    - Adresse physique de l'émetteur → adresse de groupe de destination
@@ -77,7 +77,7 @@ Un projet ETS fournit à SharKNX les noms d'adresse de groupe, les DPT (Type de 
 
 ---
 
-## Étape 4 — Envoyer une commande
+## Étape 4 - Envoyer une commande
 
 Avec le moniteur en cours d'exécution, vous pouvez envoyer des commandes de test pour votre diagnostic KNX sans quitter la vue du moniteur.
 
