@@ -11,7 +11,7 @@ Le impostazioni sono raggruppate nelle seguenti sezioni:
 | **Monitor** | Mantenimento dello schermo attivo (Keep-screen-on) durante il monitoraggio; dimensione massima del buffer dei telegrammi |
 | **Scan** | Durata della scansione in modalità di programmazione e intervallo di ping (utilizzati nella scheda Management → Prog. Mode) |
 | **Subscription** | Stato dell'abbonamento attuale, ripristino degli acquisti, annullamento dell'abbonamento, Informativa sulla Privacy, Termini di Servizio |
-| **Language** | Lingua dell'interfaccia dell'app (Inglese, Tedesco, Francese, Spagnolo, Italiano) — ha effetto immediato |
+| **Language** | Lingua dell'interfaccia dell'app (Inglese, Tedesco, Francese, Spagnolo, Italiano) - ha effetto immediato |
 | **Theme** | Tema Chiaro, Scuro o Allineato al sistema |
 | **Send Feedback** | Lascia una recensione, segnala un bug, scrivici |
 
