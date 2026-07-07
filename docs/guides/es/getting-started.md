@@ -8,7 +8,7 @@ SharKNX es un compañero de campo profesional de KNX para dispositivos móviles 
 - Una pasarela KNX IP accesible en la misma red IP que tu dispositivo
 - (Recomendado) Un archivo de proyecto de ETS (`.knxproj`) de tu instalación
 
-> **Suscripción:** SharKNX requiere una suscripción activa. Hay disponible una vista previa gratuita de 2 días al instalar la app por primera vez, sin necesidad de registrarse. Los planes mensuales y anuales incluyen una prueba gratuita de 14 días. También está disponible un plan de por vida como pago único. Consulta [Subscription Plans](reference/subscription-plans.md) para más detalles.
+> **Suscripción:** SharKNX requiere una suscripción activa. Sin una suscripción o prueba activa, solo podrás cargar un proyecto ETS y no podrás conectarte a pasarelas (gateways) ni a multidifusión (multicast). Los planes mensuales y anuales incluyen una prueba gratuita de 14 días. También está disponible un plan de por vida como pago único. Consulta [Subscription Plans](reference/subscription-plans.md) para más detalles.
 
 ---
 
