@@ -5,7 +5,7 @@ La pagina delle Impostazioni (Settings) è accessibile da qualsiasi schermata to
 La pagina raggruppa tutte le opzioni configurabili in sezioni distinte. Un'**icona di ricerca** (🔍) nella barra superiore consente di saltare direttamente a una sezione cercandola per nome.
 
 <div align="center">
-  <img src="../../../../assets/screenshots/guides/settings/settings-overview.png" width="320" alt="Pagina Impostazioni — elenco completo delle sezioni" />
+  <img src="../../../../assets/screenshots/guides/settings/settings-overview.png" width="320" alt="Pagina Impostazioni - elenco completo delle sezioni" />
 </div>
 
 ---
@@ -57,7 +57,7 @@ Controlla il modo in cui i file di progetto ETS vengono analizzati e visualizzat
 | Impostazione | Predefinito | Descrizione |
 |---|---|---|
 | Carica oggetti di comunicazione | Attivo | Se abilitata, l'app analizza e memorizza gli oggetti di comunicazione per ogni dispositivo del progetto che ha almeno un indirizzo di gruppo collegato. Disattivare questa opzione riduce l'utilizzo della memoria sui progetti di grandi dimensioni, ma rimuove la vista degli Oggetti di Comunicazione dalla pagina Project. |
-| Elementi per pagina | 50 | Min: 20 · Max: 200 — Il numero di elementi mostrati contemporaneamente quando si espande un elenco nella vista ad albero del progetto (ad esempio, gli indirizzi di gruppo all'interno di un gruppo intermedio). Al raggiungimento del limite, appare il pulsante **Load more** (Carica altri). Valori inferiori migliorano la velocità di rendering sui progetti molto grandi. |
+| Elementi per pagina | 50 | Min: 20 · Max: 200 - Il numero di elementi mostrati contemporaneamente quando si espande un elenco nella vista ad albero del progetto (ad esempio, gli indirizzi di gruppo all'interno di un gruppo intermedio). Al raggiungimento del limite, appare il pulsante **Load more** (Carica altri). Valori inferiori migliorano la velocità di rendering sui progetti molto grandi. |
 
 ---
 
@@ -72,7 +72,7 @@ Controlla il comportamento del monitor di bus.
 | Impostazione | Predefinito | Descrizione |
 |---|---|---|
 | Mantieni schermo attivo | Attivo | Impedisce allo schermo del dispositivo di spegnersi mentre è attiva una sessione del monitor. Opzione consigliata in quanto la maggior parte dei sistemi operativi mobili interrompe la connessione IP quando lo schermo si spegne. Disabilita per risparmiare batteria, ma tieni presente che il monitoraggio si interromperà allo spegnimento dello schermo. Nota: il monitor si interrompe sempre quando l'app passa in background, indipendentemente da questa impostazione. |
-| Dimensione buffer telegrammi | 2000 | Min: 50 · Max: 5000 — Il numero massimo di telegrammi mantenuti nella lista del monitor in qualsiasi momento. Al raggiungimento del limite, i telegrammi più vecchi vengono sovrascritti da quelli nuovi in arrivo. Aumenta questo valore se hai bisogno di uno storico più lungo; riducilo per diminuire l'utilizzo della memoria su dispositivi meno performanti. |
+| Dimensione buffer telegrammi | 2000 | Min: 50 · Max: 5000 - Il numero massimo di telegrammi mantenuti nella lista del monitor in qualsiasi momento. Al raggiungimento del limite, i telegrammi più vecchi vengono sovrascritti da quelli nuovi in arrivo. Aumenta questo valore se hai bisogno di uno storico più lungo; riducilo per diminuire l'utilizzo della memoria su dispositivi meno performanti. |
 
 ---
 
