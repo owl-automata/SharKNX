@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.15.1+55] - 2026-07-19
+
+### New Features
+- Chat assistant page: Perform actions on the bus, search your project, diagnose devices and more, with a simple intuitive chat interface
+- Scripting: Engine to write your own chain of commands and execute them with a simple prompt through the chat page
+- Import aliases & scripts: Add your own words and dictionary to the chat assistant, as well as create diagnostic and control scripts, with a simple YAML file
+
+### Changed
+- Free tier: Load and browse unlimited ETS projects for free (previously limited to a single project load per device)
+- Free tier: Connect to the bus and monitor live telegrams for free (telegram buffer capped at 20; buffer size setting requires premium)
+- Moved interconnections icon from top bar to page's more actions sheet
+- Moved help of shark hunts page to page's more actions sheet
+
 ## [1.14.2+53] - 2026-06-22
 
 ### Added
