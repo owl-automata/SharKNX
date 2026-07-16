@@ -62,6 +62,8 @@ SharKNX is available in:
 - **KNX IP Secure support** - Load credentials from `.knxkeys` file or `.knxproj` file directly
 - **KNX Data Secure support** - View and send KNX data secure telegrams and manage KNX data secure devices
 - **Shark Hunt Pages** - Allows creation of pages with quick send actions for KNX commands and complex Monitor Filters for diagnostics
+- **Chat Assistant** - Control your installation, send commands, discover and connect to gateways, perform device diagnostics, with simple intuitive chat interface
+- **Scripts** - Create your own chain of commands for connecting, device diagnostics or KNX bus control, with simple text inputs. Import scripts though YAML files
 
 ##  Screenshots
 
