@@ -23,6 +23,7 @@ SharKNX is available in:
 - 🇫🇷 French
 - 🇪🇸 Spanish
 - 🇮🇹 Italian
+- CN Chinese (simplified)
 
 ##  Platforms
 
