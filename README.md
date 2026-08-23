@@ -90,45 +90,8 @@ SharKNX is available in:
 
 ## Documentation
 
-### Getting Started
-- **[Getting Started](docs/guides/en/getting-started.md)**
-
-### Page Guides
-- **[Discovery](docs/guides/en/pages/discovery.md)**
-- **[Project](docs/guides/en/pages/project.md)**
-- **[Monitor](docs/guides/en/pages/monitor.md)**
-- **[Shark Hunts](docs/guides/en/pages/shark-hunts.md)**
-- **[Management](docs/guides/en/pages/management.md)**
-- **[Settings](docs/guides/en/pages/settings.md)**
-
-### How-To Guides
-- **[Connect to a KNX Gateway](docs/guides/en/how-to/connect-to-gateway.md)**
-- **[Load an ETS Project](docs/guides/en/how-to/load-ets-project.md)**
-- **[Set Up KNX IP Secure](docs/guides/en/how-to/setup-knx-ip-secure.md)**
-- **[Set Up KNX Data Secure](docs/guides/en/how-to/setup-knx-data-secure.md)**
-- **[Send KNX Commands](docs/guides/en/how-to/send-commands.md)**
-- **[Program a Device Individual Address](docs/guides/en/how-to/program-device-address.md)**
-- **[Scan a KNX Bus Line](docs/guides/en/how-to/scan-bus-line.md)**
-- **[Inspect a Device's Communication Objects](docs/guides/en/how-to/inspect-device.md)**
-- **[Create a Shark Hunt](docs/guides/en/how-to/create-shark-hunt.md)**
-- **[Export Telegrams](docs/guides/en/how-to/export-telegrams.md)**
-
-### Concepts
-- **[KNX IP Secure](docs/guides/en/concepts/knx-ip-secure.md)**
-- **[KNX Data Secure](docs/guides/en/concepts/knx-data-secure.md)**
-- **[ETS Projects in SharKNX](docs/guides/en/concepts/ets-project-in-sharknx.md)**
-- **[The Shark Hunt Concept](docs/guides/en/concepts/shark-hunts.md)**
-
-### Reference
-- **[Supported DPTs](docs/guides/en/reference/supported-dpts.md)**
-- **[Settings Reference](docs/guides/en/reference/settings.md)**
-- **[Export Format](docs/guides/en/reference/export-format.md)**
-- **[Subscription Plans](docs/guides/en/reference/subscription-plans.md)**
-
 ### Misc
 - **[Changelog](CHANGELOG.md)**
-- **[Privacy Policy](docs/privacy/privacy-en.md)**
-- **[Terms of Service](docs/terms/terms-en.md)**
 
 ##  Issues & Feature Requests
 
