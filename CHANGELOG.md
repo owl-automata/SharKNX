@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.16.1+62] - 2026-09-20
+
+### New features
+- Bus monitor feaure in monitor page
+- Export monitor telegrams as ETS xml file
+- Read filter tables directly from device memory
+
+### Improved
+- Discovery speed and functionality
+- UI improvements
+- Improved filters in monitor page
+
+## [1.15.7+61] - 2026-09-01
+
+### Improved
+- UI and UX improvements to dpt widgets.
+- More dpt subtypes supported
+
+## [1.15.6+60] - 2026-08-30
+
+### Fixed
+- Assistant connect to IP address and configured gateway command
+
+### Improved
+- Assistant plans showing result for read or device management operations
+
 ## [1.15.5+59] - 2026-08-14
 
 ### Fixed
