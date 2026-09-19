@@ -4,7 +4,7 @@
   # SharKNX
   
   [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Windows-brightgreen)](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Windows-brightgreen)
-  ![Version](https://img.shields.io/badge/version-1.15.5+59-blue)
+  ![Version](https://img.shields.io/badge/version-1.16.1+62-blue)
   
   Bring professional KNX monitoring and diagnostics to your phone or tablet. SharKNX gives installers and integrators ETS-like capabilities on mobile - monitor bus traffic, manage devices, send telegrams, and view project data anywhere on-site.
   
@@ -72,9 +72,9 @@ SharKNX is available in:
   
   | Connection | Project Explorer |
   |---|---|
-  | <img src="assets/screenshots/readme/discovery-page-discover-tab-last-selected.png" width="280" /> | <img src="assets/screenshots/readme/project-page-addresses-tab.png" width="280" /> |
+  | <img src="assets/screenshots/readme/discovery-page-discover-tab-last-selected.jpg" width="280" /> | <img src="assets/screenshots/readme/project-page-addresses-tab.jpg" width="280" /> |
   | **Bus Monitor** | **Device Management** |
-  | <img src="assets/screenshots/readme/monitor-page-main-view.png" width="280" /> | <img src="assets/screenshots/readme/management-page-devices-tab-read-info.png" width="280" /> |
+  | <img src="assets/screenshots/readme/monitor-page-main-view.jpg" width="280" /> | <img src="assets/screenshots/readme/management-page-devices-tab-read-info.jpg" width="280" /> |
   
 </div>
 
