@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.16.2+63] - 2026-09-20
+
+### Fixed
+- Configured KNX IP gateways and domain names now follow the operating system route, including VPN routes.
+- Auto connection mode now tries TCP tunnelling first and falls back to UDP when TCP cannot connect.
+- NAT/Route Back preferences now apply consistently to normal connections and monitoring.
+- Hostname-based connections are reused correctly when monitoring starts.
+
 ## [1.16.1+62] - 2026-09-20
 
 ### New features
