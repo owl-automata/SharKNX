@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.17.1+66] - 2026-09-27
+
+### New features
+- Project dashboard page and archive for loaded projects
+- iOS and Android integration for .knxproj file opening through SharKNX app
+- Alias creation page in assistant
+
+### improved
+- Assistant functionality and understanding
+- UI & UX improvements
+
 ## [1.16.2+63] - 2026-09-20
 
 ### Fixed
