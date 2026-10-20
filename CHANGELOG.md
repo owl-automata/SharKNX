@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.18.3+69] - 2026-10-21
+
+### New features
+- Dashboard open on app start option
+- Layout widget to group views
+- Pin to dock for widgets in dashboard
+- Dashboard widgets can have their own card color, and any custom color
+
+### Improved
+- Assistant understanding and capabilities
+- Dashboard UI
+- Widget forms: colors and icons in one Appearance section; Read on open next to the group addresses
+- Translations: Shark Hunt types and hunt sections in every language; consistent German, French, Spanish and Italian wording
+
+---
+
 ## [1.18.1+67] - 2026-10-15
 
 ### New features
