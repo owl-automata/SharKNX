@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.19.2+72] - 2026-11-02
+
+### New features
+- Added shortcuts option for dashboard widgets, in quick settings or home screen
+
+### Fixed
+- Scenes widget: More actions panel not showing scene buttons
+
+## [1.18.4+70] - 2026-10-28
+
+### Fixed
+- ETS project parsing minor issues
+
+### Improved
+- ETS project parsing speed
+- Dashboards runtime
+
 ## [1.18.3+69] - 2026-10-21
 
 ### New features
@@ -18,8 +35,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dashboard UI
 - Widget forms: colors and icons in one Appearance section; Read on open next to the group addresses
 - Translations: Shark Hunt types and hunt sections in every language; consistent German, French, Spanish and Italian wording
-
----
 
 ## [1.18.1+67] - 2026-10-15
 
