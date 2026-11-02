@@ -4,7 +4,7 @@
   # SharKNX
   
   [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Windows-brightgreen)](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Windows-brightgreen)
-  ![Version](https://img.shields.io/badge/version-1.18.3+69-blue)
+  ![Version](https://img.shields.io/badge/version-1.19.2+72-blue)
   
   Bring professional KNX monitoring and diagnostics to your phone or tablet. SharKNX gives installers and integrators ETS-like capabilities on mobile - monitor bus traffic, manage devices, send telegrams, and view project data anywhere on-site.
   
@@ -65,6 +65,7 @@ SharKNX is available in:
 - **Shark Hunt Pages** - Allows creation of pages with quick send actions for KNX commands and complex Monitor Filters for diagnostics
 - **Chat Assistant** - Control your installation, send commands, discover and connect to gateways, perform device diagnostics, with simple intuitive chat interface
 - **Scripts** - Create your own chain of commands for connecting, device diagnostics or KNX bus control, with simple text inputs. Import scripts though YAML files
+- **Visualization Dashboards** - Control your KNX installation from dashboard. Create inside the app through the editor or with JSON file. Multiple dashboards supported.
 
 ##  Screenshots
 
