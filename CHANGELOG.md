@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.20.0+73] - 2026-11-25
+
+### New features
+- Project page: Devices tab shows the communication objects under each device
+- Added documentation link to settings page
+- Dashboards: Bus load widget, in a new Diagnostics category
+- Fixed ETS Project communication object names
+
 ## [1.19.2+72] - 2026-11-02
 
 ### New features
